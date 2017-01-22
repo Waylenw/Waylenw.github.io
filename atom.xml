@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[WaylenWang]]></title>
+  <subtitle><![CDATA[专注移动互联网。]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://waylenw.github.io/"/>
+  <updated>2016-07-05T03:05:04.000Z</updated>
+  <id>http://waylenw.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Waylenw]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Android开源项目汇总]]></title>
+    <link href="http://waylenw.github.io/android-all-open-source/"/>
+    <id>http://waylenw.github.io/android-all-open-source/</id>
+    <published>2016-07-04T16:00:00.000Z</published>
+    <updated>2016-07-05T03:05:04.000Z</updated>
+    <content type="html"><![CDATA[<p>最后更新时间<br>2016-07-05</p>
+<h1 id="概述">概述</h1><p> 此博客初衷是记录一下自己开发过程后使用到或者收集到的一些轮子和开源项目，不追求全，只追求实用吧。会不断的更新,也是希望能继续完善吧。<br> <strong>推荐</strong><br> <a href="https://github.com/Trinea/android-open-project#%E5%8D%81%E4%BA%8Cflipview" target="_blank" rel="external">Github最全面的Android开源项目汇总</a><br> <a id="more"></a>    </p>
+<h1 id="Loading">Loading</h1><ul>
+<li>MetaballLoading<br>水滴传递的加载效果<br>github:<a href="https://github.com/dodola/MetaballLoading" target="_blank" rel="external">https://github.com/dodola/MetaballLoading</a><br><img src="https://raw.githubusercontent.com/dodola/MetaballLoading/master/metaball.gif" alt=""> </li>
+<li>WhorlView<br>漩涡风格的加载效果<br>github:<a href="https://github.com/Kyson/WhorlView" target="_blank" rel="external">https://github.com/Kyson/WhorlView</a><br><img src="https://raw.githubusercontent.com/Kyson/WhorlView/master/art/whorl_progress_showcase.gif" alt=""></li>
+<li>AVLoadingIndicatorView<br>Android Loading动画的一个集合<br>github:<a href="https://github.com/81813780/AVLoadingIndicatorView" target="_blank" rel="external">https://github.com/81813780/AVLoadingIndicatorView</a><br><img src="https://raw.githubusercontent.com/81813780/AVLoadingIndicatorView/master/Demo.gif" alt=""></li>
+<li>shapeLoadingView<br>仿58loading效果<br>github:<a href="https://github.com/zzz40500/android-shapeLoadingView" target="_blank" rel="external">https://github.com/zzz40500/android-shapeLoadingView</a><br><img src="https://camo.githubusercontent.com/575b98a56c5546043ec045d044429590e4a623fe/687474703a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f3136363836362d376434313538646532636534306139612e676966" alt=""></li>
+</ul>
+<h1 id="ViewPager">ViewPager</h1><ul>
+<li><p><a href="https://github.com/chenupt/SpringIndicator" target="_blank" rel="external">SpringIndicator</a><br>viewapger指示器，像水滴流动的效果<br><img src="https://raw.githubusercontent.com/chenupt/SpringIndicator/master/img/si_1.0.0.gif" alt=""></p>
+<ul>
+<li><a href="https://github.com/matrixxun/ProductTour" target="_blank" rel="external">ProductTour</a><br>ViewPager的PageTransformer切换动画<br><img src="https://raw.githubusercontent.com/matrixxun/ProductTour/master/art/run.gif" alt=""></li>
+<li><a href="https://github.com/kaelaela/VerticalViewawPager" target="_blank" rel="external">VerticalViewawPager</a><br>VerticalVie向上滑动的viewpager,没有衔接效果<br><img src="https://raw.githubusercontent.com/kaelaela/VerticalViewPager/master/art/default.gif" alt=""></li>
+</ul>
+<h1 id="指示器">指示器</h1><ul>
+<li><a href="https://github.com/H07000223/FlycoTabLayout" target="_blank" rel="external">FlycoTabLayout</a><br>包含两种TabLayout.[SlidingTabLayout是基于<a href="https://github.com/jpardogo/PagerSlidingTabStrip" target="_blank" rel="external">PagerSlidingTabStrip</a>的大量修改，新增了很多自定义的功能。CommonTabLayout:不同于SlidingTabLayout对ViewPager依赖,它是一个不依赖ViewPager可以与其他控件自由搭配使用的TabLayout.<br><img src="https://raw.githubusercontent.com/H07000223/FlycoTabLayout/master/preview_1.gif" alt=""></li>
+</ul>
+<h1 id="Dialog">Dialog</h1><ul>
+<li><a href="https://github.com/H07000223/FlycoDialog_Master" target="_blank" rel="external">FlycoDialog</a><br>多种样式与动画效果的对话框<br><img src="https://raw.githubusercontent.com/H07000223/FlycoDialog_Master/master/gif/preview_1.gif" alt=""></li>
+</ul>
+</li>
+</ul>
+<h1 id="ListView">ListView</h1><ul>
+<li><a href="https://github.com/bavariama1/ListBuddies" target="_blank" rel="external">瀑布流</a></li>
+<li><a href="https://github.com/Waylenw/Android-UI-Effect#listindex" target="_blank" rel="external">IndexView</a><br>索引控件可拖动，可根据列表滚动移动<br><img src="https://raw.githubusercontent.com/Waylenwang/AndroidUI_Waylen/master/screenpic/indexView.gif" alt=""></li>
+<li><a href="https://github.com/baoyongzhang/SwipeMenuListView" target="_blank" rel="external">SwipeMenuListView(右滑删除)</a><br><img src="https://raw.githubusercontent.com/baoyongzhang/SwipeMenuListView/master/demo3.gif" alt=""></li>
+</ul>
+<h1 id="侧滑菜单">侧滑菜单</h1><ul>
+<li><a href="https://github.com/BlueMor/DragLayout" target="_blank" rel="external">DragLayout</a><br>使用 support.v4 包下的 ViewDragHelper 实现 QQ5.0 侧滑<br><img src="https://raw.githubusercontent.com/BlueMor/DragLayout/master/screenshots/123.gif" alt="这里写图片描述"></li>
+<li><a href="https://github.com/mxn21/FlowingDrawer" target="_blank" rel="external">FlowingDrawer()</a><br>具有弹性的侧滑菜单<br><img src="http://www.jcodecraeer.com/uploads/151022/1-1510220ZQQ25.gif" alt="这里写图片描述"></li>
+</ul>
+<h1 id="下拉上拉刷新">下拉上拉刷新</h1><ul>
+<li><a href="https://github.com/bingoogolapple/BGARefreshLayout-Android" target="_blank" rel="external">BGARefreshLayout-Android</a><br>多种下拉刷新效果(支持上拉刷新)</li>
+<li><a href="https://github.com/cymcsg/UltimateRecyclerView" target="_blank" rel="external">UltimateRecyclerView</a><br>支持ListView、RecycleView上拉刷新以及右滑动删除，支持拖动，动画，和和粘性头部。隐藏和显示Actionbar和ToolBar等<br><img src="https://camo.githubusercontent.com/34707aab637bd5766d183e4bf739e07a589d5aa9/68747470733a2f2f627974656275636b65742e6f72672f6d61727368616c6368656e2f696d616765732f7261772f343462656231363231323163373139656134303934626437656131633966306364376465346330342f756c74696d61746572656379636c6572766965772f756c74696d6174655f72656379636c65727669657731322e676966" alt=""></li>
+<li><p><a href="https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh" target="_blank" rel="external">Ultra-Pull-To-Refresh</a><br>此库是单纯的下拉刷新的组件,使用起来简单，<code>API LEVEL &gt;= 8</code>可以ui样式十分的简单。还有md风格的下拉刷新样式哦。<br><img src="https://camo.githubusercontent.com/4dfccd5a50f7d59b512300fce341a1217950603a/687474703a2f2f737261696e2d6769746875622e71696e6975646e2e636f6d2f756c7472612d7074722f6d6174657269616c2d7374796c652e676966" alt=""></p>
+<h1 id="MD">MD</h1><ul>
+<li><a href="https://github.com/drakeet/MaterialDialog" target="_blank" rel="external">MaterialDialog</a><br>MD风格的dialog</li>
+<li><a href="https://github.com/rey5137/material" target="_blank" rel="external">material library</a><br>Md风格组件的集合</li>
+<li><a href="https://github.com/siriscac/RippleView" target="_blank" rel="external">RippleView</a><br>兼容低版本的水波纹控件<br><img src="https://camo.githubusercontent.com/eec41193900aad4803dcf18bc9915fafa3f7d1cf/68747470733a2f2f7261772e6769746875622e636f6d2f73697269736361632f526970706c65566965772f6d61737465722f53637265656e732f53637265656e2e676966" alt=""></li>
+<li><a href="https://github.com/nbsp-team/MaterialFilePicker" target="_blank" rel="external">MaterialFilePicker</a><br>MD风格的文件选择器</li>
+</ul>
+<h1 id="效果实现">效果实现</h1><ul>
+<li><a href="https://github.com/mxn21/SlidingCard" target="_blank" rel="external">SlidingCard</a><br>相册的效果滑动<br><img src="https://raw.githubusercontent.com/mxn21/SlidingCard/master/screen.gif" alt=""></li>
+<li><a href="https://github.com/gpfduoduo/RadarScanView" target="_blank" rel="external">RadarScanView</a><br>雷达扫描的效果<br><img src="https://raw.githubusercontent.com/gpfduoduo/RadarScanView/master/RadarScanView/gif/radar.gif" alt=""></li>
+</ul>
+</li>
+</ul>
+<h1 id="多媒体">多媒体</h1><ul>
+<li><a href="https://github.com/appunite/AndroidFFmpeg" target="_blank" rel="external">AndroidFFmpeg</a><br>Android FFmpeg.用于复杂视频处理(转码、压缩、录制视 频等)</li>
+<li><a href="https://github.com/wysaid/android-gpuimage-plus" target="_blank" rel="external">android-gpuimage-plus</a><br>Android-gpuimag的增强版。</li>
+<li><a href="https://github.com/wuhaoyu1990/MagicCamera" target="_blank" rel="external">MagicCamera</a><br>集成了美颜滤镜效果。<br><img src="https://raw.githubusercontent.com/wuhaoyu1990/MagicCamera/master/Screenshot_1.png" alt=""></li>
+</ul>
+<h1 id="动画">动画</h1><ul>
+<li><a href="https://github.com/jaychou2012/SwitchLayout" target="_blank" rel="external">SwitchLayout</a><br> 视图切换动画</li>
+<li><a href="https://github.com/sd6352051/NiftyDialogEffects" target="_blank" rel="external">NiftyDialogEffects</a><br>支持自定义飞入动画样式的 Dialog<br><img src="https://camo.githubusercontent.com/456687ac516bb07f1076928d635bfddf6b90d5ec/687474703a2f2f696d67302e70682e3132362e6e65742f69433436653162586b55316631724966555a6f3939773d3d2f363539373632303632313938343031393430382e676966" alt=""></li>
+<li><a href="https://github.com/daimajia/AndroidViewAnimations" target="_blank" rel="external">AndroidViewAnimations</a><br>View动画的Android </li>
+</ul>
+<h1 id="图像处理">图像处理</h1><ul>
+<li><a href="https://github.com/qiujuer/ImageBlurring" target="_blank" rel="external">ImageBlurring</a><br> 图像模糊</li>
+<li><a href="https://github.com/cooltechworks/BitmapMerger" target="_blank" rel="external">BitmapMerger</a><br> 图片合成库<br><img src="https://cloud.githubusercontent.com/assets/13122232/8438305/9f7c2644-1f82-11e5-8f51-25ba7cca0711.gif" alt=""></li>
+</ul>
+<h1 id="功能应用">功能应用</h1><ul>
+<li><a href="http://wister.iteye.com/blog/334562" target="_blank" rel="external">pinyin4j</a><br>  汉字转拼音,获取汉字首字母等操作。</li>
+<li><a href="https://git.oschina.net/xiao-lifan/MutiPhotoChoser" target="_blank" rel="external">MutiPhotoChoser</a><br>自定义相册多图选择  </li>
+<li><a href="https://github.com/bboyfeiyu/Colorful" target="_blank" rel="external">Colorful</a><br>实现了换肤的功能。<br><img src="https://raw.githubusercontent.com/hehonghui/Colorful/master/images/colorful.gif" alt=""></li>
+<li><a href="https://github.com/sevenler/Uninstall_Statics" target="_blank" rel="external">Apk统计自身被卸载</a></li>
+<li><a href="https://github.com/kymjs/EmojiChat" target="_blank" rel="external">Emoji表情的实现</a><br><img src="https://raw.githubusercontent.com/kymjs/EmojiChat/master/screen_shots/Screenshot_2.png" alt=""></li>
+</ul>
+<h1 id="图表">图表</h1><p> <a href="https://github.com/diogobernardino/WilliamChart" target="_blank" rel="external">WilliamChart</a></p>
+<h1 id="Demo">Demo</h1><ul>
+<li><a href="https://github.com/stormzhang/9GAG" target="_blank" rel="external">9GAG(整合一些轮子的案例)</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最后更新时间<br>2016-07-05</p>
+<h1 id="概述">概述</h1><p> 此博客初衷是记录一下自己开发过程后使用到或者收集到的一些轮子和开源项目，不追求全，只追求实用吧。会不断的更新,也是希望能继续完善吧。<br> <strong>推荐</strong><br> <a href="https://github.com/Trinea/android-open-project#%E5%8D%81%E4%BA%8Cflipview">Github最全面的Android开源项目汇总</a><br>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android开发拆墙(GFW)技巧之谈]]></title>
+    <link href="http://waylenw.github.io/Android/android-vpn-useage/"/>
+    <id>http://waylenw.github.io/Android/android-vpn-useage/</id>
+    <published>2016-05-24T16:00:00.000Z</published>
+    <updated>2016-05-25T13:10:04.000Z</updated>
+    <content type="html"><![CDATA[<p>对于一名Android攻城狮来说,学会翻墙基本已经是必不可少本领。不翻墙怎么看最新的官方文档，怎么访问Google，怎么更新sdk，怎么下开发工具。。。。。那么下面就来说聊聊如何拆墙。<br><a id="more"></a><br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/android_useage_vpn/android-vpn-usage-1.jpg" alt=""></p>
+<h1 id="乖孩子型">乖孩子型</h1><p> 我是个乖孩子。不想做这么胆肥的事情。下面就有直接现有的资源，拿来直接用。<br> <a href="http://www.androiddevtools.cn/" target="_blank" rel="external">Android devtools</a><br> Android devtools包含了很多的下载资源，其中包括android studio、adteclipse、sdk各种资源、以及一些日常的开发工具,包括一些sdk更新的镜像。只有你想不到真的是很丰富。</p>
+<p> <strong>使用镜像更新SDK</strong><br> 打开上面的网站你就会发现有很多镜像服务器的地址，那如何使用镜像来更新。举个例子<br> 假设我的镜像地址是</p>
+ <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ubuntu<span class="class">.buct</span><span class="class">.edu</span><span class="class">.cn</span> 端口 <span class="number">80</span> </span><br><span class="line">ubuntu<span class="class">.buct</span><span class="class">.cn</span> 端口 <span class="number">80</span></span><br></pre></td></tr></table></figure>
+<p> 配置镜像<br> 打开sdk更新界面，<code>HttP Proxy Server</code>表示是代理服务器，就输入ubuntu.buct.edu.cn。<code>HTTP proxy port</code>是代理端口,输入80即可。<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/android_useage_vpn/android-vpn-usage-2.png" alt=""><br>输入完成后,重写reload即可。如没用可尝试clear cache。</p>
+<hr>
+<h1 id="土豪孩子型">土豪孩子型</h1><p> 土豪孩子都不差钱,花钱买个vpn呗(这点投入还是要的)。市场上的Vpn也是五花八门。说句心里话好用才是王道。下面列举吉几款。大家自己挑选使用。</p>
+<ol>
+<li>51vpn<br>地址:<a href="https://www.woyaovpn.net/index.shtml" target="_blank" rel="external">https://www.woyaovpn.net/index.shtml</a></li>
+<li>云梯<br>地址：<a href="https://www.cloudtizi.com/" target="_blank" rel="external">https://www.cloudtizi.com/</a></li>
+<li>GrenenVpn<br>地址:<a href="http://www.xiyouvpn.com/zhtc/" target="_blank" rel="external">http://www.xiyouvpn.com/zhtc/</a></li>
+<li>筋斗云<br>地址：<a href="http://www.jdyvpn.com.cn/" target="_blank" rel="external">http://www.jdyvpn.com.cn/</a></li>
+</ol>
+<h1 id="懵逼孩子型">懵逼孩子型</h1><p>翻个墙咋这么麻烦捏.要不试试下面这个？<br>蓝灯:<a href="https://github.com/getlantern/lantern/" target="_blank" rel="external">https://github.com/getlantern/lantern/</a><br>据说是google参与研发的，应该靠谱哈。</p>
+<h1 id="不走寻常路">不走寻常路</h1><p>按理写到这里结束了。但是还有种拆墙的方法。就是自己搭建vps，然后使用pptp协议来做代理.这里就不列举啦。有兴趣自己研究一下了哈。</p>
+<p><strong>end。。。。。。。</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>对于一名Android攻城狮来说,学会翻墙基本已经是必不可少本领。不翻墙怎么看最新的官方文档，怎么访问Google，怎么更新sdk，怎么下开发工具。。。。。那么下面就来说聊聊如何拆墙。<br>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Mac常用快捷键]]></title>
+    <link href="http://waylenw.github.io/Mac/mac-kemap-all/"/>
+    <id>http://waylenw.github.io/Mac/mac-kemap-all/</id>
+    <published>2016-03-13T16:00:00.000Z</published>
+    <updated>2016-07-05T06:19:49.000Z</updated>
+    <content type="html"><![CDATA[<p>收集Mac常用快捷键。掌握这些快捷键，势必事半功倍的效果</p>
+<h1 id="快捷键">快捷键</h1><p><strong>快捷键的符号所对应的按键</strong></p>
+<p>⌥—&gt; option|alt</p>
+<p>⇧—&gt;shift</p>
+<p>⌃—&gt;control</p>
+<p>⌘—&gt;command</p>
+<p>⎋—&gt;esc</p>
+<a id="more"></a>    
+<h1 id="常用快捷键">常用快捷键</h1><p><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/Mac/keybroad.jpg" alt=""> </p>
+<h1 id="更多补充">更多补充</h1><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_ins">cmd</span>+方向键上  <span class="comment">#返回向一级文件夹</span></span><br><span class="line"><span class="built_ins">cmd</span>+方向键    <span class="comment">#进入下一级文件夹       </span></span><br><span class="line"><span class="built_ins">cmd</span>+alt+v    <span class="comment">#将文件复制并移动</span></span><br></pre></td></tr></table></figure>
+<p>文本位置跳转快捷键：<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">跳转到一行的开头：Command+左箭头</span><br><span class="line">跳转到一行的末尾：Command+右箭头</span><br><span class="line">跳转到当前单词的开头(适合英文、拼音)：<span class="keyword">Option</span>+左箭头</span><br><span class="line">跳转到当前单词的末尾(适合英文、拼音)：<span class="keyword">Option</span>+右箭头</span><br><span class="line">跳转到全部文本的开头：Command+上箭头</span><br><span class="line">跳转到全部文本的末尾：Command+下箭头</span><br></pre></td></tr></table></figure></p>
+<p>在以上快捷键中加入Shift，则可以扩展成为选中文本效果的快捷键：<br><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">选中光标到本行开头的文本：<span class="keyword">Shift</span>+Command+左箭头</span><br><span class="line">选中光标到本行末尾的文本：<span class="keyword">Shift</span>+Command+右箭头</span><br><span class="line">选中光标到当前单词的开头(适合英文、拼音)：<span class="keyword">Shift</span>+Option+左箭头</span><br><span class="line">选中光标到当前单词的末尾(适合英文、拼音)：<span class="keyword">Shift</span>+Option+右箭头</span><br><span class="line">选中光标到全部文本的开头：<span class="keyword">Shift</span>+Command+上箭头</span><br><span class="line">选中光标到全部文本的末尾：<span class="keyword">Shift</span>+Command+下箭头</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>收集Mac常用快捷键。掌握这些快捷键，势必事半功倍的效果</p>
+<h1 id="快捷键">快捷键</h1><p><strong>快捷键的符号所对应的按键</strong></p>
+<p>⌥—&gt; option|alt</p>
+<p>⇧—&gt;shift</p>
+<p>⌃—&gt;control</p>
+<p>⌘—&gt;command</p>
+<p>⎋—&gt;esc</p>]]>
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://waylenw.github.io/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android Bitmap内存优化]]></title>
+    <link href="http://waylenw.github.io/Android/android-bitmap-memory-yh/"/>
+    <id>http://waylenw.github.io/Android/android-bitmap-memory-yh/</id>
+    <published>2016-02-28T16:00:00.000Z</published>
+    <updated>2016-04-12T09:09:58.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="番外篇">番外篇</h1><p> 首先我们先了解位图和矢量图的区别</p>
+<ul>
+<li>位图<br>位图使用我们称为像素的一格一格的小点来描述图像.计算机屏幕其实就是一张包含大量像素点的网格.在位图中,平时看到的图像将会由每一个网格中的像素点的位置和色彩值来决定.每一点的色彩是固定的,当我们在更高分辨率下观看图像时,每一个小点看上去就像是一个个马赛克色块.当图像放大后,边缘变得模糊不清.位图图像的清晰度取决于图像大小与分辨率</li>
+<li>矢量图<br>矢量图使用线段和曲线描述图像,所以称为矢量,同时图形也包含了色彩和位置信息.当您进行矢量图形的编辑时,您定义的是描述图形形状的线和曲线的属性,这些属性将被记录下来.对矢量图形的操作,例如移动,重新定义尺寸,重新定义形状,或者改变矢量图形的色彩,都不会改变矢量图形的显示品质.您也可以通过矢量对象的交叠,使得图形的某一部分被隐藏,或者改变对象的透明度.矢量图形是”分辨率独立”的,这就是说,当您显示或输出图像时,图像的品质不受设备的分辨率的影响.  </li>
+</ul>
+<a id="more"></a>        
+<h1 id="BitMap和内存的关系">BitMap和内存的关系</h1><p>说到内存就会想到内存溢出。内存溢出就是分配的内存不足以放下数据项序列。如在一个域中输入的数据超过了它的要求就会系统能给你的，系统不能满足需求，于是产生溢出。或者可以这样理解堆上分配的内存没有被释放，从而失去对其控制。这样会造成程序能使用的内存越来越少，导致系统运行速度减慢，严重情况会使程序宕掉。</p>
+<p>在日常开发中影响位图的占用大小的几个关键点：<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span>图片长度</span><br><span class="line"><span class="number">2.</span>图片宽度</span><br><span class="line"><span class="number">3.</span>每个像素所占的字节(Bitmap的RGB值)</span><br></pre></td></tr></table></figure></p>
+<p>BitMap的的计算公式为:<br>一张图片（BitMap）占用的内存=图片长度<em>图片宽度</em>单位像素占用的字节数<br><a href="http://blog.csdn.net/hudashi/article/details/7856519" target="_blank" rel="external">详解介绍如何计算Bitmap内存占用</a><br> <strong>注意：</strong></p>
+<blockquote>
+<p>Bitmap的占用空间大小和目标文件的大小无关，主要是图片的长和宽。</p>
+</blockquote>
+<h1 id="Bitmap内存优化">Bitmap内存优化</h1><p>上面说了这么多基本的概念和原理。下面就来看看实战中应该如果避免内存溢出。</p>
+<h2 id="1-及时释放内存">1.及时释放内存</h2><p> <strong>1.为什么要及时回收Bitmap的内存</strong></p>
+<p>  Android系统有自己的垃圾回收机制，可以不定期的回收掉不使用的内存空间，当然也包括Bitmap的空间。那为什么还需要这个方法呢？Bitmap类的构造方法都是私有的，，只能通过BitmapFactory类的来实例化一个Bitmap。仔细查BitmapFactory的源代码可以看到，生成Bitmap对象最终都是通过JNI调用方式实现的。所以，加载Bitmap到内存里以后，是包含两部分内存区域的。简单的说，一部分是Java部分的，一部分是C部分的。这个Bitmap对象是由Java部分分配的，不用的时候系统就会自动回收了，但是那个对应的C可用的内存区域，虚拟机是不能直接回收的，这个只能调用底层的功能释放。所以需要调用recycle()方法来释放C部分的内存。从Bitmap类的源代码也可以看到，recycle()方法里也的确是调用了JNI方法了。<br>  那如果不调用recycle()，是否就一定存在内存泄露呢？也不是的。Android的每个应用都运行在独立的进程里，有着独立的内存，如果整个进程被应用本身或者系统杀死了，内存也就都被释放掉了，当然也包括C部分的内存。</p>
+<p><strong>2.手动释放内存</strong></p>
+<p>下面是释放Bitmap的示例代码片段。<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在Activity或Fragment的onDestory方法中进行回收(必须确保bitmap不在使用)</span></span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">onDestory</span><span class="params">()</span></span>&#123;</span><br><span class="line">     <span class="comment">// 先判断是否已经回收</span></span><br><span class="line">	<span class="keyword">if</span>(bitmap != <span class="keyword">null</span> &amp;&amp; !bitmap.isRecycled())&#123; </span><br><span class="line">        <span class="comment">// 回收并且置为null</span></span><br><span class="line">        bitmap.recycle(); </span><br><span class="line">        bitmap = <span class="keyword">null</span>; </span><br><span class="line">	&#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="2-进行图片压缩">2.进行图片压缩</h2><p>  如果我在开始的时候加载一张很大的图，直接超过了分配的内存大小，那也会引起内存溢出。这个时候我们就需要对加载的BitMap的大小进行控制，这个时候就需要用到图片压缩。<br><a href="http://www.cnblogs.com/xiaochao1234/p/3880402.html" target="_blank" rel="external">图片压缩比较靠谱的几种办法</a></p>
+<h2 id="3-捕获异常">3.捕获异常</h2><p>在Android系统里，读取位图Bitmap时，分给虚拟机中的图片的堆栈大只有8M，为了避免应用在分配Bitmap内存的时候出现OutOfMemory异常以后Crash掉，所以在实例化Bitmap的代码中，一定要对OutOfMemory异常进行捕获。</p>
+<p>以下是代码示例。</p>
+ <figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Bitmap bitmap = <span class="literal">null</span>;  </span><br><span class="line"><span class="keyword">try</span> &#123; </span><br><span class="line">    <span class="comment">// 实例化Bitmap </span></span><br><span class="line">    bitmap = BitmapFactory.decodeFile(path); </span><br><span class="line">&#125; <span class="keyword">catch</span> (OutOfMemoryError e) &#123; </span><br><span class="line">    <span class="comment">// </span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这里对初始化Bitmap对象过程中可能发生的OutOfMemory异常进行了捕获。如果发生了OutOfMemory异常，应用不会崩溃，而是得到了一个默认的Bitmap图。</p>
+<p>经验分享：</p>
+<blockquote>
+<p>很多开发者会习惯性的在代码中直接捕获Exception。但是对于OutOfMemoryError来说，这样做是捕获不到的。因为OutOfMemoryError是一种Error，而不是Exception。在此仅仅做一下提醒，避免写错代码而捕获不到OutOfMemoryError。</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="番外篇">番外篇</h1><p> 首先我们先了解位图和矢量图的区别</p>
+<ul>
+<li>位图<br>位图使用我们称为像素的一格一格的小点来描述图像.计算机屏幕其实就是一张包含大量像素点的网格.在位图中,平时看到的图像将会由每一个网格中的像素点的位置和色彩值来决定.每一点的色彩是固定的,当我们在更高分辨率下观看图像时,每一个小点看上去就像是一个个马赛克色块.当图像放大后,边缘变得模糊不清.位图图像的清晰度取决于图像大小与分辨率</li>
+<li>矢量图<br>矢量图使用线段和曲线描述图像,所以称为矢量,同时图形也包含了色彩和位置信息.当您进行矢量图形的编辑时,您定义的是描述图形形状的线和曲线的属性,这些属性将被记录下来.对矢量图形的操作,例如移动,重新定义尺寸,重新定义形状,或者改变矢量图形的色彩,都不会改变矢量图形的显示品质.您也可以通过矢量对象的交叠,使得图形的某一部分被隐藏,或者改变对象的透明度.矢量图形是”分辨率独立”的,这就是说,当您显示或输出图像时,图像的品质不受设备的分辨率的影响.  </li>
+</ul>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android HandlerThread使用总结]]></title>
+    <link href="http://waylenw.github.io/Android/android-handler-thread-usage/"/>
+    <id>http://waylenw.github.io/Android/android-handler-thread-usage/</id>
+    <published>2016-01-29T16:00:00.000Z</published>
+    <updated>2016-04-12T09:11:27.000Z</updated>
+    <content type="html"><![CDATA[<p>我们看到HandlerThread很快就会联想到Handler。Android中Handler的使用，一般都在UI主线程中执行，因此在Handler接收消息后，处理消息时，不能做一些很耗时的操作，否则将出现ANR错误。Android中专门提供了HandlerThread类，来解决该类问题。HandlerThread类是一个线程专门处理Hanlder的消息，依次从Handler的队列中获取信息，逐个进行处理，保证安全，不会出现混乱引发的异常。HandlerThread继承于Thread，所以它本质就是个Thread。与普通Thread的差别就在于，它有个Looper成员变量。</p>
+<a id="more"></a>    
+<h1 id="简介">简介</h1><p> 看看官方的对他的讲解</p>
+<blockquote>
+<p>Handy class for starting a new thread that has a looper. The looper can  then be used to create handler classes. Note that start() must still be called. </p>
+</blockquote>
+<p>  大致意思就是说HandlerThread可以创建一个带有looper的线程。looper对象可以用于创建Handler类来进行来进行调度。<br>  接下来看看HandlerThread的源码</p>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">package</span> android.os;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HandlerThread</span> <span class="keyword">extends</span> <span class="title">Thread</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> mPriority;</span><br><span class="line">    <span class="keyword">int</span> mTid = -<span class="number">1</span>;</span><br><span class="line">    Looper mLooper;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">HandlerThread</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(name);</span><br><span class="line">        mPriority = Process.THREAD_PRIORITY_DEFAULT;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onLooperPrepared</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        mTid = Process.myTid();</span><br><span class="line">        Looper.prepare();</span><br><span class="line">        <span class="keyword">synchronized</span> (<span class="keyword">this</span>) &#123;</span><br><span class="line">            mLooper = Looper.myLooper();</span><br><span class="line">            notifyAll();</span><br><span class="line">        &#125;</span><br><span class="line">        Process.setThreadPriority(mPriority);</span><br><span class="line">        onLooperPrepared();</span><br><span class="line">        Looper.loop();</span><br><span class="line">        mTid = -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>线程run()方法当中先调用Looper.prepare()初始化Looper,最后调用Looper.loop()，这样我们就在该线程当中创建好Looper。(注意：Looper.loop()方法默认是死循环).prepare()呢。</p>
+<p><strong>Handler原理</strong><br>要理解Handler的原理，理解如下几个概念即可茅塞顿开。</p>
+<ul>
+<li>Message 意为消息，发送到Handler进行处理的对象，携带描述信息和任意数据。</li>
+<li>MessageQueue 意为消息队列，Message的集合。</li>
+<li>Looper 有着一个很难听的中文名字，消息泵，用来从MessageQueue中抽取Message，发送给Handler进行处理。</li>
+<li>Handler 处理Looper抽取出来的Message。</li>
+</ul>
+<p><a href="http://blog.csdn.net/lmj623565791/article/details/38377229" target="_blank" rel="external"> Android 异步消息处理机制 让你深入理解 Looper、Handler、Message三者关系</a></p>
+<h1 id="用法">用法</h1> <figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HandlerThread <span class="keyword">thread</span> = newHandlerThread(<span class="string">"handler_thread"</span>);</span><br><span class="line"><span class="keyword">thread</span><span class="built_in">.</span>start();<span class="comment">//必须要调用start方法</span></span><br><span class="line">final Handlerhandler = newHandler(<span class="keyword">thread</span><span class="built_in">.</span>getLooper())&#123;</span><br></pre></td></tr></table></figure>
+<p> 其他api</p>
+ <figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//用于返回与该线程相关联的Looper对象</span></span><br><span class="line"><span class="keyword">thread</span><span class="built_in">.</span>getLooper();</span><br><span class="line"><span class="comment">//获得该线程的Id</span></span><br><span class="line"><span class="keyword">thread</span><span class="built_in">.</span>getThreadId();</span><br><span class="line"><span class="comment">//结束当前的Looper 循环。</span></span><br><span class="line"><span class="keyword">thread</span><span class="built_in">.</span>quit();</span><br><span class="line"><span class="comment">//用于looper取出的消息处理</span></span><br><span class="line"><span class="keyword">thread</span><span class="built_in">.</span>run();</span><br></pre></td></tr></table></figure>
+<h1 id="实例">实例</h1><p> <strong>效果图</strong><br> <img src="https://raw.githubusercontent.com/Waylenw/AndroidBase/master/screen/handlerThread.gif" alt=""></p>
+<p> 在以上效果图中可以看到当我点击按钮之后，两个蓝色的方块变成了图片。在按钮点击事件中我添加了两个下载图片的任务(模拟情况下)，并在加载完后替换控件的默认图片。很明显很可以看到是有先后顺序的。在第一张图片加载完后第二张图片才会显示。</p>
+<p> <strong>MainActivity</strong></p>
+ <figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainActivity</span> <span class="keyword">extends</span> <span class="title">AppCompatActivity</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> HandlerThread handlerThread;</span><br><span class="line">    <span class="keyword">private</span> ImageView imageView,imageView1;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="function"><span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">        setContentView(R.layout.activity_main);</span><br><span class="line"></span><br><span class="line">        init();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="function"><span class="keyword">void</span> <span class="title">init</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        imageView= (ImageView) findViewById(R.id.imageView);</span><br><span class="line">        imageView1= (ImageView) findViewById(R.id.imageView1);</span><br><span class="line"></span><br><span class="line">        handlerThread = <span class="keyword">new</span> HandlerThread(<span class="string">"MainActivity"</span>);</span><br><span class="line">        handlerThread.start();</span><br><span class="line">        <span class="keyword">final</span> Handler <span class="keyword">handler</span> = <span class="keyword">new</span> Handler(handlerThread.getLooper());</span><br><span class="line"></span><br><span class="line">        <span class="comment">//点击download开始进行下载</span></span><br><span class="line">        findViewById(R.id.button).setOnClickListener(<span class="keyword">new</span> View.OnClickListener() &#123;</span><br><span class="line">            <span class="annotation">@Override</span></span><br><span class="line">            <span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">                <span class="keyword">handler</span>.post(<span class="keyword">new</span> MyRunable(<span class="number">1</span>));</span><br><span class="line">                <span class="keyword">handler</span>.post(<span class="keyword">new</span> MyRunable(<span class="number">2</span>));</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="class"><span class="keyword">class</span> <span class="title">MyRunable</span> <span class="keyword">implements</span> <span class="title">Runnable</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> pos;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="title">MyRunable</span><span class="params">(<span class="keyword">int</span> pos)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">this</span>.pos = pos;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="annotation">@Override</span></span><br><span class="line">        <span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            <span class="comment">//模拟耗时</span></span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                Thread.sleep(<span class="number">2000</span>);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (pos == <span class="number">1</span>) &#123;</span><br><span class="line">                imageView.post(<span class="keyword">new</span> Runnable() &#123;</span><br><span class="line">                    <span class="annotation">@Override</span></span><br><span class="line">                    <span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                        imageView.setBackgroundResource(R.mipmap.ic_launcher);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                imageView.post(<span class="keyword">new</span> Runnable() &#123;</span><br><span class="line">                    <span class="annotation">@Override</span></span><br><span class="line">                    <span class="keyword">public</span> <span class="function"><span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                        imageView1.setBackgroundResource(R.mipmap.ic_launcher);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> <span class="function"><span class="keyword">void</span> <span class="title">onDestroy</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onDestroy();</span><br><span class="line">        handlerThread.quit();<span class="comment">//停止Looper的循环</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>布局文件</strong></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">LinearLayout</span> <span class="attribute">xmlns:android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span></span><br><span class="line">    <span class="attribute">xmlns:tools</span>=<span class="value">"http://schemas.android.com/tools"</span></span><br><span class="line">    <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">android:orientation</span>=<span class="value">"vertical"</span></span><br><span class="line">    <span class="attribute">android:paddingBottom</span>=<span class="value">"@dimen/activity_vertical_margin"</span></span><br><span class="line">    <span class="attribute">android:paddingLeft</span>=<span class="value">"@dimen/activity_horizontal_margin"</span></span><br><span class="line">    <span class="attribute">android:paddingRight</span>=<span class="value">"@dimen/activity_horizontal_margin"</span></span><br><span class="line">    <span class="attribute">android:paddingTop</span>=<span class="value">"@dimen/activity_vertical_margin"</span></span><br><span class="line">    <span class="attribute">tools:context</span>=<span class="value">"com.example.handlerthread.MainActivity"</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="title">LinearLayout</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"wrap_content"</span></span><br><span class="line">        <span class="attribute">android:orientation</span>=<span class="value">"horizontal"</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="title">ImageView</span></span><br><span class="line">            <span class="attribute">android:id</span>=<span class="value">"@+id/imageView"</span></span><br><span class="line">            <span class="attribute">android:layout_width</span>=<span class="value">"100dp"</span></span><br><span class="line">            <span class="attribute">android:layout_height</span>=<span class="value">"50dp"</span></span><br><span class="line">            <span class="attribute">android:background</span>=<span class="value">"@android:color/holo_blue_dark"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="title">ImageView</span></span><br><span class="line">            <span class="attribute">android:id</span>=<span class="value">"@+id/imageView1"</span></span><br><span class="line">            <span class="attribute">android:layout_width</span>=<span class="value">"100dp"</span></span><br><span class="line">            <span class="attribute">android:layout_height</span>=<span class="value">"50dp"</span></span><br><span class="line">            <span class="attribute">android:layout_marginLeft</span>=<span class="value">"10dp"</span></span><br><span class="line">            <span class="attribute">android:background</span>=<span class="value">"@android:color/holo_blue_dark"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="title">LinearLayout</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="title">Button</span></span><br><span class="line">        <span class="attribute">android:id</span>=<span class="value">"@+id/button"</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"wrap_content"</span></span><br><span class="line">        <span class="attribute">android:text</span>=<span class="value">"downLoad"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">LinearLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>源码地址</strong><br><a href="https://github.com/Waylenw/AndroidBase" target="_blank" rel="external">https://github.com/Waylenw/AndroidBase</a></p>
+<h1 id="总结">总结</h1><p> HandlerThread适合在只需要在一个工作线程(非UI线程)+任务的等待队列的形式,优点是不会有堵塞，减少了对性能的消耗，缺点是不能同时进行多任务的处理,需要等待进行处理。处理效率较低。</p>
+<p><strong>感谢参考(更多详细)</strong><br><a href="http://blog.csdn.net/lmj623565791/article/details/47079737" target="_blank" rel="external">http://blog.csdn.net/lmj623565791/article/details/47079737</a><br><a href="http://droidyue.com/blog/2015/11/08/make-use-of-handlerthread/?utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="external">http://droidyue.com/blog/2015/11/08/make-use-of-handlerthread/?utm_source=tuicool&amp;utm_medium=referral</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>我们看到HandlerThread很快就会联想到Handler。Android中Handler的使用，一般都在UI主线程中执行，因此在Handler接收消息后，处理消息时，不能做一些很耗时的操作，否则将出现ANR错误。Android中专门提供了HandlerThread类，来解决该类问题。HandlerThread类是一个线程专门处理Hanlder的消息，依次从Handler的队列中获取信息，逐个进行处理，保证安全，不会出现混乱引发的异常。HandlerThread继承于Thread，所以它本质就是个Thread。与普通Thread的差别就在于，它有个Looper成员变量。</p>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android 图像的拉伸适配解决]]></title>
+    <link href="http://waylenw.github.io/Android/android-fit-screen-img/"/>
+    <id>http://waylenw.github.io/Android/android-fit-screen-img/</id>
+    <published>2016-01-27T16:00:00.000Z</published>
+    <updated>2016-04-12T09:13:55.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>日常开发中，我们避免不了去接触视频图像的展示，但在android屏幕分辨率碎片化如此严重的今天,难免会遇到图片拉伸以及视频拉伸的问题，那该如何解决呢?这就是今天的主题了。</p>
+</blockquote>
+ <a id="more"></a>    
+<h1 id="首先看一个例子">首先看一个例子</h1><p> 布局文件<br> <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">  <span class="tag">&lt;<span class="title">RelativeLayout</span> <span class="attribute">xmlns:android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span></span><br><span class="line">    <span class="attribute">xmlns:tools</span>=<span class="value">"http://schemas.android.com/tools"</span></span><br><span class="line">    <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">tools:context</span>=<span class="value">".MainActivity"</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="title">ImageView</span></span><br><span class="line">        <span class="attribute">android:id</span>=<span class="value">"@+id/ivImage"</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:background</span>=<span class="value">"@drawable/timg"</span></span><br><span class="line">        /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">RelativeLayout</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>很简单就是在一个布局里面添加一个ImgeView的控件，让它充满屏幕。并给它设置一个背景.</p>
+<p>效果图是这样<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/fitimg/fitimg_after.png" alt=""><br>原图是这样的<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/fitimg/timg.jpeg" alt=""><br>是不是被拉伸了?为什么会出现这样的情况？因为这张图片的宽高是600:375。在宽和高不是等比拉伸的被强制拉伸到屏幕宽高的情况下就出现了这这种现象。如果我们以1080:1920的宽高来对比。宽大概拉伸了1.x呗而高却拉伸了6.x呗。所以肯定会产生拉伸的情况。</p>
+<p>我们换一种方法看看，将图片设置为src。看看效果。<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/fitimg/fitimg_start.png" alt=""><br>你会发现宽被撑满了，而高却没有撑满整个屏幕。这是为什么呢？</p>
+<p>这个时候要扯入另一个概念了。在ImagView的onMeasure方法中首先会根据你设置控件的宽高来设置测量方式，由于我们设置的是<code>match_parent</code>所以此时的测量方式是宽和高不超过父窗口。也就是子布局的内容可以撑满到父控件的宽高(假设1080：1920)。那么既然测量宽高是屏幕宽高，为什么图片没有拉满整个屏幕。仔细研究你会发现，宽和高都是等比例的放大了，宽度大约放大了1.8倍，而高度遵循这个规则放大了1.8倍。然而放大1.8倍并没有拉伸到屏幕宽度。所以此时imgView的src属性在match_prarent属性下是做等比放大的。</p>
+<p>那么问题来了，为什么不已宽度去拉伸了？<br>因为在View控件的onMeasure中计算好测量高度后都会调用<code>setMeasuredDimension(heightMeasureSpec,heightMeasureSpec);</code><br>那此时widthMeasureSpec=1080 widthMeasureSpec=1920。如果我以长度为基础去拉伸到1920。然后以此拉伸的倍数去拉伸宽度。结果如下<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">原始宽高	  放大后宽高  放大倍数  </span><br><span class="line"><span class="number">600</span>       <span class="number">3072</span>       <span class="number">5.</span>x倍</span><br><span class="line"><span class="number">375</span>       <span class="number">1920</span>       <span class="number">5.</span>x倍</span><br></pre></td></tr></table></figure></p>
+<p>很明显如果我已长度为基准去拉伸，宽度必须要为3072图片才不是变形的。但是由于View控件在设置的测量宽度小于3072所以由于一边不满足拉伸的条件,所以只做最短拉伸倍数。</p>
+<h1 id="改造">改造</h1><p> 通过上面的一系列研究。基本上明白了这个规则。接下就自己改造一套等比拉伸的ImgView.<br> <strong>MainActivity</strong></p>
+<figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">public <span class="class"><span class="keyword">class</span> <span class="title">MainActivity</span> <span class="keyword"><span class="keyword">extends</span></span> <span class="title">AppCompatActivity</span> &#123;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="type">MyFitImageView</span> imageView;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="keyword">protected</span> void onCreate(<span class="type">Bundle</span> savedInstanceState) &#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">        setContentView(<span class="type">R</span>.layout.activity_main);</span><br><span class="line">        imageView= (<span class="type">MyFitImageView</span>) findViewById(<span class="type">R</span>.id.ivImage);</span><br><span class="line">        <span class="type">Bitmap</span> bitmap=<span class="type">BitmapFactory</span>.decodeResource(getResources(), <span class="type">R</span>.drawable.timg);</span><br><span class="line">        imageView.setImageBitmap(bitmap);</span><br><span class="line">        imageView.setSize(bitmap.getWidth(),bitmap.getHeight());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>MyFitImageView</strong><br><figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> class MyFitImageView extends ImageView &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">String</span> TAG=<span class="string">"MainActivity"</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="built_in">int</span> screenWidth;</span><br><span class="line">    <span class="keyword">private</span> <span class="built_in">int</span> screenHeight;</span><br><span class="line">    <span class="keyword">private</span> <span class="built_in">int</span> <span class="variable">displayWidth</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="built_in">int</span> <span class="variable">displayHeight</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> MyFitImageView(Context context) &#123;</span><br><span class="line">        <span class="keyword">this</span>(context, <span class="keyword">null</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> MyFitImageView(Context context, AttributeSet attrs) &#123;</span><br><span class="line">        <span class="keyword">this</span>(context, attrs, <span class="number">0</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> MyFitImageView(Context context, AttributeSet attrs, <span class="built_in">int</span> defStyleAttr) &#123;</span><br><span class="line">        <span class="keyword">super</span>(context, attrs, defStyleAttr);</span><br><span class="line">        init();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> init() &#123;</span><br><span class="line">        screenWidth = SystemUtils.getDisplayWidth(getContext());</span><br><span class="line">        screenHeight = SystemUtils.getDisplayHeight(getContext());</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> setSize(<span class="built_in">int</span> bitmapWidth, <span class="built_in">int</span> bitmapHeight) &#123;</span><br><span class="line">         <span class="variable">displayWidth</span> = screenWidth;</span><br><span class="line">         <span class="variable">displayHeight</span> = screenHeight;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//计算出按比例拉伸后的宽度和高度</span></span><br><span class="line">        <span class="variable">displayWidth</span> = screenHeight * bitmapWidth / bitmapHeight;</span><br><span class="line">        <span class="variable">displayHeight</span> = screenWidth * bitmapHeight / bitmapWidth;</span><br><span class="line">        <span class="comment">//判断如果以图片高度拉伸到屏幕的高度,按照相应的拉伸比是否能够拉伸超过屏幕宽度或者等于屏幕宽度,否则以另一边为基准</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(<span class="variable">displayWidth</span>&gt;=screenWidth)&#123;</span><br><span class="line">            <span class="variable">displayHeight</span>=screenHeight;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="variable">displayWidth</span>=screenWidth;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//TODO 拉伸后截取中间的部分</span></span><br><span class="line">        ViewGroup.MarginLayoutParams lp = (ViewGroup.MarginLayoutParams) getLayoutParams();</span><br><span class="line">        lp.leftMargin = (screenWidth - <span class="variable">displayWidth</span>) / <span class="number">2</span>;</span><br><span class="line">        lp.topMargin = ((screenHeight - <span class="variable">displayHeight</span>) / <span class="number">2</span>);</span><br><span class="line">        setLayoutParams(lp);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        Log.d(TAG, <span class="string">"screenWitdth"</span> + screenWidth);</span><br><span class="line">        Log.d(TAG, <span class="string">"screenHeight:"</span> + screenHeight);</span><br><span class="line">        Log.d(TAG, <span class="string">"fit width:"</span> + <span class="variable">displayWidth</span>);</span><br><span class="line">        Log.d(TAG, <span class="string">"fit height:"</span> + <span class="variable">displayHeight</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    <span class="keyword">protected</span> <span class="keyword">void</span> onMeasure(<span class="built_in">int</span> widthMeasureSpec, <span class="built_in">int</span> heightMeasureSpec) &#123;</span><br><span class="line">        <span class="keyword">super</span>.onMeasure(widthMeasureSpec, heightMeasureSpec);</span><br><span class="line">        setMeasuredDimension(<span class="variable">displayWidth</span>,<span class="variable">displayHeight</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><strong>布局文件</strong></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="pi">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">RelativeLayout</span> <span class="attribute">xmlns:android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span></span><br><span class="line">    <span class="attribute">xmlns:tools</span>=<span class="value">"http://schemas.android.com/tools"</span></span><br><span class="line">    <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">tools:context</span>=<span class="value">".MainActivity"</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="title">com.example.imgfitdemeo.MyFitImageView</span></span><br><span class="line">        <span class="attribute">android:id</span>=<span class="value">"@+id/ivImage"</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">RelativeLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>效果图</strong><br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/fitimg/fitimg_change.jpeg" alt=""><br>是不是和ImageView的CenterCrop的效果一样呢。此方法还可以适用于视频适配。同样改造surfaceView重写onMeasure方法就可以了。</p>
+<p><strong>源码</strong><br><a href="https://github.com/Waylenw/AndroidDemo_Waylen" target="_blank" rel="external">源码地址</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>日常开发中，我们避免不了去接触视频图像的展示，但在android屏幕分辨率碎片化如此严重的今天,难免会遇到图片拉伸以及视频拉伸的问题，那该如何解决呢?这就是今天的主题了。</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android SDK版本与兼容包相关]]></title>
+    <link href="http://waylenw.github.io/android-sdk-verion/"/>
+    <id>http://waylenw.github.io/android-sdk-verion/</id>
+    <published>2016-01-17T16:00:00.000Z</published>
+    <updated>2016-06-13T02:35:12.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Android开发的童鞋们都知道，Google的碎片化是很严重的，所以官方提供了兼容包去试配一些低版本的机器。并且兼容包也在更新，除此之外，Android的SDK版本更新也十分的快速，基本上是一年发一个大的版本号。而且Api的变更也十分大，但是很多时候对这些变更感到无从下手。以下链接的这篇文章对SDK版本更新的内容都会有一个汇总。相信你可以很快熟悉各版本之间的差异。</p>
+</blockquote>
+ <a id="more"></a>    
+<h1 id="SDK版本相关">SDK版本相关</h1><blockquote>
+<p><a href="https://developer.android.com/intl/zh-cn/sdk/api_diff/23/changes.html" target="_blank" rel="external">官方SDK版本Api变动列表:(6.0为例)</a><br> <a href="http://developer.android.com/intl/zh-cn/guide/topics/manifest/uses-sdk-element.html#ApiLevels" target="_blank" rel="external">Android API Level所有版本列表</a></p>
+</blockquote>
+<h2 id="4-X">4.X</h2><p> <a href="http://my.oschina.net/u/1175378/blog/143448?fromerr=px75uTtO" target="_blank" rel="external">Android 4.1 API官方文档详解</a></p>
+<h2 id="5-X">5.X</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46648381" target="_blank" rel="external">Android 5.0 Api的变化</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46344791" target="_blank" rel="external">Android 5.0 camera2Api的使用</a><br> <a href="http://wuxiaolong.me/2015/08/03/Palette/" target="_blank" rel="external">Android Palette取色器</a><br> <a href="http://blog.csdn.net/xu_fu/article/details/44004841" target="_blank" rel="external">VectorDrawable与SVG</a><br> <a href="http://www.jianshu.com/p/ba72bb5d181d" target="_blank" rel="external">Android5.x新API介绍（一）</a><br> <a href="http://www.jianshu.com/p/c82ea2333af6" target="_blank" rel="external">Android5.x新API介绍（二）</a></p>
+<h2 id="6-X">6.X</h2><p><a href="http://www.race604.com/whats-new-in-android6-0/" target="_blank" rel="external">Android 6.0 中新的新技术</a><br><a href="http://waylenw.github.io/Android/Android-sdk-6-change/">Android 6.0的变化</a><br><a href="http://jijiaxin89.com/2015/08/30/Android-s-Runtime-Permission/" target="_blank" rel="external">运行时权限开发者需要知道的一切</a></p>
+<h1 id="兼容库相关">兼容库相关</h1><blockquote>
+<p>兼容库和兼容包是什么？兼容库和兼容包是对Android一些更低版本实现高版本的功能所<br>   提供的兼容架包。<br>   <a href="http://developer.android.com/intl/zh-cn/tools/support-library/index.html" target="_blank" rel="external">官方Support Library版本更新汇总</a></p>
+</blockquote>
+<h2 id="Support-V4">Support-V4</h2><p> 在项目中引入<br> <figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compile <span class="list">(<span class="quoted">'com</span>.android.support<span class="keyword">:support-v4</span>:<span class="number">13.0</span>.<span class="number">0</span>')</span></span><br></pre></td></tr></table></figure></p>
+<p> <a href="http://mp.weixin.qq.com/s?__biz=MzA3MDMyMjkzNg==&amp;mid=212038361&amp;idx=1&amp;sn=ffcb677d058ecd7ff291a8a42d449566&amp;scene=0#rd" target="_blank" rel="external">NestedScrolling 实战:(5.0加入)</a></p>
+<h2 id="Support-V7">Support-V7</h2><p> <a href="http://waylenw.github.io/Android/android-recyclerview-one/">Android RecyclerView三部曲之基础篇(一)</a></p>
+<h2 id="Android_Design_Support_Library">Android Design Support Library</h2><p> <a href="http://blog.csdn.net/lmj623565791/article/details/46405409" target="_blank" rel="external">NavigationView的实用讲解</a><br> <a href="http://wuxiaolong.me/2015/08/03/TabLayout/" target="_blank" rel="external">TabLayout的使用讲解</a></p>
+<h2 id="百分比库">百分比库</h2><p> <a href="http://blog.csdn.net/lmj623565791/article/details/46695347" target="_blank" rel="external">Android 百分比布局库(percent-support-lib) 解析与扩展</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>Android开发的童鞋们都知道，Google的碎片化是很严重的，所以官方提供了兼容包去试配一些低版本的机器。并且兼容包也在更新，除此之外，Android的SDK版本更新也十分的快速，基本上是一年发一个大的版本号。而且Api的变更也十分大，但是很多时候对这些变更感到无从下手。以下链接的这篇文章对SDK版本更新的内容都会有一个汇总。相信你可以很快熟悉各版本之间的差异。</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android开发教程完全]]></title>
+    <link href="http://waylenw.github.io/android-dev-teacher/"/>
+    <id>http://waylenw.github.io/android-dev-teacher/</id>
+    <published>2016-01-17T16:00:00.000Z</published>
+    <updated>2016-05-25T13:10:40.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="概述">概述</h2><p> 本博客的所链接的文章不全是原创。很多是写的非常好的博客。所以本博客主要是收集Android开发教程优秀的博客。以下是推荐初学者学习和了解Android开发的的链接<br> <strong>推荐</strong><br><a href="http://stormzhang.com/android/2014/07/07/learn-android-from-rookie/" target="_blank" rel="external">Android学习之路</a><br><a href="http://blog.csdn.net/xyz_lmn/article/details/41411355" target="_blank" rel="external">Android知识图谱</a><br><a href="http://blog.csdn.net/singwhatiwanna/article/details/49560409" target="_blank" rel="external">Android学习路线指南之从入门到高级</a><br><a href="http://hukai.me/android-training-course-in-chinese/index.html" target="_blank" rel="external">Android官方培训课程中文版</a><br><a href="http://www.jianshu.com/p/0a984f999592" target="_blank" rel="external">Android编码规范</a></p>
+<a id="more"></a>    
+<h2 id="系统架构">系统架构</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/49680541" target="_blank" rel="external">Android系统源码基础知识讲解</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/49560045" target="_blank" rel="external">Android ART运行时相关</a></p>
+<h2 id="Android控件">Android控件</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46564229" target="_blank" rel="external">Android主题和样式</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46682141" target="_blank" rel="external">Android控件属性大全</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/45745093" target="_blank" rel="external">Anddroid WebView的讲解</a><br> <a href="http://blog.csdn.net/larryl2003/article/details/6919513" target="_blank" rel="external">Android TextView使用完全讲解</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/49949213" target="_blank" rel="external">ListView的完全讲解</a><br> <a href="http://blog.csdn.net/mad1989/article/details/38042875" target="_blank" rel="external">Android 自定义简单的圆形和水平的ProgressBar</a><br> <a href="http://blog.csdn.net/larryl2003/article/details/6919513" target="_blank" rel="external">ImgView ScaceType详解</a><br> <a href="http://blog.csdn.net/column/details/xiaoshuang-ui.html" target="_blank" rel="external">Android UI设计博客专栏</a><br> <strong>事件</strong><br> <a href="http://blog.csdn.net/lmj623565791/article/details/39102591" target="_blank" rel="external">Android ViewGroup事件分发</a><br> <a href="http://blog.csdn.net/guolin_blog/article/details/9097463" target="_blank" rel="external">Android事件分发机制(上)</a><br> <a href="http://blog.csdn.net/guolin_blog/article/details/9153747" target="_blank" rel="external">Android事件分发机制(下)</a><br> <a href="http://blog.csdn.net/bboyfeiyu/article/details/39719543" target="_blank" rel="external">Android ViewGroup触摸事件的传递和拦截</a><br> <strong>View</strong><br> <a href="http://blog.csdn.net/wangbofei/article/details/7795430" target="_blank" rel="external">Android getWidth和getMeasuredWidth的正解</a><br> <a href="http://www.open-open.com/lib/view/open1328836804515.html" target="_blank" rel="external">Android例子:根据需求自定义控件</a><br> <a href="http://www.linuxidc.com/Linux/2011-12/49307.htm" target="_blank" rel="external">Android Path类的使用</a></p>
+<h2 id="资源文件">资源文件</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/51134255" target="_blank" rel="external">Android Drawable之Shape使用小案例(一)</a><br>  <a href="http://blog.csdn.net/wwj_748/article/details/47760511" target="_blank" rel="external">Android Drawable资源完全讲解</a><br>  <a href="http://blog.csdn.net/github_25928675/article/details/50330635" target="_blank" rel="external">Android颜色透明度对应的开头字母</a><br>  <a href="http://blog.csdn.net/github_25928675/article/details/46650183" target="_blank" rel="external">Android xml资源文件中@、@android:type、@*、？、@+含义和区别</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46366173" target="_blank" rel="external">AndroidManifest.xml文件讲解</a><br> <a href="http://blog.csdn.net/lmj623565791/article/details/48649563" target="_blank" rel="external">Android状态栏变色</a><br> <a href="http://www.tinylab.org/android-loading-a-different-relationship-between-dpi-and-memory-consumption-of-resources/" target="_blank" rel="external">Android 加载不同 DPI 资源与内存消耗间的关系</a><br> <a href="http://blog.csdn.net/zhaokaiqiang1992/article/details/49787117" target="_blank" rel="external">Android中图片大小、内存占用与drawable文件夹关系的研究与分析</a></p>
+<h2 id="四大组件">四大组件</h2><p>  <strong>Activity</strong><br> <a href="http://blog.csdn.net/liuhe688/article/details/6733407" target="_blank" rel="external">Activity生命周期</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46049045" target="_blank" rel="external">Activity的启动模式</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/49452183" target="_blank" rel="external">Activity界面切换动画讲解</a><br> <a href="http://androidperformance.com/2015/07/20/Android-Performance-Memory-onTrimMemory.html" target="_blank" rel="external">Activity OnTrimMemory内存消耗</a><br> <a href="http://www.flakor.cn/2014-09-04-707.html" target="_blank" rel="external">Activity 后台监听</a><br> <a href="http://stephen830.iteye.com/blog/1181010" target="_blank" rel="external">Activity 电话监听</a><br> <a href="http://daikainan.iteye.com/blog/1455323" target="_blank" rel="external">Activity 设置系统屏幕亮度</a><br> <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0822/3344.html" target="_blank" rel="external">Activity 软键盘弹出效果完全讲解</a><br> <strong>Intent</strong><br> <a href="http://blog.csdn.net/github_25928675/article/details/45333253" target="_blank" rel="external">Android Intent调用系统操作</a><br> <a href="http://blog.csdn.net/yuzhiboyi/article/details/8484771" target="_blank" rel="external">Android pendingIntent的使用和讲解</a><br> <a href="http://blog.csdn.net/zeng622peng/article/details/6180190" target="_blank" rel="external">Android intent和PendingIntent的区别</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/50358912" target="_blank" rel="external">Android启动多个后台任务预览视图</a><br> <strong>service</strong><br> <a href="http://blog.csdn.net/android_tutor/article/details/5789203" target="_blank" rel="external">Android Service生命周期及用法</a><br> <a href="http://blog.csdn.net/lmj623565791/article/details/47143563" target="_blank" rel="external">IntentService的使用和讲解</a><br><a href="http://blog.csdn.net/mad1989/article/details/22492519" target="_blank" rel="external">Android service如何不被杀死</a><br><strong>Broadcast receiver</strong><br><a href="http://blog.csdn.net/yuanzeyao/article/details/43052517" target="_blank" rel="external">BroadCast内部机制讲解</a><br><strong>Content provider</strong><br><a href="http://blog.csdn.net/mad1989/article/details/22426415" target="_blank" rel="external">案例之Android读取手机短信</a></p>
+<h2 id="数据存储和网络请求">数据存储和网络请求</h2><p> <a href="http://blog.csdn.net/wenwen091100304/article/details/49050277" target="_blank" rel="external">数据存储方式之Shareprefences</a><br> <a href="http://www.liaohuqiu.net/cn/posts/storage-in-android/" target="_blank" rel="external">Android存储路径完全讲解</a><br> <a href="http://blog.csdn.net/loongggdroid/article/details/12304695" target="_blank" rel="external">Android SD卡存储容量相关讲解</a>、<br><strong>网络请求</strong><br><a href="http://blog.csdn.net/u010590685/article/details/49104875" target="_blank" rel="external">Android访问https</a><br><a href="http://www.cnblogs.com/hanyonglu/archive/2012/02/20/2358801.html" target="_blank" rel="external">Android实现网络多线程断点续传下载</a></p>
+<h2 id="多线程">多线程</h2><p> <a href="http://blog.csdn.net/yuzhiboyi/article/details/7562245" target="_blank" rel="external">Handler讲解之基本使用(一)</a><br> <a href="http://blog.csdn.net/yuzhiboyi/article/details/7562254" target="_blank" rel="external">Handler讲解之sendMessage(二)</a><br> <a href="http://blog.csdn.net/yuzhiboyi/article/details/7562259" target="_blank" rel="external">Handler讲解之异步任务操作(三)</a><br> <a href="http://waylenw.github.io/Android/android-handler-thread-usage/">HandlerThread使用总结</a><br> <a href="http://blog.csdn.net/yanbober/article/details/48861457" target="_blank" rel="external">Loader的全面讲解及源码浅析</a><br> <a href="http://blog.csdn.net/hitlion2008/article/details/7560878" target="_blank" rel="external">AysnTask基本使用介绍</a><br> <a href="http://blog.csdn.net/guolin_blog/article/details/11711405" target="_blank" rel="external">AysnTask机制从源码角度讲解</a><br> <a href="http://get.ftqq.com/6333.get" target="_blank" rel="external">AsyncTask的存在的缺陷</a><br> <a href="http://blog.csdn.net/hitlion2008/article/details/7983449" target="_blank" rel="external">AsyncTask的验证</a><br> <a href="https://segmentfault.com/a/1190000004487149" target="_blank" rel="external">如何使用 volatile, synchronized, final 进行线程间通信</a><br> <strong>优化</strong><br> <a href="http://blog.csdn.net/github_25928675/article/details/47259097" target="_blank" rel="external">Android 线程池的使用和讲解</a><br><a href="http://droidyue.com/blog/2015/09/05/android-process-and-thread-schedule-nice/" target="_blank" rel="external">线程优先级讲解</a><br> <strong>案例</strong><br> <a href="http://blog.csdn.net/github_25928675/article/details/47702303" target="_blank" rel="external">Android计时和倒计时</a></p>
+<h2 id="多媒体">多媒体</h2><p><a href="http://blog.csdn.net/github_25928675/article/details/49181907" target="_blank" rel="external">Android音频播放讲解</a><br><a href="http://blog.csdn.net/peijiangping1989/article/details/7042610" target="_blank" rel="external">Android音频录制</a><br><a href="http://blog.csdn.net/peijiangping1989/article/details/7049991" target="_blank" rel="external">Android视频录制</a><br><a href="http://www.open-open.com/lib/view/open1341754267229.html" target="_blank" rel="external">Android视频播放的三种方式</a><br><a href="http://www.devwiki.net/2015/09/20/Android-Music-Play-Mode/#comments" target="_blank" rel="external">Android音乐播放模式切换-外放、听筒、耳机</a><br><a href="http://blog.csdn.net/shineflowers/article/details/48031873" target="_blank" rel="external">Android MediaMetadataRetriever获得媒体信息</a><br><a href="http://www.cnblogs.com/hanyonglu/archive/2012/05/10/2494908.html" target="_blank" rel="external">Android Loader获取本机所有图片(相册)</a><br> 经验<br> <a href="http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&amp;mid=401454605&amp;idx=1&amp;sn=d5a16f6dc13e7581fec08a4e704cd5d0&amp;scene=0#wechat_redirect" target="_blank" rel="external">Android相机开发那些坑</a></p>
+<h2 id="图形处理和动画">图形处理和动画</h2><p> <a href="http://www.jianshu.com/p/f1feafffc365" target="_blank" rel="external">通过Hardware Layer提升Android动画性能</a><br> <a href="http://blog.csdn.net/aminfo/article/details/7847761" target="_blank" rel="external">Android 帧动画</a><br> <a href="http://waylenw.github.io/Android/android-fit-screen-img/">Android 图片拉伸适配的解决方法</a></p>
+<h2 id="权限和动作">权限和动作</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46460417" target="_blank" rel="external">权限和动作大全</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/45916267" target="_blank" rel="external">自定义权限</a></p>
+<h2 id="软键盘输入法">软键盘输入法</h2><p> <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0822/3344.html" target="_blank" rel="external">软键盘遮挡问题</a></p>
+<h2 id="Android系统信息和安全机制">Android系统信息和安全机制</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/50561889" target="_blank" rel="external">Android 获取设备硬件和系统信息</a><br> <a href="http://blog.csdn.net/xinzheng_wang/article/details/7837550" target="_blank" rel="external">Android 系统CPU,RAM,ROM,SDCard,MAC等信息查询</a><br> <a href="http://blog.csdn.net/vipzjyno1/article/details/21039349/" target="_blank" rel="external">Android Apk反编译</a><br> <a href="http://blog.csdn.net/jiangwei0910410003/article/details/50402000" target="_blank" rel="external">Android签名机制之—签名过程详解</a></p>
+<h2 id="性能优化">性能优化</h2><p> <strong>内存优化</strong><br> <a href="http://www.cnblogs.com/qianxudetianxia/p/3645106.html" target="_blank" rel="external">Android内存泄露之Context篇(上)</a><br> <a href="http://www.cnblogs.com/qianxudetianxia/p/3655475.html" target="_blank" rel="external">Android内存泄露之Context篇(下)</a><br> <strong>优化合集</strong><br> <a href="http://blog.csdn.net/zhuanglonghai/article/details/38233069" target="_blank" rel="external">Android Handler内存泄露优化</a><br> <a href="http://waylenw.github.io/Android/android-bitmap-memory-yh/">Android Bitmap内存优化</a><br> <a href="http://blog.csdn.net/yanbober/article/details/48394201" target="_blank" rel="external">Android应用开发性能优化完全分析</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/51094698" target="_blank" rel="external">Android布局优化总结</a><br> <a href="http://blog.tingyun.com/web/article/detail/155" target="_blank" rel="external">Android性能优化(魅族资深工程师)</a><br> <a href="http://hukai.me/android-performance-oom/" target="_blank" rel="external">Android内存优化之OOM(胡凯)</a><br> <a href="http://hukai.me/android-performance-patterns/" target="_blank" rel="external">Android性能优化典范(一)</a><br> <a href="http://hukai.me/android-performance-patterns-2/" target="_blank" rel="external">Android性能优化典范(二)</a><br> <a href="http://hukai.me/android-performance-patterns-3/" target="_blank" rel="external">Android性能优化典范(三)</a><br> <a href="http://hukai.me/android-performance-patterns-season-4/" target="_blank" rel="external">Android性能优化典范(四)</a><br> <a href="http://hukai.me/android-training-course-in-chinese/performance/memory.html" target="_blank" rel="external">Android管理应用的内存</a><br> <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0321/4068.html" target="_blank" rel="external">依赖注入框架性能对比</a><br> <strong>性能优化工具</strong><br> <a href="http://android.jobbole.com/82722/" target="_blank" rel="external">MAT使用入门</a><br> <a href="http://blog.csdn.net/oujunli/article/details/9102101" target="_blank" rel="external">Android 通过trace文件分析死锁ANR</a><br> <a href="http://droidyue.com/blog/2015/09/26/android-tuning-tool-strictmode/" target="_blank" rel="external">Android性能调优利器StrictMode</a><br> <a href="http://blog.csdn.net/xyz_lmn/article/details/14222975" target="_blank" rel="external">Android布局层级检测之HierarchyViewer</a><br> <a href="http://www.cnblogs.com/sunzn/p/3192231.html" target="_blank" rel="external">Android性能调试工具之TraceView</a><br> <a href="http://blog.csdn.net/elinavampire/article/details/47340489" target="_blank" rel="external">Anroid内存泄漏检测工具之LeakCanary</a><br> <a href="https://github.com/moduth/blockcanary/blob/master/README_CN.md" target="_blank" rel="external">Anroid性能监控工具之Blockcanary</a></p>
+<h2 id="开发工具">开发工具</h2><p> <a href="http://waylenw.github.io/AndroidStudio/android-studio-control-teacher/">Android studio使用教程</a><br> <a href="http://www.oschina.net/news/68890/15-android-option" target="_blank" rel="external">Android 15个必知的Android开发者选项</a><br> <a href="http://blog.csdn.net/tikitoo/article/details/51089422" target="_blank" rel="external">这些小工具让你的Android 开发更高效</a></p>
+<h2 id="开源框架">开源框架</h2><p> <strong>RxJava</strong><br> <a href="http://blog.csdn.net/meegomeego/article/details/49155989" target="_blank" rel="external">给Android开发的RxJava详解</a><br> <a href="http://www.jianshu.com/p/72911b9ba2d7" target="_blank" rel="external">RxJava在正确的线程上运行</a><br> <strong>React-native</strong></p>
+<h2 id="进阶篇">进阶篇</h2><p>  <strong>适配和兼容</strong><br> <a href="http://blog.csdn.net/zhaokaiqiang1992/article/details/45419023" target="_blank" rel="external">Android屏幕适配全攻略</a><br> <a href="http://waylenw.github.io/Android/android-sdk-verion/">Android SDK版本和兼容包讲解</a><br> <strong>应用构建</strong><br> <a href="http://www.infoq.com/cn/news/2014/11/android-multidex" target="_blank" rel="external">Android 应用方法数不能超过65K的问题</a><br> <a href="https://www.zybuluo.com/shark0017/note/163330" target="_blank" rel="external">Android Log最佳实践</a></p>
+<h2 id="实战">实战</h2><p> <strong>架构设计</strong><br> <a href="http://www.csdn.net/article/2015-08-20/2825506" target="_blank" rel="external">实战解析Android架构设计原则</a><br> <a href="http://www.jianshu.com/p/ea48332c82af" target="_blank" rel="external">《App研发录》落地之项目架构以及管理</a><br> <a href="http://www.devtf.cn/?p=1134" target="_blank" rel="external">面向对象六大原则</a><br> <strong>开发经验</strong><br> <a href="http://www.jianshu.com/p/deaa717dbeb1" target="_blank" rel="external">Android开发中一些被冷落但却很有用的类和方法</a><br> <a href="http://www.devtf.cn/?p=941" target="_blank" rel="external">开发前你需要知道的六件事</a><br> <a href="https://github.com/futurice/android-best-practices/blob/master/translations/Chinese/README.cn.md" target="_blank" rel="external">Android开发最佳实践</a><br> <a href="http://www.jianshu.com/p/d6611c8bd45c?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=pc_author_hots&amp;utm_source=recommendation#" target="_blank" rel="external">Android开发经验谈</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/48161147" target="_blank" rel="external">如何更新SDK?</a></p>
+<h2 id="学习资源">学习资源</h2><p> <a href="https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw" target="_blank" rel="external">Android google开发者频道(Youtube)</a><br> <a href="https://www.youtube.com/channel/UCQqa5UIHtrnpiADC3eHFupw" target="_blank" rel="external">Android gooogle中文开发者频道(Youtube    )</a></p>
+<h2 id="课外了解">课外了解</h2><p> <a href="http://www.umindex.com" target="_blank" rel="external">友盟指数查看当前手机品牌占比和系统版本占比</a><br> <a href="http://pcedu.pconline.com.cn/688/6883561.html" target="_blank" rel="external">Android国内的APP现状</a><br> <a href="http://blog.csdn.net/itachi85/article/details/50364043" target="_blank" rel="external">关于App程序员泡沫</a><br> <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;mid=403779936&amp;idx=1&amp;sn=9bf0364c299d67a8f3750b69e8f5a62d&amp;scene=0#wechat_redirect" target="_blank" rel="external">Android 更换Open JDK</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="概述">概述</h2><p> 本博客的所链接的文章不全是原创。很多是写的非常好的博客。所以本博客主要是收集Android开发教程优秀的博客。以下是推荐初学者学习和了解Android开发的的链接<br> <strong>推荐</strong><br><a href="http://stormzhang.com/android/2014/07/07/learn-android-from-rookie/">Android学习之路</a><br><a href="http://blog.csdn.net/xyz_lmn/article/details/41411355">Android知识图谱</a><br><a href="http://blog.csdn.net/singwhatiwanna/article/details/49560409">Android学习路线指南之从入门到高级</a><br><a href="http://hukai.me/android-training-course-in-chinese/index.html">Android官方培训课程中文版</a><br><a href="http://www.jianshu.com/p/0a984f999592">Android编码规范</a></p>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android RecyclerView三部曲之基础篇(一)]]></title>
+    <link href="http://waylenw.github.io/Android/android-recyclerview-one/"/>
+    <id>http://waylenw.github.io/Android/android-recyclerview-one/</id>
+    <published>2016-01-17T16:00:00.000Z</published>
+    <updated>2016-04-12T09:11:18.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="简介和准备">简介和准备</h1><blockquote>
+<p>相信大家对RecyclerView都不陌生了。自RecyclerView的出现开始，它就慢慢占据了我们日常开发使用的频率。所以掌握它就显得格外重要了。ReclclerView将各个模块的操作进行了拆解。很好的解决耦合问题。正是因为这种解耦让你做的事情更多，也更强大。逻辑也格外的清晰。</p>
+</blockquote>
+<p> RecyclerView是Support-V7架包中得一个组件。所以在使用前必须先升级support lib，然后导入support-v7。</p>
+ <a id="more"></a>    
+<h1 id="实例">实例</h1><p> 首先在build.gradle文件添加依赖库</p>
+ <figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">dependencies</span> &#123;</span><br><span class="line"> <span class="keyword">compile</span> <span class="keyword">fileTree</span>(<span class="keyword">include</span>: [<span class="string">'*.jar'</span>], dir: <span class="string">'libs'</span>)</span><br><span class="line"> <span class="keyword">compile</span> <span class="string">'com.android.support:recyclerview-v7:23.1.0'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>MainAcvtivity</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainActivity</span> <span class="keyword">extends</span> <span class="title">Activity</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> GridVeiwAdapter gridAdapter;</span><br><span class="line">    <span class="keyword">private</span> ListViewAdapter listAdapter;</span><br><span class="line">    <span class="keyword">private</span> FlowViewAdapter flowViewAdapter;</span><br><span class="line">    <span class="keyword">private</span> RecyclerView recyclerView;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">        setContentView(R.layout.activity_main);</span><br><span class="line">        initView();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">initView</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        recyclerView = (RecyclerView) findViewById(R.id.main_recyclerView);</span><br><span class="line">        gridAdapter = <span class="keyword">new</span> GridVeiwAdapter(getApplication());</span><br><span class="line">        listAdapter = <span class="keyword">new</span> ListViewAdapter(getApplication());</span><br><span class="line">        flowViewAdapter = <span class="keyword">new</span> FlowViewAdapter(getApplication());</span><br><span class="line">        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);</span><br><span class="line">        tabLayout.setTabMode(TabLayout.MODE_FIXED);</span><br><span class="line"></span><br><span class="line">        tabLayout.addTab(tabLayout.newTab().setText(<span class="string">"ListView效果"</span>));</span><br><span class="line">        tabLayout.addTab(tabLayout.newTab().setText(<span class="string">"GridView效果"</span>));</span><br><span class="line">        tabLayout.addTab(tabLayout.newTab().setText(<span class="string">"Flow效果"</span>));</span><br><span class="line">        tabLayout.setOnTabSelectedListener(<span class="keyword">new</span> TabLayout.OnTabSelectedListener() &#123;</span><br><span class="line">            <span class="annotation">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onTabSelected</span><span class="params">(TabLayout.Tab tab)</span> </span>&#123;</span><br><span class="line">                <span class="keyword">if</span> (tab.getPosition() == <span class="number">0</span>) &#123;<span class="comment">//ListView效果</span></span><br><span class="line">                    recyclerView.setLayoutManager(<span class="keyword">new</span> LinearLayoutManager(MainActivity.<span class="keyword">this</span>));</span><br><span class="line">                    recyclerView.setAdapter(listAdapter);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span> (tab.getPosition() == <span class="number">1</span>) &#123;<span class="comment">//GridView效果</span></span><br><span class="line">                    recyclerView.setLayoutManager(<span class="keyword">new</span> GridLayoutManager(MainActivity.<span class="keyword">this</span>, <span class="number">3</span>));</span><br><span class="line">                    recyclerView.setAdapter(gridAdapter);</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">if</span> (tab.getPosition() == <span class="number">2</span>) &#123;<span class="comment">//Flow效果</span></span><br><span class="line">                    <span class="comment">//StaggeredGridLayoutManager.VERTICAL此处表示有多少列</span></span><br><span class="line">                    recyclerView.setLayoutManager(<span class="keyword">new</span> StaggeredGridLayoutManager(<span class="number">3</span>, StaggeredGridLayoutManager.VERTICAL));</span><br><span class="line">                    recyclerView.setAdapter(flowViewAdapter);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="annotation">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onTabUnselected</span><span class="params">(TabLayout.Tab tab)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="annotation">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onTabReselected</span><span class="params">(TabLayout.Tab tab)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        recyclerView.setLayoutManager(<span class="keyword">new</span> LinearLayoutManager(<span class="keyword">this</span>));</span><br><span class="line">        recyclerView.setAdapter(listAdapter);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>setLayoutManager()</strong><br>该方法是给每个Item设置一个布局管理器。有三种布局布局管理器</p>
+<ul>
+<li>LinearLayoutManager线性布局管理器</li>
+<li>GridLayoutManager网格布局管理器</li>
+<li>StaggeredGridLayoutManager瀑布网格布局管理器<br>使用上面的布局管理器可以很轻松的实现ListView和GriView以及瀑布流的效果。既然这么吊还用ListView和GridView吗!</li>
+</ul>
+<hr>
+<p>FlowViewAdapter<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ListViewAdapter</span> <span class="keyword">extends</span> <span class="title">RecyclerView</span>.<span class="title">Adapter</span>&lt;<span class="title">ListViewAdapter</span>.<span class="title">MyViewHolder</span>&gt; </span>&#123;</span><br><span class="line">    List&lt;String&gt; list=<span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Context context;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ListViewAdapter</span><span class="params">(Context context)</span></span>&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">100</span>;i++)&#123;</span><br><span class="line">            list.add(<span class="string">"列表:"</span>+i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">this</span>.context=context;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getItemCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> list.size();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> MyViewHolder <span class="title">onCreateViewHolder</span><span class="params">(ViewGroup parent, <span class="keyword">int</span> viewType)</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建Item的ViewHodler</span></span><br><span class="line">        MyViewHolder holder = <span class="keyword">new</span> MyViewHolder(LayoutInflater.from(context).inflate(R.layout.recycler_item_list_view, parent,</span><br><span class="line">                <span class="keyword">false</span>));</span><br><span class="line">        <span class="keyword">return</span> holder;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onBindViewHolder</span><span class="params">(MyViewHolder holder, <span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">		<span class="comment">//在此处完成布局的展示设值	</span></span><br><span class="line">        holder.tv.setText(list.get(position));</span><br><span class="line">        holder.tv.setOnClickListener(<span class="keyword">new</span> View.OnClickListener() &#123;</span><br><span class="line">            <span class="annotation">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View view)</span> </span>&#123;</span><br><span class="line">                Toast.makeText(context,<span class="string">""</span>+position,Toast.LENGTH_SHORT);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="class"><span class="keyword">class</span> <span class="title">MyViewHolder</span> <span class="keyword">extends</span> <span class="title">RecyclerView</span>.<span class="title">ViewHolder</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        TextView tv;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="title">MyViewHolder</span><span class="params">(View view)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">super</span>(view);</span><br><span class="line">            tv = (TextView) view.findViewById(R.id.textView);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;&#125;</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>RecyclerView的Adapter的不同之处是你在继承RecyclerView.Adaper必需现实一个ViewHolder。在创建的时候会将这个每个Item_layour转化成Viewholder。在传递给onBindViewHolder方法去做布局展示设值。还有一点和ListView不同的是每个控件的点击事件都需要自己去实现,包括Item的点击事件。所以recyclerView.setOnclickListener()就不能用了。</p>
+</blockquote>
+<p><strong>布局文件</strong><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">LinearLayout</span> <span class="attribute">xmlns:android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span></span><br><span class="line">    <span class="attribute">android:orientation</span>=<span class="value">"vertical"</span> <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">ImageView</span></span><br><span class="line">        <span class="attribute">android:layout_marginTop</span>=<span class="value">"5dp"</span></span><br><span class="line">        <span class="attribute">android:layout_marginLeft</span>=<span class="value">"5dp"</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:id</span>=<span class="value">"@+id/imageView"</span></span><br><span class="line">        <span class="attribute">android:gravity</span>=<span class="value">"center"</span></span><br><span class="line">        <span class="attribute">android:background</span>=<span class="value">"@mipmap/a"</span></span><br><span class="line">        <span class="attribute">android:layout_gravity</span>=<span class="value">"center_horizontal"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">LinearLayout</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>基本上就这些了。有些Apdater的代码没有贴出来，大家可以去源代码中去查看<br><strong><a href="https://github.com/Waylenw/AndroidDemo_Waylen" target="_blank" rel="external">源码地址</a></strong></p>
+<h1 id="效果图">效果图</h1><p>基本效果就是这样了,三个按钮分别对应三个Adpater.只需一个控件即可实现ListView和GridView和瀑布流的效果<br><img src="https://raw.githubusercontent.com/Waylenw/AndroidDemo_Waylen/master/screen/recyclerView.gif" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="简介和准备">简介和准备</h1><blockquote>
+<p>相信大家对RecyclerView都不陌生了。自RecyclerView的出现开始，它就慢慢占据了我们日常开发使用的频率。所以掌握它就显得格外重要了。ReclclerView将各个模块的操作进行了拆解。很好的解决耦合问题。正是因为这种解耦让你做的事情更多，也更强大。逻辑也格外的清晰。</p>
+</blockquote>
+<p> RecyclerView是Support-V7架包中得一个组件。所以在使用前必须先升级support lib，然后导入support-v7。</p>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android Studio Buid缓慢问题]]></title>
+    <link href="http://waylenw.github.io/AndroidStudio/android-studio-build-speed/"/>
+    <id>http://waylenw.github.io/AndroidStudio/android-studio-build-speed/</id>
+    <published>2016-01-06T16:00:00.000Z</published>
+    <updated>2016-04-12T09:16:46.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Eclipse转到Android Stuido感受最明显的就是buid速度变慢了,对与一些项目庞大一点的的项目稍微改动一两行代码就要buid一分多钟，改动大一点往3分多钟去了。这样太影响开发效率。怎么办？换SSD？别急你可以先试试以下的方法</p>
+</blockquote>
+ <a id="more"></a>    
+<h1 id="配置多线程编译">配置多线程编译</h1><p> 在下面的目录下面创建gradle.properties文件：</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/home/</span>&lt;username&gt;<span class="regexp">/.gradle/</span> (Linux)</span><br><span class="line"><span class="regexp">/Users/</span>&lt;username&gt;<span class="regexp">/.gradle/</span> (Mac)</span><br><span class="line"><span class="string">C:</span>\Users\&lt;username&gt;\.gradle (Windows)</span><br></pre></td></tr></table></figure>
+<p>gradle.properties</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">org<span class="class">.gradle</span><span class="class">.daemon</span>=true		#开启gradle单独的守护进程</span><br><span class="line">org<span class="class">.gradle</span><span class="class">.parallel</span>=true</span><br><span class="line">org<span class="class">.gradle</span><span class="class">.jvmargs</span>=-Xmx1024m  #增大gradle运行的java虚拟机的大小</span><br></pre></td></tr></table></figure>
+<p> 同时上面的这些参数也可以配置到前面的用户目录下的gradle.properties文件里，那样就不是针对一个项目生效，而是针对所有项目生效。</p>
+<h1 id="升级Gradle_2-4">升级Gradle 2.4</h1><p>Gradle 2.4对执行性能有很大的优化，但Android Studio现在默认使用的是Gradle 2.2,<br>所以我们需要手动让Android Studio使用Gradle 2.4，在项目根目录下的 build.grade中加入</p>
+<figure class="highlight elm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">task</span> wrapper(<span class="typedef"><span class="keyword">type</span>: <span class="type">Wrapper</span>) <span class="container">&#123;</span><br><span class="line">    gradleVersion = '2.4'</span><br><span class="line">&#125;</span></span></span><br></pre></td></tr></table></figure>
+<p>然后打开终端执行 ./gradlew wrapper，就可以下载Gradle 2.4了，下载完成后，我们需要在<br>Android Studio让我们的项目使用Gradle 2.4</p>
+<h1 id="离线加载">离线加载</h1><p> 在不需要加载新的Jencter架包时可以使用离线加载<br> <img src="http://isming.qiniudn.com/as_gradle_offline.png" alt=""></p>
+<h1 id="打开dex增量编译">打开dex增量编译</h1><p>这还是一个实验性的功能，但是还是推荐打开试试<br>在项目主Module下的build.grade中加入<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">dexOptions</span> &#123;</span><br><span class="line">    <span class="title">incremental</span> <span class="built_in">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>以上配置完了，是不是明显快了很多。<br><strong>感谢参考</strong><br><a href="https://www.aswifter.com/2015/06/14/boost-android-studio/" target="_blank" rel="external">https://www.aswifter.com/2015/06/14/boost-android-studio/</a><br><a href="http://my.oschina.net/sammy1990/blog/388846" target="_blank" rel="external">http://my.oschina.net/sammy1990/blog/388846</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>Eclipse转到Android Stuido感受最明显的就是buid速度变慢了,对与一些项目庞大一点的的项目稍微改动一两行代码就要buid一分多钟，改动大一点往3分多钟去了。这样太影响开发效率。怎么办？换SSD？别急你可以先试试以下的方法</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://waylenw.github.io/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[日常优秀工具秘籍]]></title>
+    <link href="http://waylenw.github.io/recomd-dev-utils/"/>
+    <id>http://waylenw.github.io/recomd-dev-utils/</id>
+    <published>2015-12-31T16:00:00.000Z</published>
+    <updated>2016-04-12T09:22:03.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>不定时更新</strong></p>
+<h1 id="Markdown编写">Markdown编写</h1><ol>
+<li><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">Cmd Markdown</a><br>支持三大平台，对代码有高亮效果。支持云同步</li>
+<li><a href="http://25.io/mou/" target="_blank" rel="external">Mou</a><br>Mac下比较优秀的Markdown编写工具。(貌似1.0开始就要付费了)</li>
+<li><p><a href="https://atom.io/" target="_blank" rel="external">atom</a><br>有更好的代码高亮以及md语法的显示效果。能对多个md文件进行管理。</p>
+<a id="more"></a>    
+<h1 id="Android开发">Android开发</h1></li>
+<li><a href="http://tc.sigma-rt.com.cn/" target="_blank" rel="external">Toal Control</a><br>电脑控制手机。支持安卓多个版本。目前好像只有win版本</li>
+<li><a href="http://www.cockos.com/licecap/" target="_blank" rel="external">licecap</a><br>轻量级的录屏软件。有windows和osx的版本 </li>
+</ol>
+<h1 id="Mac">Mac</h1><ol>
+<li><a href="https://itunes.apple.com/cn/app/go2shell/id445770608?mt=12" target="_blank" rel="external">Go2Shell</a><br>在Finder中进入到终端的神器</li>
+<li><a href="http://www.openoffice.org/download/index.html" target="_blank" rel="external">oppenoffice</a><br>Apache下免费的office软件。支持跨平台</li>
+<li><a href="https://www.alfredapp.com/" target="_blank" rel="external">Alfred</a><br>Alfred是Mac下的搜索神器</li>
+<li><a href="http://freemacsoft.net/appcleaner/" target="_blank" rel="external">appcleaner</a><br>mac下卸载App。并支持搜索该软件创建的文件。</li>
+</ol>
+<h1 id="chorme插件">chorme插件</h1><blockquote>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDAxNTY4MA==&amp;mid=400675430&amp;idx=1&amp;sn=1f5f4f2aef4bb6935129bbac17b59a3c&amp;scene=0#wechat_redirect" target="_blank" rel="external">chrome你不得不知的实用技巧</a></p>
+</blockquote>
+<ol>
+<li><p><a href="https://chrome.google.com/webstore/search/Vysor?hl=zh-CN" target="_blank" rel="external">Vyor</a><br>电脑操作手机，只支持安卓。目前只是beta</p>
+</li>
+<li><p><a href="http://www.xmarks.com/" target="_blank" rel="external">xmarks</a><br>书签工具。国内使用chrome的同步书签不错的选择，轻巧实用。 </p>
+</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>不定时更新</strong></p>
+<h1 id="Markdown编写">Markdown编写</h1><ol>
+<li><a href="https://www.zybuluo.com/cmd/">Cmd Markdown</a><br>支持三大平台，对代码有高亮效果。支持云同步</li>
+<li><a href="http://25.io/mou/">Mou</a><br>Mac下比较优秀的Markdown编写工具。(貌似1.0开始就要付费了)</li>
+<li><p><a href="https://atom.io/">atom</a><br>有更好的代码高亮以及md语法的显示效果。能对多个md文件进行管理。</p>]]>
+    
+    </summary>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[日常优秀工具秘籍]]></title>
+    <link href="http://waylenw.github.io/img_test/"/>
+    <id>http://waylenw.github.io/img_test/</id>
+    <published>2015-12-31T16:00:00.000Z</published>
+    <updated>2017-01-22T08:22:45.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>不定时更新</strong></p>
+<h1 id="Markdown编写">Markdown编写</h1><ol>
+<li><a href="https://www.zybuluo.com/cmd/" target="_blank" rel="external">Cmd Markdown</a><br>支持三大平台，对代码有高亮效果。支持云同步</li>
+<li><a href="http://25.io/mou/" target="_blank" rel="external">Mou</a><br>Mac下比较优秀的Markdown编写工具。(貌似1.0开始就要付费了)</li>
+<li><p><a href="https://atom.io/" target="_blank" rel="external">atom</a><br>有更好的代码高亮以及md语法的显示效果。能对多个md文件进行管理。</p>
+<a id="more"></a>    
+<h1 id="Android开发">Android开发</h1></li>
+<li><a href="http://tc.sigma-rt.com.cn/" target="_blank" rel="external">Toal Control</a><br>电脑控制手机。支持安卓多个版本。目前好像只有win版本</li>
+<li><a href="http://www.cockos.com/licecap/" target="_blank" rel="external">licecap</a><br>轻量级的录屏软件。有windows和osx的版本 </li>
+</ol>
+<h1 id="Mac">Mac</h1><ol>
+<li><a href="https://itunes.apple.com/cn/app/go2shell/id445770608?mt=12" target="_blank" rel="external">Go2Shell</a><br>在Finder中进入到终端的神器</li>
+<li><a href="http://www.openoffice.org/download/index.html" target="_blank" rel="external">oppenoffice</a><br>Apache下免费的office软件。支持跨平台</li>
+<li><a href="https://www.alfredapp.com/" target="_blank" rel="external">Alfred</a><br>Alfred是Mac下的搜索神器</li>
+<li><a href="http://freemacsoft.net/appcleaner/" target="_blank" rel="external">appcleaner</a><br>mac下卸载App。并支持搜索该软件创建的文件。</li>
+</ol>
+<h1 id="chorme插件">chorme插件</h1><blockquote>
+<p><a href="http://mp.weixin.qq.com/s?__biz=MjM5NDAxNTY4MA==&amp;mid=400675430&amp;idx=1&amp;sn=1f5f4f2aef4bb6935129bbac17b59a3c&amp;scene=0#wechat_redirect" target="_blank" rel="external">chrome你不得不知的实用技巧</a></p>
+</blockquote>
+<ol>
+<li><p><a href="https://chrome.google.com/webstore/search/Vysor?hl=zh-CN" target="_blank" rel="external">Vyor</a><br>电脑操作手机，只支持安卓。目前只是beta</p>
+</li>
+<li><p><a href="http://www.xmarks.com/" target="_blank" rel="external">xmarks</a><br>书签工具。国内使用chrome的同步书签不错的选择，轻巧实用。 </p>
+</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>不定时更新</strong></p>
+<h1 id="Markdown编写">Markdown编写</h1><ol>
+<li><a href="https://www.zybuluo.com/cmd/">Cmd Markdown</a><br>支持三大平台，对代码有高亮效果。支持云同步</li>
+<li><a href="http://25.io/mou/">Mou</a><br>Mac下比较优秀的Markdown编写工具。(貌似1.0开始就要付费了)</li>
+<li><p><a href="https://atom.io/">atom</a><br>有更好的代码高亮以及md语法的显示效果。能对多个md文件进行管理。</p>]]>
+    
+    </summary>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android SurfaceView的基本介绍(一)]]></title>
+    <link href="http://waylenw.github.io/Android/android-surfaceview-one/"/>
+    <id>http://waylenw.github.io/Android/android-surfaceview-one/</id>
+    <published>2015-12-25T16:00:00.000Z</published>
+    <updated>2016-04-12T09:15:08.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="概述">概述</h1><ul>
+<li><strong>官方APi的描述</strong><br>SurfaceView是视图(View)的继承类，这个视图里内嵌了一个专门用于绘制的Surface。你可以控制这个Surface的格式和尺寸。Surfaceview控制这个Surface的绘制位置。surface是纵深排序(Z-ordered)的，这表明它总在自己所在窗口的后面。surfaceview提供了一个可见区域，只有在这个可见区域内 的surface部分内容才可见，可见区域外的部分不可见。surface的排版显示受到视图层级关系的影响，它的兄弟视图结点会在顶端显示。这意味者 surface的内容会被它的兄弟视图遮挡，这一特性可以用来放置遮盖物(overlays)(例如，文本和按钮等控件)。注意，如果surface上面 有透明控件，那么它的每次变化都会引起框架重新计算它和顶层控件的透明效果，这会影响性能。</li>
+<li><strong>定义</strong><br>SurfaceView是View类的子类，可以直接从内存或者DMA等硬件接口取得图像数据，是个非常重要的绘图视图。它的特性是：可以在主线程之外的线程中向屏幕绘图上。这样可以避免画图任务繁重的时候造成主线程阻塞，从而提高了程序的反应速度。在游戏开发中多用到SurfaceView，游戏中的背景、人物、动画等等尽量在画布canvas中画出。</li>
+<li><p><strong>绘制机制</strong><br>更详细的讲解:<a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1201/656.html" target="_blank" rel="external">http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1201/656.html</a></p>
+<a id="more"></a>     
+<h1 id="实现">实现</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainActivity</span> <span class="keyword">extends</span> <span class="title">Activity</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> SurfaceView surfaceView</span><br><span class="line"></span><br><span class="line">　　　 <span class="annotation">@Override</span></span><br><span class="line">     <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">        surfaceView=<span class="keyword">new</span> SurfaceView(<span class="keyword">this</span>);</span><br><span class="line">        setContentView(surfaceView);</span><br><span class="line">        surfaceView.getHolder().addCallback(callback);</span><br><span class="line">     &#125;</span><br><span class="line"></span><br><span class="line">    </span><br><span class="line">   <span class="comment">/**</span><br><span class="line">    * surface的回调</span><br><span class="line">    */</span></span><br><span class="line">   <span class="keyword">private</span> SurfaceHolder.Callback callback = <span class="keyword">new</span> SurfaceHolder.Callback() &#123;</span><br><span class="line">       <span class="annotation">@Override</span></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">surfaceDestroyed</span><span class="params">(SurfaceHolder holder)</span> </span>&#123;</span><br><span class="line">       <span class="comment">//在surface销毁的时候调用</span></span><br><span class="line"></span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       <span class="annotation">@Override</span></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">surfaceCreated</span><span class="params">(SurfaceHolder holder)</span> </span>&#123;</span><br><span class="line">           <span class="comment">//在创建时激发，一般在这里调用画图的线程。</span></span><br><span class="line">                </span><br><span class="line"></span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       <span class="annotation">@Override</span></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">surfaceChanged</span><span class="params">(SurfaceHolder holder, <span class="keyword">int</span> format,</span><br><span class="line">                                  <span class="keyword">int</span> width, <span class="keyword">int</span> height)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//销毁时激发，一般在这里将画图的线程停止、释放。</span></span><br><span class="line"></span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">    &#125;;　　</span><br><span class="line">   &#125;      　　</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="概述">概述</h1><ul>
+<li><strong>官方APi的描述</strong><br>SurfaceView是视图(View)的继承类，这个视图里内嵌了一个专门用于绘制的Surface。你可以控制这个Surface的格式和尺寸。Surfaceview控制这个Surface的绘制位置。surface是纵深排序(Z-ordered)的，这表明它总在自己所在窗口的后面。surfaceview提供了一个可见区域，只有在这个可见区域内 的surface部分内容才可见，可见区域外的部分不可见。surface的排版显示受到视图层级关系的影响，它的兄弟视图结点会在顶端显示。这意味者 surface的内容会被它的兄弟视图遮挡，这一特性可以用来放置遮盖物(overlays)(例如，文本和按钮等控件)。注意，如果surface上面 有透明控件，那么它的每次变化都会引起框架重新计算它和顶层控件的透明效果，这会影响性能。</li>
+<li><strong>定义</strong><br>SurfaceView是View类的子类，可以直接从内存或者DMA等硬件接口取得图像数据，是个非常重要的绘图视图。它的特性是：可以在主线程之外的线程中向屏幕绘图上。这样可以避免画图任务繁重的时候造成主线程阻塞，从而提高了程序的反应速度。在游戏开发中多用到SurfaceView，游戏中的背景、人物、动画等等尽量在画布canvas中画出。</li>
+<li><p><strong>绘制机制</strong><br>更详细的讲解:<a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1201/656.html">http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1201/656.html</a></p>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android Studio Mac快捷键]]></title>
+    <link href="http://waylenw.github.io/AndroidStudio/androdi-studio-mac-keymap/"/>
+    <id>http://waylenw.github.io/AndroidStudio/androdi-studio-mac-keymap/</id>
+    <published>2015-12-22T03:46:47.000Z</published>
+    <updated>2015-12-22T03:46:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="设置Keymap">设置Keymap</h1><p>setting=&gt;左侧输入框输入keymap。如图<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/Mac/mac_keymap.png" alt=""></p>
+<h1 id="[Eclipse_Mac_osx]版常用快捷键">[Eclipse Mac osx]版常用快捷键</h1><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">cmd+[               	<span class="comment">//返回到上一个查看代码的位置(蓝色按钮Back)	</span></span><br><span class="line">cmd+]					<span class="comment">//返回到下一个之前查看代码的位置(蓝色按钮Forword)</span></span><br><span class="line">cmd+<span class="keyword">d</span> 					<span class="comment">//删除一行</span></span><br><span class="line">cmd+o					<span class="comment">//查看当前类所有方法</span></span><br><span class="line">cmd+alt+下方向键      	 <span class="comment">//复制一行代码</span></span><br><span class="line">ctrl+鼠标左键         	<span class="comment">//跳如该方法或者该文件内</span></span><br><span class="line">cmd+enter				<span class="comment">//快速修复</span></span><br><span class="line">cmd+shift+f				<span class="comment">//格式化代码	</span></span><br><span class="line">cmd+shirt+r				<span class="comment">//全局文件快速查找</span></span><br><span class="line">ctrl+<span class="keyword">h</span> 					<span class="comment">//全局查找</span></span><br></pre></td></tr></table></figure>
+<p><strong>异常问题修复</strong><br>切换到eclipse_mac_osx的keymap的发现搜索关键词的快捷键无效</p>
+<ol>
+<li>先在keymap栏的右侧输入find关键词，你会发现find功能没有指定快捷键<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/Mac/mackeymap1.png" alt=""></li>
+<li>接下来你需要双击该列，就会弹出一个菜单. </li>
+<li>点击菜单后选择Add keybord shortcut。<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/Mac/mackeymap2.png" alt=""></li>
+<li>然后给他设置一个快捷键就可以了<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/Mac/mackeymap3.png" alt=""><br>我这里设置的cmd+f。可以根据自己需要去设置。    </li>
+</ol>
+<h1 id="[Mac_osx]版常用快捷键">[Mac osx]版常用快捷键</h1><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">cmd+[               	<span class="comment">//返回到上一个查看代码的位置(蓝色按钮Back)	</span></span><br><span class="line">cmd+]					<span class="comment">//返回到下一个之前查看代码的位置(蓝色按钮Forword)</span></span><br><span class="line">cmd+<span class="keyword">d</span> 					<span class="comment">//复制上一行</span></span><br><span class="line">cmd+o					<span class="comment">//查看当前类所有方法</span></span><br><span class="line">cmd+alt+下方向键      	 <span class="comment">//复制一行代码</span></span><br><span class="line">cmd+鼠标左键         	<span class="comment">//跳如该方法或者该文件内</span></span><br><span class="line">alt+enter				<span class="comment">//快速修复</span></span><br><span class="line">cmd+shift+<span class="keyword">l</span>				<span class="comment">//格式化代码	</span></span><br><span class="line">cmd+shirt+r				<span class="comment">//全局文件快速查找</span></span><br><span class="line">Shift+F6				<span class="comment">//重命名</span></span><br></pre></td></tr></table></figure>
+<p>Search<br><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cmd</span>+R         	//<span class="built_in">Replace</span></span><br><span class="line"><span class="built_in">Cmd</span>+F			//<span class="built_in">find</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="自定义快捷键">自定义快捷键</h1><p>如以上的快捷键都不满意,可以自行修改快捷键。详细流程可以参考上面的异常问题修复<br><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">关键字              	 功能</span><br><span class="line"><span class="keyword">back</span>				回退到上一个文件查看的位置</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="设置Keymap">设置Keymap</h1><p>setting=&gt;左侧输入框输入keymap。如图<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/Mac/m]]>
+    </summary>
+    
+      <category term="Android Studio" scheme="http://waylenw.github.io/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android Studio logcat高亮]]></title>
+    <link href="http://waylenw.github.io/AndroidStudio/android-studio-logcat-highlight/"/>
+    <id>http://waylenw.github.io/AndroidStudio/android-studio-logcat-highlight/</id>
+    <published>2015-11-30T16:00:00.000Z</published>
+    <updated>2016-04-12T09:16:20.000Z</updated>
+    <content type="html"><![CDATA[<p>Android studio中默认的日志打印都是白色。这对我们日常开发查找Log信息非常影响效率。此时我们就需要对Log信息根据级别进行相应高亮。其实配置log级别对应的颜色相对简单，但是很多开发者并不知道由此功能。</p>
+ <a id="more"></a>    
+<h1 id="效果图">效果图</h1><p>  <img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/androidstudio/logcat1.png" alt=""></p>
+<h1 id="如何配置logcat高亮">如何配置logcat高亮</h1><p>  在工具栏中找到<code>setting=&gt;android logcat</code>.即可对Android logcat日志各种打印级别设置颜色。<br>  在选择时 要将红色的框内的钩取消才可编辑。<br>    <img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/androidstudio/logcat.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Android studio中默认的日志打印都是白色。这对我们日常开发查找Log信息非常影响效率。此时我们就需要对Log信息根据级别进行相应高亮。其实配置log级别对应的颜色相对简单，但是很多开发者并不知道由此功能。</p>]]>
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://waylenw.github.io/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android Studio添加版本控制]]></title>
+    <link href="http://waylenw.github.io/AndroidStudio/android-studio-add-cvs-control/"/>
+    <id>http://waylenw.github.io/AndroidStudio/android-studio-add-cvs-control/</id>
+    <published>2015-11-30T16:00:00.000Z</published>
+    <updated>2016-04-12T09:15:53.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>有时候在切换多个Android studio的项目时候,原本项目是由svn或者git管理或者你的项目是由其他的版本控制工具clone下来的，你会发现在项目包中点击右键弹出的菜单,你会发现并没有git或者svn的选项。那么如何解决呢,看下文。</p>
+</blockquote>
+ <a id="more"></a>    
+<ol>
+<li>菜单里点击cvs<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/AndroidStudio/androidstudio_cvs.png"></li>
+<li>然后选中Enable Vesion……..<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/AndroidStudio/androidstudio_cvs(1).png"></li>
+<li>紧接着选中相应版本控制就可以了<br><img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/camera/AndroidStudio/androidstudio_cvs(2).png"></li>
+<li>最后在项目包中鼠标右键就可以看到git选项了。</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>有时候在切换多个Android studio的项目时候,原本项目是由svn或者git管理或者你的项目是由其他的版本控制工具clone下来的，你会发现在项目包中点击右键弹出的菜单,你会发现并没有git或者svn的选项。那么如何解决呢,看下文。</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://waylenw.github.io/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android Studio使用教程]]></title>
+    <link href="http://waylenw.github.io/AndroidStudio/android-studio-control-teacher/"/>
+    <id>http://waylenw.github.io/AndroidStudio/android-studio-control-teacher/</id>
+    <published>2015-11-28T16:00:00.000Z</published>
+    <updated>2016-07-05T03:46:52.000Z</updated>
+    <content type="html"><![CDATA[<p>最后更新时间2016-07-04</p>
+<blockquote>
+<p>推荐链接<br>   <a href="http://www.android-studio.org/" target="_blank" rel="external">Android studio中文社区</a><br>   <a href="https://sites.google.com/a/android.com/tools/download/studio/canary" target="_blank" rel="external">Android studio官方下载的版本列表</a><br>   <a href="http://android.jobbole.com/81687/?url_type=39&amp;object_type=webpage&amp;pos=1" target="_blank" rel="external">倍数提高工作效率的 Android Studio 奇技</a></p>
+</blockquote>
+ <a id="more"></a>    
+<h2 id="历史">历史</h2><p><a href="http://www.jcodecraeer.com/a/anzhuokaifa/Android_Studio/2015/0804/3258.html" target="_blank" rel="external">Android studio1.3新特性</a><br><a href="http://blog.csdn.net/crazy1235/article/details/49747141#vectordrawable" target="_blank" rel="external">Android studio1.4新特性</a><br><a href="http://android.jobbole.com/82127/" target="_blank" rel="external">Android studio2.0新特性</a></p>
+<h2 id="基本操作">基本操作</h2><p> <a href="http://blog.csdn.net/ryantang03/article/details/8941364" target="_blank" rel="external">Android studio的基础使用教程一</a><br> <a href="http://www.cnblogs.com/junyuz/p/4469344.html" target="_blank" rel="external">Android Studio更新升级方法</a></p>
+<h2 id="工具配置">工具配置</h2><p> <a href="http://waylenw.github.io/AndroidStudio/android-studio-logcat-highlight/">Android studio logcat高亮</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/49763473" target="_blank" rel="external"> Android studio mac 快捷键</a></p>
+<h2 id="项目构建">项目构建</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46423571" target="_blank" rel="external">Android Studio导入Eclipse项目</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46423293" target="_blank" rel="external">Android Studio导入AS项目(出现的问题) </a><br> <a href="http://www.jianshu.com/p/a0b4c4691407" target="_blank" rel="external">Android Studio使用jni、so库</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46728385" target="_blank" rel="external">Android Studio开发JNI工程</a><br> <a href="http://waylenw.github.io/AndroidStudio/android-studio-build-speed/">Android Studio Build缓慢问题</a><br> <a href="http://blog.csdn.net/yyh352091626/article/details/51490976#rd" target="_blank" rel="external">Android Studio导入项目在buid环节卡主问题</a></p>
+<h2 id="Gradle">Gradle</h2><p> <a href="http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/" target="_blank" rel="external">Gradle基础</a><br> <a href="http://blog.saymagic.cn/2015/02/16/release-library-to-jcenter.html" target="_blank" rel="external">Android发布项目到JCenter</a></p>
+<h2 id="插件">插件</h2><p><a href="https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/" target="_blank" rel="external">Android Studio插件整理(荐)</a><br><a href="http://www.zhihu.com/question/28026027" target="_blank" rel="external">Android Studio插件汇总(知乎)</a></p>
+<h2 id="打包">打包</h2><p> <a href="http://blog.csdn.net/ljchlx/article/details/43059467" target="_blank" rel="external">多渠道打包</a></p>
+<h2 id="Git和GitHub">Git和GitHub</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/47834533#t2" target="_blank" rel="external">Android studio上使用github</a></p>
+<h2 id="异常解决">异常解决</h2><ul>
+<li><a href="http://blog.csdn.net/github_25928675/article/details/46483731" target="_blank" rel="external">Android Studio Failed to complete Gradle execution</a></li>
+<li><a href="http://blog.csdn.net/github_25928675/article/details/46564727" target="_blank" rel="external">Android studio报AAPT err(854725124):</a></li>
+<li><a href="http://blog.csdn.net/github_25928675/article/details/46482475" target="_blank" rel="external"> AndroidStudio_local path doesn’t exist解决办法</a></li>
+<li><a href="http://blog.csdn.net/github_25928675/article/details/46481849" target="_blank" rel="external"> Could not download artifact ‘ecj.jar (org.eclipse.jdt.core.compiler:ecj:4.4.2)</a></li>
+<li><a href="http://blog.csdn.net/github_25928675/article/details/46695217" target="_blank" rel="external"> Android Studio 错误: 非法字符: ‘\ufeff’ 解决方案|错误: 需要class, interface或enum</a></li>
+<li><a href="http://blog.csdn.net/github_25928675/article/details/46482475" target="_blank" rel="external">AndroidStudio_local path doesn’t exist解决办法</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最后更新时间2016-07-04</p>
+<blockquote>
+<p>推荐链接<br>   <a href="http://www.android-studio.org/">Android studio中文社区</a><br>   <a href="https://sites.google.com/a/android.com/tools/download/studio/canary">Android studio官方下载的版本列表</a><br>   <a href="http://android.jobbole.com/81687/?url_type=39&amp;object_type=webpage&amp;pos=1">倍数提高工作效率的 Android Studio 奇技</a></p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://waylenw.github.io/tags/Android-Studio/"/>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexo搭建博客之更换主题以及博客基本配置(二)]]></title>
+    <link href="http://waylenw.github.io/hexo/hexo-two/"/>
+    <id>http://waylenw.github.io/hexo/hexo-two/</id>
+    <published>2015-11-19T16:00:00.000Z</published>
+    <updated>2016-04-11T14:37:22.000Z</updated>
+    <content type="html"><![CDATA[<p> 在经过上一篇的博客搭建后，很多是否对默认的主题并不是很满意，是否希望可以打造一款属于自己风格的博客主题呢？</p>
+<h1 id="更换主题">更换主题</h1><p> <strong>有哪些主题可以更换</strong></p>
+<ul>
+<li><a href="https://hexo.io/themes/" target="_blank" rel="external">hexo官方主题</a></li>
+<li><a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">github上的hexo的主题大全</a></li>
+<li><a href="http://www.zhihu.com/question/24422335/answer/46357100" target="_blank" rel="external">知乎上的hexo的主题排行版</a></li>
+</ul>
+<p><strong>如何进行更换主题</strong><br><a href="http://wuchong.me/jacman/2014/11/20/how-to-use-jacman/#more" target="_blank" rel="external">Jacman主题使用教程</a></p>
+<h1 id="主题和博客的相关配置">主题和博客的相关配置</h1><p> <strong>添加导航项目</strong></p>
+<p>以我的路径为例:<code>G:\Hexo\themes\jacman\_config.xml</code>主题默认的两个导    航是主页和<code>归档: /archives</code>后是导航的访问路径。前面是导航的名称    根据这个规律自行添加导航和访问路径即可</p>
+ <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">##### Menu  导航项</span></span><br><span class="line"><span class="label">menu:</span></span><br><span class="line"> 主页: /      </span><br><span class="line"> 归档: /archives</span><br><span class="line"> 摄影: /cameras</span><br><span class="line"> About: /abouts</span><br></pre></td></tr></table></figure>
+<p> <strong>为导航项设置加载页面</strong></p>
+<p> archives导航是默认开启的，archives导航下的文章默认的目录是<code>source\_posts\</code>在此文件夹下新建xx.md文件。归档下就会显示相应的文章item<br> cameras和abouts导航对应的文件夹是<code>sourc/cameras和source/abouts</code>。并在此目录下新建index.md.之后点击对应的menus时就默认加载目录下index.md文件</p>
+<h1 id="生成rss">生成rss</h1><p> 生成插件</p>
+ <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="operator"><span class="keyword">install</span> hexo-generator-feed <span class="comment">--save</span></span></span><br></pre></td></tr></table></figure>
+<p> 配置<code>hexo/_config.xml</code>(详情可以查看第一篇时提供的_config.xml)</p>
+ <figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">plugins: #插件，例如生成 RSS 和站点地图的<span class="bullet">- </span>hero-generator-feed<span class="bullet">- </span>hexo-generator-sitemap</span><br></pre></td></tr></table></figure>
+<p> 这里要注意的是该配置必须在themes设置的前面配置,否则不起作用。配置完后clean一下重新生成一下就好。<br> 最后需要在导航上添加你的RSS链接。具体查看相关的主题配置。</p>
+<p> 以下是RSS的链接(比如我的),部署到服务器,输入此链接看是否生效<br> <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">waylenw<span class="class">.github</span><span class="class">.io</span>/atom.xml</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p> 在经过上一篇的博客搭建后，很多是否对默认的主题并不是很满意，是否希望可以打造一款属于自己风格的博客主题呢？</p>
+<h1 id="更换主题">更换主题</h1><p> <strong>有哪些主题可以更换</strong></p>
+<ul>
+<li><a href="ht]]>
+    </summary>
+    
+      <category term="hexo" scheme="http://waylenw.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Mac使用操作大全]]></title>
+    <link href="http://waylenw.github.io/Mac/mac-control-all/"/>
+    <id>http://waylenw.github.io/Mac/mac-control-all/</id>
+    <published>2015-11-15T16:00:00.000Z</published>
+    <updated>2016-03-14T11:48:17.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>本博主要是mac使用操作教程汇总。不定时的更新。</p>
+</blockquote>
+<p> 推荐：<br> <a href="https://aaaaaashu.gitbooks.io/mac-dev-setup/content/SystemPreferences/index.html" target="_blank" rel="external">Mac开发配置配置手册</a></p>
+<h1 id="系统基本介绍">系统基本介绍</h1><p> <a href="http://blog.csdn.net/smstong/article/details/15499661" target="_blank" rel="external">系统目录结构介绍</a><br></p>
+<h1 id="基本操作">基本操作</h1><blockquote>
+<p><a href="http://sspai.com/28012/" target="_blank" rel="external">Mac卸载软件的四种方法</a><br>  <a href="http://jingyan.baidu.com/article/8cdccae965875c315413cdfe.html" target="_blank" rel="external">Mac修改hosts文件</a></p>
+</blockquote>
+<p> <strong>如何使用右键</strong></p>
+<blockquote>
+<p>1.两指点击触摸板<br>  2.⌃+单击触摸板</p>
+</blockquote>
+<p> <strong>手势操作</strong></p>
+<blockquote>
+<p>系统偏好设置＝》触摸板＝》里面可以查看所有相关的手势操作，有图演示非常易懂<br> <a href="http://www.ifunmac.com/2012/11/mac-gesture/" target="_blank" rel="external">20个Mac用户必须掌握的触摸手势</a></p>
+</blockquote>
+<h1 id="软件">软件</h1><p><a href="http://blog.csdn.net/github_25928675/article/details/49179247" target="_blank" rel="external">OS x yosemite jdk安装路径和环境变量配置</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>本博主要是mac使用操作教程汇总。不定时的更新。</p>
+</blockquote>
+<p> 推荐：<br> <a href="https://aaaaaashu.gitbooks.io/mac-dev-setup/content/SystemPr]]>
+    </summary>
+    
+      <category term="Mac" scheme="http://waylenw.github.io/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[移动开发博客汇总]]></title>
+    <link href="http://waylenw.github.io/mobole-all-blog/"/>
+    <id>http://waylenw.github.io/mobole-all-blog/</id>
+    <published>2015-10-14T16:00:00.000Z</published>
+    <updated>2016-06-13T02:17:33.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>不定时更新</strong></p>
+<blockquote>
+<p>本文主要是收集移动开发的大神系列的博客(目前主要是Android方向),以及一些高质量的文章的网站。</p>
+</blockquote>
+ <a id="more"></a>    
+<p><strong>推荐</strong><br><a href="https://github.com/yeungeek/android-dev-cn" target="_blank" rel="external">android-dev-cn(Android开发大神博客汇总)</a></p>
+<h1 id="组织">组织</h1><ul>
+<li><p><a href="https://github.com/square" target="_blank" rel="external">Square</a><br>美国一家支付公司。<br>开源项目有:</p>
+<ul>
+<li><a href="https://github.com/square/okhttp" target="_blank" rel="external">okhttp</a><br>Android网络请求框架。支持HTTP2.0。有对推送等一些功能的封装。</li>
+</ul>
+</li>
+<li><p><a href="https://github.com/facebook" target="_blank" rel="external">facebook</a><br> 脸书，全球最火的社交软件。<br> 开源项目有:</p>
+<ul>
+<li><a href="https://github.com/facebook/react-native" target="_blank" rel="external">react-native</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/taobao" target="_blank" rel="external">淘宝</a><br> 这个就不介绍了<br> 开源项目:</li>
+</ul>
+<!-- more -->       
+<h1 id="Android">Android</h1><h2 id="国外">国外</h2><ol>
+<li>hannesdorfmann<br>blog:<a href="http://hannesdorfmann.com" target="_blank" rel="external">http://hannesdorfmann.com</a><br>github:<a href="https://github.com/sockeqwe?tab=repositories" target="_blank" rel="external">https://github.com/sockeqwe?tab=repositories</a></li>
+</ol>
+<h2 id="国内">国内</h2><ol>
+<li><p><strong>胡凯</strong><br>Android training的中文发起者。性能优化典范中文译文。目就职于腾讯<br>CSDN_blog:<a href="http://blog.csdn.net/kesenhoo/article/details/7362512" target="_blank" rel="external">http://blog.csdn.net/kesenhoo/article/details/7362512</a><br>个人网站:<a href="http://hukai.me/" target="_blank" rel="external">http://hukai.me/</a></p>
+</li>
+<li><p><strong>鸿洋</strong><br>很多自定义View的教程，博客通俗易懂<br>blog:<a href="http://blog.csdn.net/lmj623565791?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/lmj623565791?viewmode=contents</a><br>github:<a href="https://github.com/sockeqwe?tab=repositories/" target="_blank" rel="external">https://github.com/sockeqwe?tab=repositories/</a>“</p>
+</li>
+<li><p><strong>trinea</strong><br>性能优化，Android开源项目汇总<br>blog:<a href="http://www.trinea.cn/category/android" target="_blank" rel="external">http://www.trinea.cn/category/android</a><br>Iteye的blog:<a href="http://trinea.iteye.com/" target="_blank" rel="external">http://trinea.iteye.com/</a><br>github:<a href="https://github.com/Trinea" target="_blank" rel="external">https://github.com/Trinea</a></p>
+</li>
+<li><p><strong>徐宜生</strong><br>《Android群英传》的作者。慕课网的讲师。较为突出对多图形图像。<br>blog:<a href="http://blog.csdn.net/eclipsexys?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/eclipsexys?viewmode=contents</a><br>简书:<a href="http://www.jianshu.com/users/dfc0ed52c22b/latest_articles" target="_blank" rel="external">http://www.jianshu.com/users/dfc0ed52c22b/latest_articles</a></p>
+</li>
+<li><p><strong>张明云</strong><br>知乎Android频道的热门回答常客。具有丰富Andorid开发经验.<br>blog:<a href="http://zmywly8866.github.io/" target="_blank" rel="external">http://zmywly8866.github.io/</a></p>
+</li>
+<li><p><strong>张兴业</strong><br>csdn博客专家。对ios和android都相关的博客专栏<br>blog:<a href="http://blog.csdn.net/xyz_lmn?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/xyz_lmn?viewmode=contents</a></p>
+</li>
+<li><p><strong>任玉刚</strong><br>csdn博客专家.《Android开发艺术探索的作者》.在百度安全卫士的团队<br>blog:<a href="http://blog.csdn.net/singwhatiwanna" target="_blank" rel="external">http://blog.csdn.net/singwhatiwanna</a></p>
+</li>
+<li><p><strong>农民伯伯</strong><br>Android中文Api的发起人。<br>blog:<a href="http://www.cnblogs.com/over140/" target="_blank" rel="external">http://www.cnblogs.com/over140/</a></p>
+</li>
+<li><p><strong>郭霖</strong><br>《Android第一行代码》的作者。有很多实战性博客。知识点很深入<br>blog:<a href="http://blog.csdn.net/guolin_blog" target="_blank" rel="external">http://blog.csdn.net/guolin_blog</a></p>
+</li>
+<li><p><strong>夏安明</strong><br>知识点比较深入，比较多的源码分析的讲解。涉及功能应用也比较多。<br>blog:<a href="http://blog.csdn.net/xiaanming?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/xiaanming?viewmode=contents</a></p>
+</li>
+<li><p><strong>stormzhang</strong><br>9GAG、CustomLoading等的开源项目的作者。薄荷科技的项目主管。<br>blog:<a href="http://stormzhang.com/" target="_blank" rel="external">http://stormzhang.com/</a></p>
+</li>
+<li><p><strong>工匠若水</strong><br>csdn博客专家。设计模式的深入理解。很多源码级的解析。<br>blog:<a href="http://blog.csdn.net/yanbober" target="_blank" rel="external">http://blog.csdn.net/yanbober</a></p>
+</li>
+<li><p><strong>巫_1曲待续</strong><br>很多基础性性文章，而且比较全面。推荐新手收藏的。<br>blog:<a href="http://blog.csdn.net/wwj_748?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/wwj_748?viewmode=contents</a></p>
+</li>
+<li><p><strong>阳春面</strong><br>寻找的干货收集好地方，官方教程的中文版的收集<br>blog:<a href="http://www.aswifter.com" target="_blank" rel="external">http://www.aswifter.com</a></p>
+</li>
+<li><p><strong>xiaochao1234</strong><br>很多基础的文章，包含一些开发初学者的建议<br>blog:<a href="http://www.cnblogs.com/xiaochao1234/archive/2015/06.html" target="_blank" rel="external">http://www.cnblogs.com/xiaochao1234/archive/2015/06.html</a></p>
+</li>
+<li><p><strong>lightSky</strong><br>blog:<a href="https://github.com/lightSky" target="_blank" rel="external">https://github.com/lightSky</a></p>
+</li>
+</ol>
+<h2 id="优秀博文网站">优秀博文网站</h2><ol>
+<li><p>泡在网上的日子<br>新技术看这里基本ok，转载博客的质量很高<br>网址链接：<a href="http://www.jcodecraeer.com/plus/list.php?tid=18" target="_blank" rel="external">http://www.jcodecraeer.com/plus/list.php?tid=18</a></p>
+</li>
+<li><p>Android 开发周报<br>收集Android开发最新的一些文章和开源项目<br>网址链接：<a href="http://www.race604.com/tag/Android-Weekly/" target="_blank" rel="external">http://www.race604.com/tag/Android-Weekly/</a></p>
+</li>
+<li><p>开发技术前线<br>高质量文章转载<br>网址链接：<a href="http://www.devtf.cn/" target="_blank" rel="external">http://www.devtf.cn/</a></p>
+</li>
+<li><p>技术小黑屋<br>技术分享(书籍和文章不等主要的方向是java和andrid)<br>网址链接：<a href="http://droidyue.com/" target="_blank" rel="external">http://droidyue.com/</a></p>
+</li>
+<li><p>程序员头条<br>为程序员提供iOS、C++、Java、Android、Web、C、.net在线学习平台<br>网址链接：<a href="http://www.90159.com/" target="_blank" rel="external">http://www.90159.com/</a></p>
+</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>不定时更新</strong></p>
+<blockquote>
+<p>本文主要是收集移动开发的大神系列的博客(目前主要是Android方向),以及一些高质量的文章的网站。</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+</feed>

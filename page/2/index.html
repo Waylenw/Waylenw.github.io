@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <meta charset="utf-8">
+    
+    <title>WaylenWang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="WaylenWang、Android开发教程完全。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WaylenWang">
+<meta property="og:url" content="http://waylenw.github.io/page/2/index.html">
+<meta property="og:site_name" content="WaylenWang">
+<meta property="og:description" content="WaylenWang、Android开发教程完全。">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="WaylenWang">
+<meta name="twitter:description" content="WaylenWang、Android开发教程完全。">
+    
+
+    
+        <link rel="alternate" href="/" title="WaylenWang" type="application/atom+xml" />
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css" type="text/css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css" type="text/css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css" type="text/css">
+    
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">WaylenWang</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js" type="text/javascript"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.png" />
+            <h2 id="name">PPOffice</h2>
+            <h3 id="title">Web Developer &amp; Designer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Harbin, China</span>
+            <a id="follow" target="_blank" href="https://github.com/ppoffice/">关注我</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                25
+                <span>文章</span>
+            </div>
+            <div class="article-info-block">
+                7
+                <span>标签</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main">
+    <article id="post-Android/Android-sdk-6-change" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/Android/Android-sdk-6-change/">Android 6.0的改变</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/Android/Android-sdk-6-change/">
+            <time datetime="2015-10-10T16:00:00.000Z" itemprop="datePublished">2015-10-11</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Android/">Android</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><p> <strong>更新ing</strong></p>
+<blockquote>
+<p>原文链接:<a href="http://developer.android.com/intl/zh-cn/about/versions/marshmallow/android-6.0-changes.html">http://developer.android.com/intl/zh-cn/about/versions/marshmallow/android-6.0-changes.html</a></p>
+</blockquote></p>
+            <p class="article-more-link">
+                <a href="/Android/Android-sdk-6-change/#more">查看更多</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://waylenw.github.io/Android/Android-sdk-6-change/" data-id="ciy8ed1fm0000z60xj1ccfo6t" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://waylenw.github.io/Android/Android-sdk-6-change/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://waylenw.github.io/Android/Android-sdk-6-change/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-Android/android-fragment-change-one" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/Android/android-fragment-change-one/">Android Fragment切换解决方案之FragmentTransaction（一）</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/Android/android-fragment-change-one/">
+            <time datetime="2015-10-08T16:00:00.000Z" itemprop="datePublished">2015-10-09</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Android/">Android</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><blockquote>
+<p>fragment切换？不就是Viewpager+fragment吗？是的这是很大多数App采用的切换的组合方式。但是Viewpager+fragment切换的的生命周期十分混乱，这就是会引发很多的坑！如果在一些不需要切换的动画的情况下，采用FragmentTransaction动态切换是一个不错的选择</p>
+</blockquote></p>
+            <p class="article-more-link">
+                <a href="/Android/android-fragment-change-one/#more">查看更多</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://waylenw.github.io/Android/android-fragment-change-one/" data-id="ciy8ed1kh001nz60xghta5x5f" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://waylenw.github.io/Android/android-fragment-change-one/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://waylenw.github.io/Android/android-fragment-change-one/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-mobile/google-service-all" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/mobile/google-service-all/">Google相关服务汇总</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/mobile/google-service-all/">
+            <time datetime="2015-09-29T16:00:00.000Z" itemprop="datePublished">2015-09-30</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/mobile/">mobile</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <ol>
+<li><strong><a href="https://store.google.com/" target="_blank" rel="external">google商店</a></strong><br>购买nexus系列手机,平板,android wear系统产品<br>目前国内的ip(非Vpn工具fq)是无法访问Google store的。只能通过VPN访问。</li>
+</ol>
+<ol>
+<li><strong><a href="https://play.google.com/store" target="_blank" rel="external">google play</a></strong><br>Android官方的APP商店。</li>
+</ol>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://waylenw.github.io/mobile/google-service-all/" data-id="ciy8ed1je000cz60x55gax0bf" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://waylenw.github.io/mobile/google-service-all/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://waylenw.github.io/mobile/google-service-all/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-Internet/Internet-Professionalwords" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/Internet/Internet-Professionalwords/">电商、营销、移动互联网等专业词汇大全</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/Internet/Internet-Professionalwords/">
+            <time datetime="2015-09-25T16:00:00.000Z" itemprop="datePublished">2015-09-26</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/互联网/">互联网</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <blockquote>
+<p><strong><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTk3MTc5Mw==&amp;mid=216284279&amp;idx=2&amp;sn=9278767efdab72d87ef5bd830eddeeca&amp;scene=0#rd" target="_blank" rel="external">本文原链接</a></strong></p>
+</blockquote>
+<h1 id="问题一：最常在媒体以及大牛们口中说的各种X2X指的是什么">问题一：最常在媒体以及大牛们口中说的各种X2X指的是什么</h1><p> <strong>电子商务模式</strong></p>
+<p> B2B（经济组织对经济组织）</p>
+<p>B2C（经济组织对消费者）</p>
+<p>B2B2C（企业对企业对消费者）</p>
+<p>C2B（T）（消费者集合竞价-团购）</p>
+<p>C2C（消费者对消费者）</p>
+<p>B2F（企业对家庭）</p>
+<p>O2O（网上与网下相结合）</p>
+<p>SaaS（软件服务）</p>
+<p>PaaS（平台服务）</p>
+<p>IaaS（基础服务）</p>
+<p>M-B（移动电子商务）</p>
+<p>B2G（政府采购）</p>
+<p>G2B（政府抛售）</p>
+<p>B2M（面向市场营销的电子商务企业）</p>
+<p>M2C（生产厂商对消费者）</p>
+<p>SoLoMo（社交+本地化+移动）</p>
+<p>ABC（代理商-商家-消费者）</p>
+<p>BAB（企业-联盟-企业）</p>
+<p>P2C（生活服务平台）</p>
+<p>P2P（点对点、渠道对渠道）</p>
+<p>SNS-EC（社会化网络电子商务）</p>
+<p>B2S（分享式商务，或体验式商务）</p>
+<h1 id="问题二：O2O、C2C、B2B、B2C的区别在哪里？">问题二：O2O、C2C、B2B、B2C的区别在哪里？</h1><p> <strong>1、O2O是online to offline分为四种运营模式：</strong></p>
+<p> 1）online to offline是线上交易到线下消费体验</p>
+<p> 2）offline to online是线下营销到线上交易</p>
+<p> 3）offline to online to offline是线下营销到线上交易再到线下消费体验</p>
+<p> 4）online to offline to online是线上交易或营销到线下消费体验再到线上消费体验</p>
+<p> <strong>2、通过举例说区别。</strong></p>
+<p> 1）O2O，比如：保险直购O2O，苏宁易购O2O，大众点评O2O等</p>
+<p> 2）C2C是consumer to consumer就是个人对个人的，比如淘宝的小店铺。</p>
+<p> 3）B2C是business to consumer是商家对个人，这个就很多了卓越、当当、京东等等都是。B2C、C2C很重要的一点是都运用了物流。</p>
+<p> 4）B2B是business to business是企业间的，比如阿里巴巴。</p>
+<p> <strong>举例通俗说明一下，就是:</strong></p>
+<p> 1）C2C就是我卖东西你来买</p>
+<p> 2）B2C就是我成立个公司卖东西，你来买</p>
+<p> 3）O2O就是我成立个公司卖东西你来买但是要你自己来拿</p>
+<p> 4）B2B就是你也成立了公司买我公司的东西</p>
+<h1 id="问题三：移动互联网最常出现的名词有哪些？（非专业慎入）">问题三：移动互联网最常出现的名词有哪些？（非专业慎入）</h1><p> <strong>广告形式</strong></p>
+<p> Rich Media：(富媒体)，这种应用采取了所有适合的最先进技术，以最好的传达广告主的信息，甚至与用户进行互动！如视频、flash广告等<br> 植入式广告：在电影或电视剧或者其它场景插入相关的广告。如变形金刚，非诚勿扰等。</p>
+<p> SEM：Search Engine Marketing的缩写，意即搜索引擎营销。</p>
+<p> SEO：SearchEngineOptimization，搜索引擎优化。</p>
+<p> EDM：Electronic Direct Marketing的缩写，就是电子邮件营销。</p>
+<p> AdWords：Google的关键词竞价广告。</p>
+<p> Banner：横幅广告</p>
+<p> Button：图标广告</p>
+<p> PR推广：软文推广</p>
+<p> Adertorial：软文广告的一种，即付费文章，故意设计成像一篇普通的文章。</p>
+<p> Banner Ad：（横幅广告）网页顶部、底部或者侧边的广告展示位置；</p>
+<p> DSP展示广告：是Demand-Side Platform的缩写，即需求方平台。</p>
+<p> POP：Point Of Purchase，意为“卖点广告”，又名「店头陈设」。本来是指商业销售中的一种店头促销工具，其型式不拘，但以摆设在店头的展示物为主，如吊牌、海报、小贴纸、纸货架、展示架、纸堆头、大招牌、实物模型、旗帜等等，都是林立在POP的范围内。</p>
+<p> <strong>推广模式分类</strong></p>
+<p> CPS：Cost Per Sales的缩写,即销售分成。</p>
+<p> CPA ：Cost Per Action，每次动作成本。</p>
+<p> CPM：Cost Per Mille，或者Cost Per Thousand，即每千人成本。</p>
+<p> CPC：Cost Per Click；Cost Per Thousand Click-Through，即每点击成本。</p>
+<p> CPR：Cost Per Response，即每回应成本。</p>
+<p> CPP：Cost Per Purchase，即每购买成本。</p>
+<p> <strong>点击及转化</strong></p>
+<p> UV： Unique Vister的缩写，独立访客。</p>
+<p> PV： page view，即网站被浏览的总次数；</p>
+<p> IP： 即internet protocol,指独立IP数，一天内相同IP地址只被计算一次；</p>
+<p> PR值： 全称为Pagerank（网页级别），是用于评测一个网页“重要性”的一种方法。</p>
+<p> Alexa： Alexa.com是专门发布网站世界排名的网站，网站排名有两种：综合排名和分类排名。</p>
+<p> Click：（点击量/点击次数）即Click through，用户点击广告的次数，评估广告效果的指标之一；</p>
+<p> Click Rate：（点击率/点进率）即Click through-Rate;即网络广告被点击的次数与访问次数的比例，即clicks/impressions.如果这个页面被访问了100次，而页面上的广告也被点击了20次，那么CTR为20%，CTR是评估广告效果的指标之一。</p>
+<p> ROI：Return On Investment的缩写，投资报酬率。</p>
+<p> CR 转化率：Conversion Rate的缩写，是指访问某一网站访客中，转化的访客占全部访客的比例。</p>
+<p> 二跳率：网站页面展开后，用户在页面上产生的首次点击被称为 “二跳”，二跳的次数即为”二跳量”，二跳量与浏览量的比值称为页面的二跳率。</p>
+<p> 跳出率： 跳出率是指浏览了一个页面就离开的用户占一组页面或一个页面访问次数的百分比。</p>
+<p> 人均访问页面：PV总和除以IP=人均访问页面。人均访问页面&gt;=10个，才算优质用户。</p>
+<p> 重复购买率：指消费者在网站中的重复购买次数；<br> 客单价：是指每一个订单的平均购买商品金额，也就是平均交易金额。</p>
+<h1 id="问题四：电商营销方式有哪些？">问题四：电商营销方式有哪些？</h1><p>网络媒体：门户网站广告，客户端软件广告。</p>
+<p>SEM： 竞价排名，联盟广告。</p>
+<p>EDM：内部邮件群发，第三方平台，数据库整合营销等方式。</p>
+<p>社区营销：BBS推广（发帖和活动） SNS（微博、微信、QQ群推广等）。</p>
+<p>CPS\代销：销售分成（一起发，成果网，创盟）。</p>
+<p>SEO：搜索引擎优化。</p>
+<p>积分营销：积分兑换，积分打折，积分购买等。</p>
+<p>DM目录：传统单张目录，如麦考林，红孩子，凡客。</p>
+<p>线下活动：会展，体验店等。</p>
+<p>传统媒体：电视电台，报刊杂志。</p>
+<h1 id="问题五：电商营销数字化参照标准有哪些指标？">问题五：电商营销数字化参照标准有哪些指标？</h1><p><strong>[访问页面]：</strong></p>
+<p>网络推广的访问者访问 &gt;=5个页面以上才是有效流量。</p>
+<p>访问&gt;=10个页面以上是高质量的流量，访问2个以下页面是垃圾流量。</p>
+<p>访问页面=70%是高质量流量。</p>
+<p><strong>[停留时间]：</strong></p>
+<p>超过3分钟才是有效流量；</p>
+<p>超过6分钟是高质量流量；</p>
+<p>小于1分钟的是垃圾流量。</p>
+<p><strong>[二跳率数据]：</strong></p>
+<p>推广来主页二跳率70%以上是高质量流量。</p>
+<p><strong>[转化率数据]：</strong></p>
+<p>推广购买转化率&gt;=1%以上为高质量流量。</p>
+<p><strong>[动销率]：</strong></p>
+<p>商品动销率=动销品种数 ÷ 门店经营总品种数*100% 。</p>
+<p><strong>[动销品种数]：</strong></p>
+<p>门店中所有商品种类中有销售的商品种类总数。</p>
+<p><strong>[商品动销率]</strong></p>
+<p>商品累计销售数量 ÷商品期末库存数量</p>
+<p><strong>[流量需要辩别好]：</strong></p>
+<p>真实流量与流量，</p>
+<p>有效流量与流量，</p>
+<p>自然流量与购买流量，</p>
+<p>PV高的流量与PV低的流量，</p>
+<p>商业流量与娱乐流量。</p>
+<h1 id="问题六：数字化工具汇总，我们关注的">问题六：数字化工具汇总，我们关注的</h1><p>访问量查询： alexa，chinaz查询工具。</p>
+<p>网络流行度： 搜索网站名，搜索结果越多相对来说越流行。</p>
+<p>行业排名： 查询艾瑞的排名。</p>
+<p>网络新闻曝光率：用baidu新闻搜索。</p>
+<p>SEO表现： 收录与PR，排名。</p>
+<p>百度指数： 百度指数是用以反映关键词在过去30天内的网络曝光率及用<br>户关注度。</p>
+<p>每天新增注册用户数 ＝UV*1%（参考数据）</p>
+<p>活跃用户 ＝注册用户/10（参考数据）</p>
+<p>最高同时在线 ＝活跃用户*20%（参考数据）</p>
+<p>收费交易客户数 ＝活跃用户*5%（参考数据）</p>
+<p>销售额： 收费交易客户数*商品平均价格</p>
+<p>客单价: per customer transaction 零售术语又称ATV，即每位顾客平均购买商品金额</p>
+<h1 id="问题七：电子商务公司职位，你想干哪个？（别想歪。。。）">问题七：电子商务公司职位，你想干哪个？（别想歪。。。）</h1><p>UI 即User Interface（用户界面）的简称。UI设计则是指对软件的人机交互、操作逻辑、界面美观的整体设计.。</p>
+<p>TD 即技术部研发简称TDD–Technology Development Department</p>
+<p>JS 即JavaScript 前端开发。</p>
+<p>DZ 即页面重构，页面制作。</p>
+<p>PM 即项目经理。</p>
+<p>PDM 即产品经理。</p>
+<p>UED 即用户体验设计，交互设计。</p>
+<p>Operation Manager 即运营经理。</p>
+<p>问题八：商品物流及客户管理方面专业名词知多少？</p>
+<p><strong>QC</strong></p>
+<p>即英文Quality Control的简称，中文意义是品质控制，又称质检，即对产品进行一个初步的检验，排除质量问题。</p>
+<p><strong>SKU</strong></p>
+<p>即英文Stock Keeping Unit的简称，即库存进出计量的单位，可以是以件，盒，托盘等为单位。保存库存控制的最小可用单位。</p>
+<p><strong>3PL</strong></p>
+<p>即第三方物流（Third Party Logistics），电商行业意指快递公司。</p>
+<p><strong>PCS</strong></p>
+<p>即计量单位的简写，即pieces一块、件、片、篇、张、条、套。多见于外贸交易中，后为书写方便，延伸到其他行业，可代表个、包、袋等表示数量的产品。</p>
+<p><strong>商品编码</strong></p>
+<p>企业生产商品入库的数字身份证，正规厂家都会有一个全球通用、唯一的商品编码。</p>
+<p><strong>商品条码</strong></p>
+<p>是由一组按一定规则排列的条、空及对应字符数字组成的用于表示上点自动销售管理系统的信息标记或者对商品分类编码进行表示的标记。</p>
+<p><strong>实际库存</strong></p>
+<p>实际仓库中的实际库存量。</p>
+<p><strong>虚拟库存</strong></p>
+<p>即网站前台展示的库存数量，是电商行业特定属性的产物，日常操作中，经常有消费者仙丹后可能不会付款，商品不做时间出库操作，但是前台页面库存已减少，为了不影响前台展现的库存量，因此需要设置一个虚拟库存。</p>
+<p><strong>库存预警</strong></p>
+<p>库存预警是指设置一个库存警戒线，当仓库实际库存到达仓库警戒线的时候就会提醒你补货，库存警戒线设置可参考该商品平时销量情况考虑。</p>
+<p><strong>ITO库存周转率</strong></p>
+<p>Inventory turn over，一般缩写为ITO，一种衡量材料在工厂里或是整条价值流中，流动快慢的标准。最常见的计算库存周转的方法，就是把年度销售产品的成本（不计销售的开支以及管理成本）作为分子，除以年度平均库存价值，即：库存周转率=年度销售产品成本/当年平均库存价值</p>
+<p><strong>【物流配送】</strong></p>
+<p>SRM 是Supplier Relationship Management的缩写，即供应商关系管理。</p>
+<p>ERP 是Enterprise Resource Planning的缩写，即企业资源计划。</p>
+<p>OMS 是Order Management System的缩写，即订单管理系统。</p>
+<p><strong>【客户管理】</strong></p>
+<p><strong>CRM</strong></p>
+<p>是Customer Relationship Management的缩写，即客户关系管理。</p>
+<p><strong>RFM</strong></p>
+<p>模型是衡量客户价值和客户创利能力的重要工具和手段。该机械模型通过一个客户的近期购买行为、购买的总体频率以及花了多少钱三项指标来描述该客户的价值状况。</p>
+<p><strong>【WEB产品设计】</strong></p>
+<p><strong>用户界面UI：</strong></p>
+<p>User Interface（用户界面）的简称，UI设计则是指对页面的人机交互、操作逻辑、界面美观的整体设计。</p>
+<p><strong>用户体验UE：</strong></p>
+<p>User Experience（用户体验）的简称。它是指用户访问一个网站或者使用一个产品时的全部体验。</p>
+<p>问题九：前方高能，你确定你数学学好了？—-数据比例换算公式</p>
+<p>老客户 =回头率*客户数</p>
+<p>回头率 =回头客人/店铺总访客数</p>
+<p>新客户 =客户数-老客户</p>
+<p>转换率 =客户数/UV</p>
+<p>点击率 =点击数/页面展现</p>
+<p>PV利用率 =客户数/PV</p>
+<p>客户月增长率 =当月客户数/当月客户数— 1</p>
+<p>客单价 =支付宝成交金额/支付宝成交笔数</p>
+<p>页面打开率 =从首页点击进入宝贝页的次数/首页浏览量</p>
+<p>人均访问页面数 =PV/UV（浏览人数/页面总访问人数）</p>
+<p>人均店内停留时间 =总访问时长/UV</p>
+<p>收藏率 =当天收藏量/UV</p>
+<p>宝贝跳失率 =只访问了该宝贝一个页面就离开的访问次数/该宝贝总访问次数</p>
+<p>库存周转率 =年度销售产品成本/当年平均库存价值</p>
+<p>商品动销率 =动销品种数 ÷ 门店经营总品种数*100% 。</p>
+<p>CPC =财务消耗/点击数</p>
+<p>CPM =财务消耗/广告有效展现量*1000</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://waylenw.github.io/Internet/Internet-Professionalwords/" data-id="ciy8ed1jz0010z60xjs37ec2p" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://waylenw.github.io/Internet/Internet-Professionalwords/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://waylenw.github.io/Internet/Internet-Professionalwords/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-hexo/hexo-one" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/hexo/hexo-one/">hexo搭建博客之环境搭建和配置(一)</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/hexo/hexo-one/">
+            <time datetime="2015-09-08T16:00:00.000Z" itemprop="datePublished">2015-09-09</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/hexo/">hexo</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h1 id="简介">简介</h1><p>   Hexo是由一个台湾的大神弄出来的东东。可以使用此工具来生成个人博客。很神奇高大上的东东。<br>   大神的博客:<a href="http://zespia.tw/" target="_blank" rel="external">http://zespia.tw/</a><br>   hexo官网:<a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a></p>
+<h1 id="1-_安装Git">1. 安装Git</h1><p>   如何安装git详情查看</p>
+<h1 id="2-_安装Node-js">2. 安装Node.js</h1><p>  下载：<a href="http://nodejs.org/download/" target="_blank" rel="external">http://nodejs.org/download/</a></p>
+<p>  可以下载 node-v0.10.33-x64.msi</p>
+<p>  安装时直接保持默认配置即可。</p>
+<h1 id="3-环境配置">3.环境配置</h1><h2 id="3-1安装Hexo">3.1安装Hexo</h2><p> windows鼠标右键==&gt;git bash</p>
+  <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm <span class="operator"><span class="keyword">install</span> -<span class="keyword">g</span> hexo</span></span><br></pre></td></tr></table></figure>
+<p>   等待安装完毕就可以了</p>
+<p>   <strong>这里注意:</strong>mac安装的或有不同，详情请参照hexo官网<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/index.html</a></p>
+<h2 id="3-2初始化hexo的文件">3.2初始化hexo的文件</h2><p> mac初始化hexo文件<br>  <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> init hexo-lcx</span><br></pre></td></tr></table></figure></p>
+<p>  在电脑中建立一个名字叫「Hexo」的文件夹，然后在此文件夹中右键打开Git Bash。执行下面的命令<br><br>   <figure class="highlight crystal"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ </span>hexo init</span><br></pre></td></tr></table></figure></p>
+<h2 id="3-3安装依赖包">3.3安装依赖包</h2><p> 先执行下面的代码，一般需要等待一段时间。成功后可以看到xxx文件夹<br>  <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure></p>
+<p>  以下命令都是要执行的<br>  <figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-deployer-git</span><br></pre></td></tr></table></figure></p>
+<h2 id="3-4启动服务">3.4启动服务</h2><pre><code>hexo <span class="keyword">server</span>
+</code></pre><p>用浏览器打开<a href="http://localhost:4000/或者http://127.0.0.1:4000/就能看到网页了" target="_blank" rel="external">http://localhost:4000/或者http://127.0.0.1:4000/就能看到网页了</a><br>推荐使用现代化浏览器(Chrome)获得最佳效果<br>按Ctrl+C停止本地预览服务</p>
+<h2 id="3-5添加一篇自己的文章">3.5添加一篇自己的文章</h2><p> hexo是支持markdown，创建完成后可以进入提示的路径修改文本*.md的内容<br>  <figure class="highlight"><figcaption><span>hexo new "My New Post"</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[info] File created at d:\Hexo\source\_posts\My-New-Post.md</span><br></pre></td></tr></table></figure></p>
+<p> 执行完命令重复3.4的命令</p>
+<h1 id="4-hexo的基本讲解">4.hexo的基本讲解</h1><h2 id="4-1_目录结构">4.1 目录结构</h2><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Hexo Configuration</span></span><br><span class="line"><span class="preprocessor">## Docs: http://hexo.io/docs/configuration.html</span></span><br><span class="line"><span class="preprocessor">## Source: https://github.com/hexojs/hexo/</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Site #站点信息</span></span><br><span class="line"><span class="label">title:</span> Waylenwang <span class="preprocessor">#标题</span></span><br><span class="line"><span class="label">subtitle:</span> 专注互联网 <span class="preprocessor">#副标题</span></span><br><span class="line"><span class="label">description:</span> waylenwang <span class="preprocessor">#站点描述，给搜索引擎看的</span></span><br><span class="line"><span class="label">author:</span> waylenwang <span class="preprocessor">#作者</span></span><br><span class="line"><span class="label">email:</span>  <span class="preprocessor">#电子邮箱</span></span><br><span class="line"><span class="label">language:</span> <span class="built_in">zh</span>-CN <span class="preprocessor">#语言</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># URL #链接格式</span></span><br><span class="line"><span class="label">url:</span> http://waylenwang.github.io <span class="preprocessor">#网址</span></span><br><span class="line"><span class="label">root:</span> / <span class="preprocessor">#根目录</span></span><br><span class="line"><span class="label">permalink:</span> :year/:month/:day/:title/ <span class="preprocessor">#文章的链接格式</span></span><br><span class="line"><span class="label">tag_dir:</span> tags <span class="preprocessor">#标签目录</span></span><br><span class="line"><span class="label">archive_dir:</span> archives <span class="preprocessor">#存档目录</span></span><br><span class="line"><span class="label">category_dir:</span> categories <span class="preprocessor">#分类目录</span></span><br><span class="line"><span class="label">code_dir:</span> downloads/code</span><br><span class="line"><span class="label">permalink_defaults:</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Directory #目录</span></span><br><span class="line"><span class="label">source_dir:</span> source <span class="preprocessor">#源文件目录</span></span><br><span class="line"><span class="label">public_dir:</span> public <span class="preprocessor">#生成的网页文件目录</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Writing #写作</span></span><br><span class="line"><span class="label">new_post_name:</span> :title.md <span class="preprocessor">#新文章标题</span></span><br><span class="line"><span class="label">default_layout:</span> post <span class="preprocessor">#默认的模板，包括 post、page、photo、draft（文章、页面、照片、草稿）</span></span><br><span class="line"><span class="label">titlecase:</span> false <span class="preprocessor">#标题转换成大写</span></span><br><span class="line"><span class="label">external_link:</span> true <span class="preprocessor">#在新选项卡中打开连接</span></span><br><span class="line"><span class="label">filename_case:</span> <span class="number">0</span></span><br><span class="line"><span class="label">render_drafts:</span> false</span><br><span class="line"><span class="label">post_asset_folder:</span> false</span><br><span class="line"><span class="label">relative_link:</span> false</span><br><span class="line"><span class="label">highlight:</span> <span class="preprocessor">#语法高亮</span></span><br><span class="line">  enable: true <span class="preprocessor">#是否启用</span></span><br><span class="line">  line_number: true <span class="preprocessor">#显示行号</span></span><br><span class="line">  tab_replace:</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Category &amp; Tag #分类和标签</span></span><br><span class="line"><span class="label">default_category:</span> uncategorized <span class="preprocessor">#默认分类</span></span><br><span class="line"><span class="label">category_map:</span></span><br><span class="line"><span class="label">tag_map:</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Archives</span></span><br><span class="line"><span class="number">2</span>: 开启分页</span><br><span class="line"><span class="number">1</span>: 禁用分页</span><br><span class="line"><span class="number">0</span>: 全部禁用</span><br><span class="line"><span class="label">archive:</span> <span class="number">2</span></span><br><span class="line"><span class="label">category:</span> <span class="number">2</span></span><br><span class="line"><span class="label">tag:</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Server #本地服务器</span></span><br><span class="line"><span class="label">port:</span> <span class="number">4000</span> <span class="preprocessor">#端口号</span></span><br><span class="line"><span class="label">server_ip:</span> localhost <span class="preprocessor">#IP 地址</span></span><br><span class="line"><span class="label">logger:</span> false</span><br><span class="line"><span class="label">logger_format:</span> dev</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Date / Time format #日期时间格式</span></span><br><span class="line"><span class="label">date_format:</span> YYYY-MM-DD <span class="preprocessor">#参考http://momentjs.com/docs/#/displaying/format/</span></span><br><span class="line"><span class="label">time_format:</span> H:mm:ss</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Pagination #分页</span></span><br><span class="line"><span class="label">per_page:</span> <span class="number">10</span> <span class="preprocessor">#每页文章数，设置成 0 禁用分页</span></span><br><span class="line"><span class="label">pagination_dir:</span> page</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Disqus #Disqus评论，替换为多说</span></span><br><span class="line"><span class="label">disqus_shortname:</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Extensions #拓展插件</span></span><br><span class="line"><span class="label">theme:</span> landscape-plus <span class="preprocessor">#主题</span></span><br><span class="line"><span class="label">exclude_generator:</span></span><br><span class="line"></span><br><span class="line"><span class="label">plugins:</span> <span class="preprocessor">#插件，例如生成 RSS 和站点地图的</span></span><br><span class="line">- hexo-generator-feed</span><br><span class="line">- hexo-generator-sitemap</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Deployment #部署</span></span><br><span class="line"><span class="label">deploy:</span></span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:Waylenwang/Waylenwang.github.io.git   <span class="preprocessor">#或者是https://github.com/Waylenwang/Waylenwang.github.io.git</span></span><br></pre></td></tr></table></figure>
+<h2 id="4-2常用命令">4.2常用命令</h2><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo help <span class="preprocessor">#查看帮助</span></span><br><span class="line">hexo init <span class="preprocessor">#初始化一个目录</span></span><br><span class="line">hexo <span class="keyword">new</span> <span class="string">"postName"</span> <span class="preprocessor">#新建文章</span></span><br><span class="line">hexo <span class="keyword">new</span> page <span class="string">"pageName"</span> <span class="preprocessor">#新建页面</span></span><br><span class="line">hexo generate <span class="preprocessor">#生成网页，可以在 public 目录查看整个网站的文件</span></span><br><span class="line">hexo <span class="keyword">server</span> <span class="preprocessor">#本地预览，'Ctrl+C'关闭</span></span><br><span class="line">hexo deploy <span class="preprocessor">#部署.deploy目录</span></span><br><span class="line">hexo clean <span class="preprocessor">#清除缓存，**强烈建议每次执行命令前先清理缓存，每次部署前先删除 .deploy 文件夹**</span></span><br></pre></td></tr></table></figure>
+<p>命令简写<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">n</span> == hexo new</span><br><span class="line">hexo <span class="keyword">g</span> == hexo <span class="keyword">generate</span></span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo <span class="keyword">d</span> == hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h1 id="5-发布">5.发布</h1><h1 id="5-1创建github仓库">5.1创建github仓库</h1> <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">名字必须是:   your_github_name<span class="class">.github</span><span class="class">.io</span></span><br><span class="line">例如我的:     Waylenwang<span class="class">.github</span><span class="class">.io</span></span><br></pre></td></tr></table></figure>
+<h2 id="5-2修改_config-yml">5.2修改_config.yml</h2><p>编辑全局配置文件 _config.yml 中的 deploy 部分<br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">deploy</span>:</span><br><span class="line">  <span class="attribute">type</span>: git</span><br><span class="line">  <span class="attribute">repo</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:Waylenwang/Waylenwang.github.io.git</span><br><span class="line">  <span class="attribute">branch</span>: master</span><br></pre></td></tr></table></figure></p>
+<h2 id="5-3部署">5.3部署</h2><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean<span class="comment">//清理数据缓存，建议每次都清楚</span></span><br><span class="line">hexo <span class="keyword">d</span> <span class="comment">//部署</span></span><br></pre></td></tr></table></figure>
+<p>部署成功的信息<br>    [info] Deploy done: github</p>
+<h2 id="5-4成功">5.4成功</h2><p>   在浏览器输入<a href="http://waylenw.github.io/">http://waylenwang.github.io/</a>就能看到网页了。</p>
+<p><strong><a href="http://waylenw.github.io/hexo/hexo-two/">hexo搭建博客之更换主题以及博客基本配置(二)</a></strong></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://waylenw.github.io/hexo/hexo-one/" data-id="ciy8ed1jm000kz60x89jpjxuj" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://waylenw.github.io/hexo/hexo-one/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://waylenw.github.io/hexo/hexo-one/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <nav id="page-nav">
+        <a class="extend prev" rel="prev" href="/">&laquo; 上一页</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </nav>
+</section>
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/android-all-open-source/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/android-all-open-source/" class="title">Android开源项目汇总</a></p>
+                            <p class="item-date"><time datetime="2016-07-04T16:00:00.000Z" itemprop="datePublished">2016-07-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Android/android-vpn-useage/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Android/android-vpn-useage/" class="title">Android开发拆墙(GFW)技巧之谈</a></p>
+                            <p class="item-date"><time datetime="2016-05-24T16:00:00.000Z" itemprop="datePublished">2016-05-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Mac/mac-kemap-all/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Mac/mac-kemap-all/" class="title">Mac常用快捷键</a></p>
+                            <p class="item-date"><time datetime="2016-03-13T16:00:00.000Z" itemprop="datePublished">2016-03-14</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Android/android-bitmap-memory-yh/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Android/android-bitmap-memory-yh/" class="title">Android Bitmap内存优化</a></p>
+                            <p class="item-date"><time datetime="2016-02-28T16:00:00.000Z" itemprop="datePublished">2016-02-29</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Android/android-handler-thread-usage/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Android/android-handler-thread-usage/" class="title">Android HandlerThread使用总结</a></p>
+                            <p class="item-date"><time datetime="2016-01-29T16:00:00.000Z" itemprop="datePublished">2016-01-30</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">一月 2016</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">十月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">九月 2015</a><span class="archive-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android/">Android</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android-Studio/">Android Studio</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mobile/">mobile</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/互联网/">互联网</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客精华/">博客精华</a><span class="tag-list-count">7</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Android/" style="font-size: 20px;">Android</a> <a href="/tags/Android-Studio/" style="font-size: 15px;">Android Studio</a> <a href="/tags/Mac/" style="font-size: 12.5px;">Mac</a> <a href="/tags/hexo/" style="font-size: 12.5px;">hexo</a> <a href="/tags/mobile/" style="font-size: 10px;">mobile</a> <a href="/tags/互联网/" style="font-size: 10px;">互联网</a> <a href="/tags/博客精华/" style="font-size: 17.5px;">博客精华</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2017 Waylenw<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_config = function () {
+        
+        this.page.identifier = 'undefined';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/count.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js" type="text/javascript"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js" type="text/javascript"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>

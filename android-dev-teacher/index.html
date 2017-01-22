@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Android开发教程完全 | WaylenWang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="概述 本博客的所链接的文章不全是原创。很多是写的非常好的博客。所以本博客主要是收集Android开发教程优秀的博客。以下是推荐初学者学习和了解Android开发的的链接 推荐Android学习之路Android知识图谱Android学习路线指南之从入门到高级Android官方培训课程中文版Android编码规范">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android开发教程完全">
+<meta property="og:url" content="http://waylenw.github.io/android-dev-teacher/index.html">
+<meta property="og:site_name" content="WaylenWang">
+<meta property="og:description" content="概述 本博客的所链接的文章不全是原创。很多是写的非常好的博客。所以本博客主要是收集Android开发教程优秀的博客。以下是推荐初学者学习和了解Android开发的的链接 推荐Android学习之路Android知识图谱Android学习路线指南之从入门到高级Android官方培训课程中文版Android编码规范">
+<meta property="og:updated_time" content="2016-05-25T13:10:40.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Android开发教程完全">
+<meta name="twitter:description" content="概述 本博客的所链接的文章不全是原创。很多是写的非常好的博客。所以本博客主要是收集Android开发教程优秀的博客。以下是推荐初学者学习和了解Android开发的的链接 推荐Android学习之路Android知识图谱Android学习路线指南之从入门到高级Android官方培训课程中文版Android编码规范">
+    
+
+    
+        <link rel="alternate" href="/" title="WaylenWang" type="application/atom+xml" />
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css" type="text/css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css" type="text/css">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <script src="/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css" type="text/css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css" type="text/css">
+    
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">WaylenWang</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/.">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/css/images/avatar.png" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: '页面',
+            CATEGORIES: '分类',
+            TAGS: '标签',
+            UNTITLED: '(未命名)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js" type="text/javascript"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/css/images/avatar.png" />
+            <h2 id="name">PPOffice</h2>
+            <h3 id="title">Web Developer &amp; Designer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Harbin, China</span>
+            <a id="follow" target="_blank" href="https://github.com/ppoffice/">关注我</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                25
+                <span>文章</span>
+            </div>
+            <div class="article-info-block">
+                7
+                <span>标签</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-android-dev-teacher" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Android开发教程完全
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/android-dev-teacher/">
+            <time datetime="2016-01-17T16:00:00.000Z" itemprop="datePublished">2016-01-18</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Android/">Android</a>, <a class="tag-link" href="/tags/博客精华/">博客精华</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+                <div id="toc" class="toc-article">
+                <strong class="toc-title">文章目录</strong>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#概述"><span class="toc-number">1.</span> <span class="toc-text">概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#系统架构"><span class="toc-number">2.</span> <span class="toc-text">系统架构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Android控件"><span class="toc-number">3.</span> <span class="toc-text">Android控件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#资源文件"><span class="toc-number">4.</span> <span class="toc-text">资源文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四大组件"><span class="toc-number">5.</span> <span class="toc-text">四大组件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#数据存储和网络请求"><span class="toc-number">6.</span> <span class="toc-text">数据存储和网络请求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多线程"><span class="toc-number">7.</span> <span class="toc-text">多线程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多媒体"><span class="toc-number">8.</span> <span class="toc-text">多媒体</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#图形处理和动画"><span class="toc-number">9.</span> <span class="toc-text">图形处理和动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#权限和动作"><span class="toc-number">10.</span> <span class="toc-text">权限和动作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#软键盘输入法"><span class="toc-number">11.</span> <span class="toc-text">软键盘输入法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Android系统信息和安全机制"><span class="toc-number">12.</span> <span class="toc-text">Android系统信息和安全机制</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#性能优化"><span class="toc-number">13.</span> <span class="toc-text">性能优化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#开发工具"><span class="toc-number">14.</span> <span class="toc-text">开发工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#开源框架"><span class="toc-number">15.</span> <span class="toc-text">开源框架</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#进阶篇"><span class="toc-number">16.</span> <span class="toc-text">进阶篇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#实战"><span class="toc-number">17.</span> <span class="toc-text">实战</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#学习资源"><span class="toc-number">18.</span> <span class="toc-text">学习资源</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#课外了解"><span class="toc-number">19.</span> <span class="toc-text">课外了解</span></a></li></ol>
+                </div>
+            
+            <h2 id="概述">概述</h2><p> 本博客的所链接的文章不全是原创。很多是写的非常好的博客。所以本博客主要是收集Android开发教程优秀的博客。以下是推荐初学者学习和了解Android开发的的链接<br> <strong>推荐</strong><br><a href="http://stormzhang.com/android/2014/07/07/learn-android-from-rookie/" target="_blank" rel="external">Android学习之路</a><br><a href="http://blog.csdn.net/xyz_lmn/article/details/41411355" target="_blank" rel="external">Android知识图谱</a><br><a href="http://blog.csdn.net/singwhatiwanna/article/details/49560409" target="_blank" rel="external">Android学习路线指南之从入门到高级</a><br><a href="http://hukai.me/android-training-course-in-chinese/index.html" target="_blank" rel="external">Android官方培训课程中文版</a><br><a href="http://www.jianshu.com/p/0a984f999592" target="_blank" rel="external">Android编码规范</a></p>
+<a id="more"></a>    
+<h2 id="系统架构">系统架构</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/49680541" target="_blank" rel="external">Android系统源码基础知识讲解</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/49560045" target="_blank" rel="external">Android ART运行时相关</a></p>
+<h2 id="Android控件">Android控件</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46564229" target="_blank" rel="external">Android主题和样式</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46682141" target="_blank" rel="external">Android控件属性大全</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/45745093" target="_blank" rel="external">Anddroid WebView的讲解</a><br> <a href="http://blog.csdn.net/larryl2003/article/details/6919513" target="_blank" rel="external">Android TextView使用完全讲解</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/49949213" target="_blank" rel="external">ListView的完全讲解</a><br> <a href="http://blog.csdn.net/mad1989/article/details/38042875" target="_blank" rel="external">Android 自定义简单的圆形和水平的ProgressBar</a><br> <a href="http://blog.csdn.net/larryl2003/article/details/6919513" target="_blank" rel="external">ImgView ScaceType详解</a><br> <a href="http://blog.csdn.net/column/details/xiaoshuang-ui.html" target="_blank" rel="external">Android UI设计博客专栏</a><br> <strong>事件</strong><br> <a href="http://blog.csdn.net/lmj623565791/article/details/39102591" target="_blank" rel="external">Android ViewGroup事件分发</a><br> <a href="http://blog.csdn.net/guolin_blog/article/details/9097463" target="_blank" rel="external">Android事件分发机制(上)</a><br> <a href="http://blog.csdn.net/guolin_blog/article/details/9153747" target="_blank" rel="external">Android事件分发机制(下)</a><br> <a href="http://blog.csdn.net/bboyfeiyu/article/details/39719543" target="_blank" rel="external">Android ViewGroup触摸事件的传递和拦截</a><br> <strong>View</strong><br> <a href="http://blog.csdn.net/wangbofei/article/details/7795430" target="_blank" rel="external">Android getWidth和getMeasuredWidth的正解</a><br> <a href="http://www.open-open.com/lib/view/open1328836804515.html" target="_blank" rel="external">Android例子:根据需求自定义控件</a><br> <a href="http://www.linuxidc.com/Linux/2011-12/49307.htm" target="_blank" rel="external">Android Path类的使用</a></p>
+<h2 id="资源文件">资源文件</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/51134255" target="_blank" rel="external">Android Drawable之Shape使用小案例(一)</a><br>  <a href="http://blog.csdn.net/wwj_748/article/details/47760511" target="_blank" rel="external">Android Drawable资源完全讲解</a><br>  <a href="http://blog.csdn.net/github_25928675/article/details/50330635" target="_blank" rel="external">Android颜色透明度对应的开头字母</a><br>  <a href="http://blog.csdn.net/github_25928675/article/details/46650183" target="_blank" rel="external">Android xml资源文件中@、@android:type、@*、？、@+含义和区别</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46366173" target="_blank" rel="external">AndroidManifest.xml文件讲解</a><br> <a href="http://blog.csdn.net/lmj623565791/article/details/48649563" target="_blank" rel="external">Android状态栏变色</a><br> <a href="http://www.tinylab.org/android-loading-a-different-relationship-between-dpi-and-memory-consumption-of-resources/" target="_blank" rel="external">Android 加载不同 DPI 资源与内存消耗间的关系</a><br> <a href="http://blog.csdn.net/zhaokaiqiang1992/article/details/49787117" target="_blank" rel="external">Android中图片大小、内存占用与drawable文件夹关系的研究与分析</a></p>
+<h2 id="四大组件">四大组件</h2><p>  <strong>Activity</strong><br> <a href="http://blog.csdn.net/liuhe688/article/details/6733407" target="_blank" rel="external">Activity生命周期</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46049045" target="_blank" rel="external">Activity的启动模式</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/49452183" target="_blank" rel="external">Activity界面切换动画讲解</a><br> <a href="http://androidperformance.com/2015/07/20/Android-Performance-Memory-onTrimMemory.html" target="_blank" rel="external">Activity OnTrimMemory内存消耗</a><br> <a href="http://www.flakor.cn/2014-09-04-707.html" target="_blank" rel="external">Activity 后台监听</a><br> <a href="http://stephen830.iteye.com/blog/1181010" target="_blank" rel="external">Activity 电话监听</a><br> <a href="http://daikainan.iteye.com/blog/1455323" target="_blank" rel="external">Activity 设置系统屏幕亮度</a><br> <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0822/3344.html" target="_blank" rel="external">Activity 软键盘弹出效果完全讲解</a><br> <strong>Intent</strong><br> <a href="http://blog.csdn.net/github_25928675/article/details/45333253" target="_blank" rel="external">Android Intent调用系统操作</a><br> <a href="http://blog.csdn.net/yuzhiboyi/article/details/8484771" target="_blank" rel="external">Android pendingIntent的使用和讲解</a><br> <a href="http://blog.csdn.net/zeng622peng/article/details/6180190" target="_blank" rel="external">Android intent和PendingIntent的区别</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/50358912" target="_blank" rel="external">Android启动多个后台任务预览视图</a><br> <strong>service</strong><br> <a href="http://blog.csdn.net/android_tutor/article/details/5789203" target="_blank" rel="external">Android Service生命周期及用法</a><br> <a href="http://blog.csdn.net/lmj623565791/article/details/47143563" target="_blank" rel="external">IntentService的使用和讲解</a><br><a href="http://blog.csdn.net/mad1989/article/details/22492519" target="_blank" rel="external">Android service如何不被杀死</a><br><strong>Broadcast receiver</strong><br><a href="http://blog.csdn.net/yuanzeyao/article/details/43052517" target="_blank" rel="external">BroadCast内部机制讲解</a><br><strong>Content provider</strong><br><a href="http://blog.csdn.net/mad1989/article/details/22426415" target="_blank" rel="external">案例之Android读取手机短信</a></p>
+<h2 id="数据存储和网络请求">数据存储和网络请求</h2><p> <a href="http://blog.csdn.net/wenwen091100304/article/details/49050277" target="_blank" rel="external">数据存储方式之Shareprefences</a><br> <a href="http://www.liaohuqiu.net/cn/posts/storage-in-android/" target="_blank" rel="external">Android存储路径完全讲解</a><br> <a href="http://blog.csdn.net/loongggdroid/article/details/12304695" target="_blank" rel="external">Android SD卡存储容量相关讲解</a>、<br><strong>网络请求</strong><br><a href="http://blog.csdn.net/u010590685/article/details/49104875" target="_blank" rel="external">Android访问https</a><br><a href="http://www.cnblogs.com/hanyonglu/archive/2012/02/20/2358801.html" target="_blank" rel="external">Android实现网络多线程断点续传下载</a></p>
+<h2 id="多线程">多线程</h2><p> <a href="http://blog.csdn.net/yuzhiboyi/article/details/7562245" target="_blank" rel="external">Handler讲解之基本使用(一)</a><br> <a href="http://blog.csdn.net/yuzhiboyi/article/details/7562254" target="_blank" rel="external">Handler讲解之sendMessage(二)</a><br> <a href="http://blog.csdn.net/yuzhiboyi/article/details/7562259" target="_blank" rel="external">Handler讲解之异步任务操作(三)</a><br> <a href="http://waylenw.github.io/Android/android-handler-thread-usage/">HandlerThread使用总结</a><br> <a href="http://blog.csdn.net/yanbober/article/details/48861457" target="_blank" rel="external">Loader的全面讲解及源码浅析</a><br> <a href="http://blog.csdn.net/hitlion2008/article/details/7560878" target="_blank" rel="external">AysnTask基本使用介绍</a><br> <a href="http://blog.csdn.net/guolin_blog/article/details/11711405" target="_blank" rel="external">AysnTask机制从源码角度讲解</a><br> <a href="http://get.ftqq.com/6333.get" target="_blank" rel="external">AsyncTask的存在的缺陷</a><br> <a href="http://blog.csdn.net/hitlion2008/article/details/7983449" target="_blank" rel="external">AsyncTask的验证</a><br> <a href="https://segmentfault.com/a/1190000004487149" target="_blank" rel="external">如何使用 volatile, synchronized, final 进行线程间通信</a><br> <strong>优化</strong><br> <a href="http://blog.csdn.net/github_25928675/article/details/47259097" target="_blank" rel="external">Android 线程池的使用和讲解</a><br><a href="http://droidyue.com/blog/2015/09/05/android-process-and-thread-schedule-nice/" target="_blank" rel="external">线程优先级讲解</a><br> <strong>案例</strong><br> <a href="http://blog.csdn.net/github_25928675/article/details/47702303" target="_blank" rel="external">Android计时和倒计时</a></p>
+<h2 id="多媒体">多媒体</h2><p><a href="http://blog.csdn.net/github_25928675/article/details/49181907" target="_blank" rel="external">Android音频播放讲解</a><br><a href="http://blog.csdn.net/peijiangping1989/article/details/7042610" target="_blank" rel="external">Android音频录制</a><br><a href="http://blog.csdn.net/peijiangping1989/article/details/7049991" target="_blank" rel="external">Android视频录制</a><br><a href="http://www.open-open.com/lib/view/open1341754267229.html" target="_blank" rel="external">Android视频播放的三种方式</a><br><a href="http://www.devwiki.net/2015/09/20/Android-Music-Play-Mode/#comments" target="_blank" rel="external">Android音乐播放模式切换-外放、听筒、耳机</a><br><a href="http://blog.csdn.net/shineflowers/article/details/48031873" target="_blank" rel="external">Android MediaMetadataRetriever获得媒体信息</a><br><a href="http://www.cnblogs.com/hanyonglu/archive/2012/05/10/2494908.html" target="_blank" rel="external">Android Loader获取本机所有图片(相册)</a><br> 经验<br> <a href="http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&amp;mid=401454605&amp;idx=1&amp;sn=d5a16f6dc13e7581fec08a4e704cd5d0&amp;scene=0#wechat_redirect" target="_blank" rel="external">Android相机开发那些坑</a></p>
+<h2 id="图形处理和动画">图形处理和动画</h2><p> <a href="http://www.jianshu.com/p/f1feafffc365" target="_blank" rel="external">通过Hardware Layer提升Android动画性能</a><br> <a href="http://blog.csdn.net/aminfo/article/details/7847761" target="_blank" rel="external">Android 帧动画</a><br> <a href="http://waylenw.github.io/Android/android-fit-screen-img/">Android 图片拉伸适配的解决方法</a></p>
+<h2 id="权限和动作">权限和动作</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46460417" target="_blank" rel="external">权限和动作大全</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/45916267" target="_blank" rel="external">自定义权限</a></p>
+<h2 id="软键盘输入法">软键盘输入法</h2><p> <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0822/3344.html" target="_blank" rel="external">软键盘遮挡问题</a></p>
+<h2 id="Android系统信息和安全机制">Android系统信息和安全机制</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/50561889" target="_blank" rel="external">Android 获取设备硬件和系统信息</a><br> <a href="http://blog.csdn.net/xinzheng_wang/article/details/7837550" target="_blank" rel="external">Android 系统CPU,RAM,ROM,SDCard,MAC等信息查询</a><br> <a href="http://blog.csdn.net/vipzjyno1/article/details/21039349/" target="_blank" rel="external">Android Apk反编译</a><br> <a href="http://blog.csdn.net/jiangwei0910410003/article/details/50402000" target="_blank" rel="external">Android签名机制之—签名过程详解</a></p>
+<h2 id="性能优化">性能优化</h2><p> <strong>内存优化</strong><br> <a href="http://www.cnblogs.com/qianxudetianxia/p/3645106.html" target="_blank" rel="external">Android内存泄露之Context篇(上)</a><br> <a href="http://www.cnblogs.com/qianxudetianxia/p/3655475.html" target="_blank" rel="external">Android内存泄露之Context篇(下)</a><br> <strong>优化合集</strong><br> <a href="http://blog.csdn.net/zhuanglonghai/article/details/38233069" target="_blank" rel="external">Android Handler内存泄露优化</a><br> <a href="http://waylenw.github.io/Android/android-bitmap-memory-yh/">Android Bitmap内存优化</a><br> <a href="http://blog.csdn.net/yanbober/article/details/48394201" target="_blank" rel="external">Android应用开发性能优化完全分析</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/51094698" target="_blank" rel="external">Android布局优化总结</a><br> <a href="http://blog.tingyun.com/web/article/detail/155" target="_blank" rel="external">Android性能优化(魅族资深工程师)</a><br> <a href="http://hukai.me/android-performance-oom/" target="_blank" rel="external">Android内存优化之OOM(胡凯)</a><br> <a href="http://hukai.me/android-performance-patterns/" target="_blank" rel="external">Android性能优化典范(一)</a><br> <a href="http://hukai.me/android-performance-patterns-2/" target="_blank" rel="external">Android性能优化典范(二)</a><br> <a href="http://hukai.me/android-performance-patterns-3/" target="_blank" rel="external">Android性能优化典范(三)</a><br> <a href="http://hukai.me/android-performance-patterns-season-4/" target="_blank" rel="external">Android性能优化典范(四)</a><br> <a href="http://hukai.me/android-training-course-in-chinese/performance/memory.html" target="_blank" rel="external">Android管理应用的内存</a><br> <a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0321/4068.html" target="_blank" rel="external">依赖注入框架性能对比</a><br> <strong>性能优化工具</strong><br> <a href="http://android.jobbole.com/82722/" target="_blank" rel="external">MAT使用入门</a><br> <a href="http://blog.csdn.net/oujunli/article/details/9102101" target="_blank" rel="external">Android 通过trace文件分析死锁ANR</a><br> <a href="http://droidyue.com/blog/2015/09/26/android-tuning-tool-strictmode/" target="_blank" rel="external">Android性能调优利器StrictMode</a><br> <a href="http://blog.csdn.net/xyz_lmn/article/details/14222975" target="_blank" rel="external">Android布局层级检测之HierarchyViewer</a><br> <a href="http://www.cnblogs.com/sunzn/p/3192231.html" target="_blank" rel="external">Android性能调试工具之TraceView</a><br> <a href="http://blog.csdn.net/elinavampire/article/details/47340489" target="_blank" rel="external">Anroid内存泄漏检测工具之LeakCanary</a><br> <a href="https://github.com/moduth/blockcanary/blob/master/README_CN.md" target="_blank" rel="external">Anroid性能监控工具之Blockcanary</a></p>
+<h2 id="开发工具">开发工具</h2><p> <a href="http://waylenw.github.io/AndroidStudio/android-studio-control-teacher/">Android studio使用教程</a><br> <a href="http://www.oschina.net/news/68890/15-android-option" target="_blank" rel="external">Android 15个必知的Android开发者选项</a><br> <a href="http://blog.csdn.net/tikitoo/article/details/51089422" target="_blank" rel="external">这些小工具让你的Android 开发更高效</a></p>
+<h2 id="开源框架">开源框架</h2><p> <strong>RxJava</strong><br> <a href="http://blog.csdn.net/meegomeego/article/details/49155989" target="_blank" rel="external">给Android开发的RxJava详解</a><br> <a href="http://www.jianshu.com/p/72911b9ba2d7" target="_blank" rel="external">RxJava在正确的线程上运行</a><br> <strong>React-native</strong></p>
+<h2 id="进阶篇">进阶篇</h2><p>  <strong>适配和兼容</strong><br> <a href="http://blog.csdn.net/zhaokaiqiang1992/article/details/45419023" target="_blank" rel="external">Android屏幕适配全攻略</a><br> <a href="http://waylenw.github.io/Android/android-sdk-verion/">Android SDK版本和兼容包讲解</a><br> <strong>应用构建</strong><br> <a href="http://www.infoq.com/cn/news/2014/11/android-multidex" target="_blank" rel="external">Android 应用方法数不能超过65K的问题</a><br> <a href="https://www.zybuluo.com/shark0017/note/163330" target="_blank" rel="external">Android Log最佳实践</a></p>
+<h2 id="实战">实战</h2><p> <strong>架构设计</strong><br> <a href="http://www.csdn.net/article/2015-08-20/2825506" target="_blank" rel="external">实战解析Android架构设计原则</a><br> <a href="http://www.jianshu.com/p/ea48332c82af" target="_blank" rel="external">《App研发录》落地之项目架构以及管理</a><br> <a href="http://www.devtf.cn/?p=1134" target="_blank" rel="external">面向对象六大原则</a><br> <strong>开发经验</strong><br> <a href="http://www.jianshu.com/p/deaa717dbeb1" target="_blank" rel="external">Android开发中一些被冷落但却很有用的类和方法</a><br> <a href="http://www.devtf.cn/?p=941" target="_blank" rel="external">开发前你需要知道的六件事</a><br> <a href="https://github.com/futurice/android-best-practices/blob/master/translations/Chinese/README.cn.md" target="_blank" rel="external">Android开发最佳实践</a><br> <a href="http://www.jianshu.com/p/d6611c8bd45c?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=pc_author_hots&amp;utm_source=recommendation#" target="_blank" rel="external">Android开发经验谈</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/48161147" target="_blank" rel="external">如何更新SDK?</a></p>
+<h2 id="学习资源">学习资源</h2><p> <a href="https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw" target="_blank" rel="external">Android google开发者频道(Youtube)</a><br> <a href="https://www.youtube.com/channel/UCQqa5UIHtrnpiADC3eHFupw" target="_blank" rel="external">Android gooogle中文开发者频道(Youtube    )</a></p>
+<h2 id="课外了解">课外了解</h2><p> <a href="http://www.umindex.com" target="_blank" rel="external">友盟指数查看当前手机品牌占比和系统版本占比</a><br> <a href="http://pcedu.pconline.com.cn/688/6883561.html" target="_blank" rel="external">Android国内的APP现状</a><br> <a href="http://blog.csdn.net/itachi85/article/details/50364043" target="_blank" rel="external">关于App程序员泡沫</a><br> <a href="http://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;mid=403779936&amp;idx=1&amp;sn=9bf0364c299d67a8f3750b69e8f5a62d&amp;scene=0#wechat_redirect" target="_blank" rel="external">Android 更换Open JDK</a></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://waylenw.github.io/android-dev-teacher/" data-id="ciy8ed1jp000pz60xz0hama3j" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="http://waylenw.github.io/android-dev-teacher/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="http://waylenw.github.io/android-dev-teacher/">评论</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/android-sdk-verion/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">上一篇</strong>
+            <div class="article-nav-title">
+                
+                    Android SDK版本与兼容包相关
+                
+            </div>
+        </a>
+    
+    
+        <a href="/Android/android-recyclerview-one/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">下一篇</strong>
+            <div class="article-nav-title">Android RecyclerView三部曲之基础篇(一)</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+</section>
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/android-all-open-source/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/android-all-open-source/" class="title">Android开源项目汇总</a></p>
+                            <p class="item-date"><time datetime="2016-07-04T16:00:00.000Z" itemprop="datePublished">2016-07-05</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Android/android-vpn-useage/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Android/android-vpn-useage/" class="title">Android开发拆墙(GFW)技巧之谈</a></p>
+                            <p class="item-date"><time datetime="2016-05-24T16:00:00.000Z" itemprop="datePublished">2016-05-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Mac/mac-kemap-all/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Mac/mac-kemap-all/" class="title">Mac常用快捷键</a></p>
+                            <p class="item-date"><time datetime="2016-03-13T16:00:00.000Z" itemprop="datePublished">2016-03-14</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Android/android-bitmap-memory-yh/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Android/android-bitmap-memory-yh/" class="title">Android Bitmap内存优化</a></p>
+                            <p class="item-date"><time datetime="2016-02-28T16:00:00.000Z" itemprop="datePublished">2016-02-29</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/Android/android-handler-thread-usage/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/Android/android-handler-thread-usage/" class="title">Android HandlerThread使用总结</a></p>
+                            <p class="item-date"><time datetime="2016-01-29T16:00:00.000Z" itemprop="datePublished">2016-01-30</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">归档</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">一月 2016</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/10/">十月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">九月 2015</a><span class="archive-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">标签</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android/">Android</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android-Studio/">Android Studio</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mac/">Mac</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mobile/">mobile</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/互联网/">互联网</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客精华/">博客精华</a><span class="tag-list-count">7</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">标签云</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/Android/" style="font-size: 20px;">Android</a> <a href="/tags/Android-Studio/" style="font-size: 15px;">Android Studio</a> <a href="/tags/Mac/" style="font-size: 12.5px;">Mac</a> <a href="/tags/hexo/" style="font-size: 12.5px;">hexo</a> <a href="/tags/mobile/" style="font-size: 10px;">mobile</a> <a href="/tags/互联网/" style="font-size: 10px;">互联网</a> <a href="/tags/博客精华/" style="font-size: 17.5px;">博客精华</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">链接</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2017 Waylenw<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_config = function () {
+        
+            this.page.url = 'http://waylenw.github.io/android-dev-teacher/';
+        
+        this.page.identifier = 'android-dev-teacher';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js" type="text/javascript"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js" type="text/javascript"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js" type="text/javascript"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js" type="text/javascript"></script>
+
+    </div>
+</body>
+</html>
