@@ -107,6 +107,28 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Android开源项目汇总]]></title>
+    <link href="http://waylenw.github.io/android-all-open-source/"/>
+    <id>http://waylenw.github.io/android-all-open-source/</id>
+    <published>2016-07-04T16:00:00.000Z</published>
+    <updated>2017-05-04T09:30:20.000Z</updated>
+    <content type="html"><![CDATA[<p>最后更新时间<br>2016-07-05</p>
+<p>已移动到github</p>
+<p>github地址:<a href="https://github.com/Waylenw/Android_Resource_Store_Project" target="_blank" rel="external">https://github.com/Waylenw/Android_Resource_Store_Project</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最后更新时间<br>2016-07-05</p>
+<p>已移动到github</p>
+<p>github地址:<a href="https://github.com/Waylenw/Android_Resource_Store_Project" target="_blank]]>
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Android开发拆墙(GFW)技巧之谈]]></title>
     <link href="http://waylenw.github.io/Android/android-vpn-useage/"/>
     <id>http://waylenw.github.io/Android/android-vpn-useage/</id>
@@ -301,44 +323,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Android SDK版本与兼容包相关]]></title>
-    <link href="http://waylenw.github.io/android-sdk-verion/"/>
-    <id>http://waylenw.github.io/android-sdk-verion/</id>
-    <published>2016-01-17T16:00:00.000Z</published>
-    <updated>2016-06-13T02:35:12.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>Android开发的童鞋们都知道，Google的碎片化是很严重的，所以官方提供了兼容包去试配一些低版本的机器。并且兼容包也在更新，除此之外，Android的SDK版本更新也十分的快速，基本上是一年发一个大的版本号。而且Api的变更也十分大，但是很多时候对这些变更感到无从下手。以下链接的这篇文章对SDK版本更新的内容都会有一个汇总。相信你可以很快熟悉各版本之间的差异。</p>
-</blockquote>
- <a id="more"></a>    
-<h1 id="SDK版本相关">SDK版本相关</h1><blockquote>
-<p><a href="https://developer.android.com/intl/zh-cn/sdk/api_diff/23/changes.html" target="_blank" rel="external">官方SDK版本Api变动列表:(6.0为例)</a><br> <a href="http://developer.android.com/intl/zh-cn/guide/topics/manifest/uses-sdk-element.html#ApiLevels" target="_blank" rel="external">Android API Level所有版本列表</a></p>
-</blockquote>
-<h2 id="4-X">4.X</h2><p> <a href="http://my.oschina.net/u/1175378/blog/143448?fromerr=px75uTtO" target="_blank" rel="external">Android 4.1 API官方文档详解</a></p>
-<h2 id="5-X">5.X</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46648381" target="_blank" rel="external">Android 5.0 Api的变化</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46344791" target="_blank" rel="external">Android 5.0 camera2Api的使用</a><br> <a href="http://wuxiaolong.me/2015/08/03/Palette/" target="_blank" rel="external">Android Palette取色器</a><br> <a href="http://blog.csdn.net/xu_fu/article/details/44004841" target="_blank" rel="external">VectorDrawable与SVG</a><br> <a href="http://www.jianshu.com/p/ba72bb5d181d" target="_blank" rel="external">Android5.x新API介绍（一）</a><br> <a href="http://www.jianshu.com/p/c82ea2333af6" target="_blank" rel="external">Android5.x新API介绍（二）</a></p>
-<h2 id="6-X">6.X</h2><p><a href="http://www.race604.com/whats-new-in-android6-0/" target="_blank" rel="external">Android 6.0 中新的新技术</a><br><a href="http://waylenw.github.io/Android/Android-sdk-6-change/">Android 6.0的变化</a><br><a href="http://jijiaxin89.com/2015/08/30/Android-s-Runtime-Permission/" target="_blank" rel="external">运行时权限开发者需要知道的一切</a></p>
-<h1 id="兼容库相关">兼容库相关</h1><blockquote>
-<p>兼容库和兼容包是什么？兼容库和兼容包是对Android一些更低版本实现高版本的功能所<br>   提供的兼容架包。<br>   <a href="http://developer.android.com/intl/zh-cn/tools/support-library/index.html" target="_blank" rel="external">官方Support Library版本更新汇总</a></p>
-</blockquote>
-<h2 id="Support-V4">Support-V4</h2><p> 在项目中引入<br> <figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compile <span class="list">(<span class="quoted">'com</span>.android.support<span class="keyword">:support-v4</span>:<span class="number">13.0</span>.<span class="number">0</span>')</span></span><br></pre></td></tr></table></figure></p>
-<p> <a href="http://mp.weixin.qq.com/s?__biz=MzA3MDMyMjkzNg==&amp;mid=212038361&amp;idx=1&amp;sn=ffcb677d058ecd7ff291a8a42d449566&amp;scene=0#rd" target="_blank" rel="external">NestedScrolling 实战:(5.0加入)</a></p>
-<h2 id="Support-V7">Support-V7</h2><p> <a href="http://waylenw.github.io/Android/android-recyclerview-one/">Android RecyclerView三部曲之基础篇(一)</a></p>
-<h2 id="Android_Design_Support_Library">Android Design Support Library</h2><p> <a href="http://blog.csdn.net/lmj623565791/article/details/46405409" target="_blank" rel="external">NavigationView的实用讲解</a><br> <a href="http://wuxiaolong.me/2015/08/03/TabLayout/" target="_blank" rel="external">TabLayout的使用讲解</a></p>
-<h2 id="百分比库">百分比库</h2><p> <a href="http://blog.csdn.net/lmj623565791/article/details/46695347" target="_blank" rel="external">Android 百分比布局库(percent-support-lib) 解析与扩展</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<blockquote>
-<p>Android开发的童鞋们都知道，Google的碎片化是很严重的，所以官方提供了兼容包去试配一些低版本的机器。并且兼容包也在更新，除此之外，Android的SDK版本更新也十分的快速，基本上是一年发一个大的版本号。而且Api的变更也十分大，但是很多时候对这些变更感到无从下手。以下链接的这篇文章对SDK版本更新的内容都会有一个汇总。相信你可以很快熟悉各版本之间的差异。</p>
-</blockquote>]]>
-    
-    </summary>
-    
-      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
-    
-      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Android开发教程完全]]></title>
     <link href="http://waylenw.github.io/android-dev-teacher/"/>
     <id>http://waylenw.github.io/android-dev-teacher/</id>
@@ -415,6 +399,44 @@
     </summary>
     
       <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Android SDK版本与兼容包相关]]></title>
+    <link href="http://waylenw.github.io/android-sdk-verion/"/>
+    <id>http://waylenw.github.io/android-sdk-verion/</id>
+    <published>2016-01-17T16:00:00.000Z</published>
+    <updated>2016-06-13T02:35:12.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Android开发的童鞋们都知道，Google的碎片化是很严重的，所以官方提供了兼容包去试配一些低版本的机器。并且兼容包也在更新，除此之外，Android的SDK版本更新也十分的快速，基本上是一年发一个大的版本号。而且Api的变更也十分大，但是很多时候对这些变更感到无从下手。以下链接的这篇文章对SDK版本更新的内容都会有一个汇总。相信你可以很快熟悉各版本之间的差异。</p>
+</blockquote>
+ <a id="more"></a>    
+<h1 id="SDK版本相关">SDK版本相关</h1><blockquote>
+<p><a href="https://developer.android.com/intl/zh-cn/sdk/api_diff/23/changes.html" target="_blank" rel="external">官方SDK版本Api变动列表:(6.0为例)</a><br> <a href="http://developer.android.com/intl/zh-cn/guide/topics/manifest/uses-sdk-element.html#ApiLevels" target="_blank" rel="external">Android API Level所有版本列表</a></p>
+</blockquote>
+<h2 id="4-X">4.X</h2><p> <a href="http://my.oschina.net/u/1175378/blog/143448?fromerr=px75uTtO" target="_blank" rel="external">Android 4.1 API官方文档详解</a></p>
+<h2 id="5-X">5.X</h2><p> <a href="http://blog.csdn.net/github_25928675/article/details/46648381" target="_blank" rel="external">Android 5.0 Api的变化</a><br> <a href="http://blog.csdn.net/github_25928675/article/details/46344791" target="_blank" rel="external">Android 5.0 camera2Api的使用</a><br> <a href="http://wuxiaolong.me/2015/08/03/Palette/" target="_blank" rel="external">Android Palette取色器</a><br> <a href="http://blog.csdn.net/xu_fu/article/details/44004841" target="_blank" rel="external">VectorDrawable与SVG</a><br> <a href="http://www.jianshu.com/p/ba72bb5d181d" target="_blank" rel="external">Android5.x新API介绍（一）</a><br> <a href="http://www.jianshu.com/p/c82ea2333af6" target="_blank" rel="external">Android5.x新API介绍（二）</a></p>
+<h2 id="6-X">6.X</h2><p><a href="http://www.race604.com/whats-new-in-android6-0/" target="_blank" rel="external">Android 6.0 中新的新技术</a><br><a href="http://waylenw.github.io/Android/Android-sdk-6-change/">Android 6.0的变化</a><br><a href="http://jijiaxin89.com/2015/08/30/Android-s-Runtime-Permission/" target="_blank" rel="external">运行时权限开发者需要知道的一切</a></p>
+<h1 id="兼容库相关">兼容库相关</h1><blockquote>
+<p>兼容库和兼容包是什么？兼容库和兼容包是对Android一些更低版本实现高版本的功能所<br>   提供的兼容架包。<br>   <a href="http://developer.android.com/intl/zh-cn/tools/support-library/index.html" target="_blank" rel="external">官方Support Library版本更新汇总</a></p>
+</blockquote>
+<h2 id="Support-V4">Support-V4</h2><p> 在项目中引入<br> <figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">compile <span class="list">(<span class="quoted">'com</span>.android.support<span class="keyword">:support-v4</span>:<span class="number">13.0</span>.<span class="number">0</span>')</span></span><br></pre></td></tr></table></figure></p>
+<p> <a href="http://mp.weixin.qq.com/s?__biz=MzA3MDMyMjkzNg==&amp;mid=212038361&amp;idx=1&amp;sn=ffcb677d058ecd7ff291a8a42d449566&amp;scene=0#rd" target="_blank" rel="external">NestedScrolling 实战:(5.0加入)</a></p>
+<h2 id="Support-V7">Support-V7</h2><p> <a href="http://waylenw.github.io/Android/android-recyclerview-one/">Android RecyclerView三部曲之基础篇(一)</a></p>
+<h2 id="Android_Design_Support_Library">Android Design Support Library</h2><p> <a href="http://blog.csdn.net/lmj623565791/article/details/46405409" target="_blank" rel="external">NavigationView的实用讲解</a><br> <a href="http://wuxiaolong.me/2015/08/03/TabLayout/" target="_blank" rel="external">TabLayout的使用讲解</a></p>
+<h2 id="百分比库">百分比库</h2><p> <a href="http://blog.csdn.net/lmj623565791/article/details/46695347" target="_blank" rel="external">Android 百分比布局库(percent-support-lib) 解析与扩展</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>Android开发的童鞋们都知道，Google的碎片化是很严重的，所以官方提供了兼容包去试配一些低版本的机器。并且兼容包也在更新，除此之外，Android的SDK版本更新也十分的快速，基本上是一年发一个大的版本号。而且Api的变更也十分大，但是很多时候对这些变更感到无从下手。以下链接的这篇文章对SDK版本更新的内容都会有一个汇总。相信你可以很快熟悉各版本之间的差异。</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
+    
+      <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
     
   </entry>
   
@@ -551,6 +573,26 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Android Studio logcat高亮]]></title>
+    <link href="http://waylenw.github.io/AndroidStudio/android-studio-logcat-highlight/"/>
+    <id>http://waylenw.github.io/AndroidStudio/android-studio-logcat-highlight/</id>
+    <published>2015-11-30T16:00:00.000Z</published>
+    <updated>2016-04-12T09:16:20.000Z</updated>
+    <content type="html"><![CDATA[<p>Android studio中默认的日志打印都是白色。这对我们日常开发查找Log信息非常影响效率。此时我们就需要对Log信息根据级别进行相应高亮。其实配置log级别对应的颜色相对简单，但是很多开发者并不知道由此功能。</p>
+ <a id="more"></a>    
+<h1 id="效果图">效果图</h1><p>  <img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/androidstudio/logcat1.png" alt=""></p>
+<h1 id="如何配置logcat高亮">如何配置logcat高亮</h1><p>  在工具栏中找到<code>setting=&gt;android logcat</code>.即可对Android logcat日志各种打印级别设置颜色。<br>  在选择时 要将红色的框内的钩取消才可编辑。<br>    <img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/androidstudio/logcat.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Android studio中默认的日志打印都是白色。这对我们日常开发查找Log信息非常影响效率。此时我们就需要对Log信息根据级别进行相应高亮。其实配置log级别对应的颜色相对简单，但是很多开发者并不知道由此功能。</p>]]>
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://waylenw.github.io/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Android Studio添加版本控制]]></title>
     <link href="http://waylenw.github.io/AndroidStudio/android-studio-add-cvs-control/"/>
     <id>http://waylenw.github.io/AndroidStudio/android-studio-add-cvs-control/</id>
@@ -571,26 +613,6 @@
     <![CDATA[<blockquote>
 <p>有时候在切换多个Android studio的项目时候,原本项目是由svn或者git管理或者你的项目是由其他的版本控制工具clone下来的，你会发现在项目包中点击右键弹出的菜单,你会发现并没有git或者svn的选项。那么如何解决呢,看下文。</p>
 </blockquote>]]>
-    
-    </summary>
-    
-      <category term="Android Studio" scheme="http://waylenw.github.io/tags/Android-Studio/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Android Studio logcat高亮]]></title>
-    <link href="http://waylenw.github.io/AndroidStudio/android-studio-logcat-highlight/"/>
-    <id>http://waylenw.github.io/AndroidStudio/android-studio-logcat-highlight/</id>
-    <published>2015-11-30T16:00:00.000Z</published>
-    <updated>2016-04-12T09:16:20.000Z</updated>
-    <content type="html"><![CDATA[<p>Android studio中默认的日志打印都是白色。这对我们日常开发查找Log信息非常影响效率。此时我们就需要对Log信息根据级别进行相应高亮。其实配置log级别对应的颜色相对简单，但是很多开发者并不知道由此功能。</p>
- <a id="more"></a>    
-<h1 id="效果图">效果图</h1><p>  <img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/androidstudio/logcat1.png" alt=""></p>
-<h1 id="如何配置logcat高亮">如何配置logcat高亮</h1><p>  在工具栏中找到<code>setting=&gt;android logcat</code>.即可对Android logcat日志各种打印级别设置颜色。<br>  在选择时 要将红色的框内的钩取消才可编辑。<br>    <img src="https://raw.githubusercontent.com/Waylenw/GithubImg/master/androidstudio/logcat.png" alt=""></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Android studio中默认的日志打印都是白色。这对我们日常开发查找Log信息非常影响效率。此时我们就需要对Log信息根据级别进行相应高亮。其实配置log级别对应的颜色相对简单，但是很多开发者并不知道由此功能。</p>]]>
     
     </summary>
     
@@ -797,36 +819,6 @@
     </summary>
     
       <category term="博客精华" scheme="http://waylenw.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%B2%BE%E5%8D%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Android 6.0的改变]]></title>
-    <link href="http://waylenw.github.io/Android/Android-sdk-6-change/"/>
-    <id>http://waylenw.github.io/Android/Android-sdk-6-change/</id>
-    <published>2015-10-10T16:00:00.000Z</published>
-    <updated>2016-04-12T09:17:40.000Z</updated>
-    <content type="html"><![CDATA[<p> <strong>更新ing</strong></p>
-<blockquote>
-<p>原文链接:<a href="http://developer.android.com/intl/zh-cn/about/versions/marshmallow/android-6.0-changes.html" target="_blank" rel="external">http://developer.android.com/intl/zh-cn/about/versions/marshmallow/android-6.0-changes.html</a></p>
-</blockquote>
- <a id="more"></a>    
-<h1 id="运行时权限">运行时权限</h1><p> 这次的版本引入一个新的权限模型,用户可以在App运行的时候直接管理App的权限。这个模型给了用户改进可见性和控制权限。同时简化了App开发者安装和自动升级的流程。用户可以在已经安装的App进行单独授权或者  撤销权限。</p>
-<p> 在你的App设置target6.0(Api 等级23)或者更高。确保在运行时检查和请求权限。调用新的方法<a href="http://developer.android.com/reference/android/content/Context.html#checkSelfPermission(java.lang.String)" target="_blank" rel="external">checkSelfPermission()</a>，为已确保你的App已经授予权限。调用<a href="http://developer.android.com/reference/android/app/Activity.html#requestPermissions(java.lang.String[],int)" target="_blank" rel="external">requestPermissions()</a>去请求一个权限。如果你的APP不是target不是Android6.0(Api等级23)。你应该测试你的app在新的权限模型上。更多新的新的权限管理模型的细节在你的应用程序上，<a href="http://developer.android.com/training/permissions/index.html" target="_blank" rel="external">see Working with System Permissionss</a>。如何评估这个提示对你的App的影响，请看<a href="http://developer.android.com/training/permissions/best-practices.html#testing" target="_blank" rel="external">Permissions Best Practices</a>。</p>
-<h1 id="通知">通知</h1><p> 这次版本移除了 Notification.setLatestEventInfo()方法。使用 <a href="http://developer.android.com/reference/android/app/Notification.Builder.html" target="_blank" rel="external">Notification.Builder</a> 类而不是用构造参数创建通知。在更新通知的时候重用<a href="http://developer.android.com/reference/android/app/Notification.Builder.html" target="_blank" rel="external">Notification.Builder</a> 实例。</p>
-<p> 调用<a href="http://developer.android.com/reference/android/app/Notification.Builder.html#build%28%29" target="_blank" rel="external">build()</a>方法来获得更新 Notification 实例。 adb shell dumpsys notification 该命令不再打印通知的文本。<br> 使用 adb shell dumpsys notification –noredact命令而不是打印文本通知对象。</p>
-<h1 id="移除了Apache_HTTP_Client">移除了Apache HTTP Client</h1><p>  Android6.0移除了Apache HTTP Client的支持。如果你的App客户端搭载2.3或者更高的版本。<br>  你应该使用 HttpURLConnection.这个Api有很多的改变因为它是使用透明压缩和响应缓存。<br>  并且最大限度的减少你的电力消耗。如果你继续执迷不悟的使用Apache HTTP APIs,你应该在第一时间在编译时依赖的budid.gradle文件中国声明<br>  <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">android</span> &#123;</span><br><span class="line">  <span class="title">useLibrary</span> <span class="string">'org.apache.http.legacy'</span></span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure></p>
-<h1 id="Runtime运行时(反射有关)">Runtime运行时(反射有关)</h1><p>  ART运行时现在正确的实现访问<a href="http://developer.android.com/intl/zh-cn/reference/java/lang/reflect/Constructor.html#newInstance(java.lang.Object)" target="_blank" rel="external">NewInstance</a>方法访问检查的规则。<br>  这个问题修复了在Dalvik虚拟机在检查访问一些以前不正确的版本的问题。如果你的App在使用 newIntance() 方法以及你想重写访问检查。<br>  调用 setAccessible() 方法并将传递参数设置为true.如果你的APP使用的v7 appcompat library 或者是 v7 recyclerview library,你必须更新至这些库的最后一个版本。    </p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p> <strong>更新ing</strong></p>
-<blockquote>
-<p>原文链接:<a href="http://developer.android.com/intl/zh-cn/about/versions/marshmallow/android-6.0-changes.html">http://developer.android.com/intl/zh-cn/about/versions/marshmallow/android-6.0-changes.html</a></p>
-</blockquote>]]>
-    
-    </summary>
-    
-      <category term="Android" scheme="http://waylenw.github.io/tags/Android/"/>
     
   </entry>
   
